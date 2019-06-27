@@ -8,7 +8,7 @@ public class SecondsInADay {
         // Write a program that prints the remaining seconds (as an integer) from a
         // day if the current time is represented by the variables
 
-        int elapsedSeconds = ((currentHours*60*60)+(currentMinutes*25*60)+currentSeconds);
+        int elapsedSeconds = ((currentHours*60*60)+(currentMinutes*60)+currentSeconds);
 
         int remainingSecond = (24*60*60)-elapsedSeconds;
 
