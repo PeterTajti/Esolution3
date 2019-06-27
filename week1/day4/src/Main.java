@@ -29,6 +29,10 @@ public class Main {
                 // work hours weekly is 52
         System.out.println(5*6*100 /52);
 
+
+
+
+
     }
 
 }
