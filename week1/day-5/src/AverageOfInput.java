@@ -9,7 +9,8 @@ public class AverageOfInput {
 
     public static void main(String[] args) {
 
-        int a, b, c, d, e, x, y;
+        int a, b, c, d, e;
+                double x, y;
 
 
 
@@ -24,11 +25,11 @@ public class AverageOfInput {
         d = in.nextInt();
         e = in.nextInt();
 
-        x = a+b+c+d+e;
-        y = (a+b+c+d+e)/ 5;
+        x = (a+b+c+d+e);
+        y = (double) (a+b+c+d+e)/ 5;
 
         System.out.println("Sum: " + x);
-        System.out.println("Average: " + y/5);
+        System.out.println("Average: " + y);
 
 
 
