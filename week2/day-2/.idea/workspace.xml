@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1966e8ff-6fd2-4372-b059-d44173ad9147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TakesLonger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UrlFixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapintroduction1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,37 +26,47 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
+        <entry file="file://$PROJECT_DIR$/src/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="2" selection-start-column="4" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
+        <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="223">
+              <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UrlFixer.java">
+        <entry file="file://$PROJECT_DIR$/src/List1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="30" column="56" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#882#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+        <entry file="file://$PROJECT_DIR$/src/List2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="969">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#539#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,21 +93,17 @@
         <option value="$PROJECT_DIR$/src/TakesLonger.java" />
         <option value="$PROJECT_DIR$/src/TodoPrint.java" />
         <option value="$PROJECT_DIR$/src/Reverse.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/ListIntroduction1.java" />
+        <option value="$PROJECT_DIR$/src/List1.java" />
+        <option value="$PROJECT_DIR$/src/mapintroduction1.java" />
+        <option value="$PROJECT_DIR$/src/List2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="21" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="413" />
+    <option name="width" value="846" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,6 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -148,7 +153,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reverse">
+  <component name="RunManager" selected="Application.List2">
+    <configuration name="List1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List1" />
+      <module name="day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List2" />
+      <module name="day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListIntroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListIntroduction1" />
+      <module name="day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reverse" />
       <module name="day-2" />
@@ -156,29 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleReplace" />
-      <module name="day-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TakesLonger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TakesLonger" />
-      <module name="day-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TodoPrint" />
-      <module name="day-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UrlFixer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UrlFixer" />
+    <configuration name="mapintroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapintroduction1" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.List2" />
+        <item itemvalue="Application.mapintroduction1" />
+        <item itemvalue="Application.List1" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.TodoPrint" />
-        <item itemvalue="Application.UrlFixer" />
-        <item itemvalue="Application.TakesLonger" />
-        <item itemvalue="Application.SimpleReplace" />
+        <item itemvalue="Application.ListIntroduction1" />
       </list>
     </recent_temporary>
   </component>
@@ -204,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562052296343</updated>
-      <workItem from="1562052299312" duration="12468000" />
+      <workItem from="1562052299312" duration="22083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12468000" />
+    <option name="totallyTimeSpent" value="22083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -230,8 +235,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -264,6 +269,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -278,24 +297,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/ListIntroduction1.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="2" selection-start-column="4" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#539#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
