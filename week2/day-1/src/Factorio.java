@@ -2,37 +2,16 @@ public class Factorio {
 
     public static void main(String[] args) {
 
-//  Create the usual class wrapper
-//  and main method on your own.
-// - Create a function called `factorio`
-//   that returns it's input's factorial
-
-        int MyNumber = 5;
-        factorio (MyNumber();
-
-        System.out.println(factorio(myNumber));
-
+        System.out.println(factorio(5));
     }
 
-        private static int factorio(int a) {
-
-            int x=1;
-
-            for (int i = 1; i <=a ; i++)
-                x *=i;
-
-            }
-
-
-            return x;
-
-
+    private static int factorio(int input) {
+        int factor = 1;
+        for (int i = 2; i <= input; i++) {
+            factor *= i;
         }
+        return factor;
 
-
-
-
-
-    
-
+    }
+}
 
