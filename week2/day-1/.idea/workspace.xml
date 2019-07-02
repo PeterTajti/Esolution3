@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8226fa1f-b5b8-4ac2-8823-6e70a04fb7fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoubleItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -228,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561981224855</updated>
       <workItem from="1561981228199" duration="15609000" />
-      <workItem from="1562101802274" duration="808000" />
+      <workItem from="1562101802274" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16417000" />
+    <option name="totallyTimeSpent" value="16477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -248,7 +244,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
