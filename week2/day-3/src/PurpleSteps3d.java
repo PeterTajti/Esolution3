@@ -1,31 +1,26 @@
+
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps {
+public class PurpleSteps3d {
     public static void mainDraw(Graphics grafika1) {
-        // Reproduce this:
-        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/assets/r3.png]
 
-        for (int i=0; i < 20; i++) {
-
-            grafika1.setColor(new Color(128,0,128));
-            grafika1.fillRect(10+10*i, 10+10*i, 10,10);
-            grafika1.setColor(Color.BLACK);
-            grafika1.drawRect(10+10*i, 10+10*i, 10,10);;
+        grafika1.setColor(new Color(180, 80, 240));
+        int a = 0;
+        for (int i = 0; i < 6; i++) {
+            a += i * 10;
+            grafika2(grafika1, 10 + a, 10 + i * 10);
         }
 
+    }
 
-        }
+    public static void grafika2(Graphics square, int a, int b) {
+        square.fillRect(a, a, b, b);
+    }
 
-
-
-
-
-
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
