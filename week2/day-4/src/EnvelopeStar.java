@@ -1,30 +1,39 @@
-
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps3d {
-    public static void mainDraw(Graphics grafika1) {
+public class EnvelopeStar {
 
-        grafika1.setColor(new Color(180, 80, 240));
-        int a = 0;
-        for (int i = 0; i < 7; i++) {
-            a += i * 10;
-            grafika2(grafika1, 10 + a, 10 + i * 10);
+
+    public static void mainDraw (Graphics grafika1){
+
+        for (int i = 1; i < 18; i++) {
+            drawtile(grafika1, 0, 160, i*9, i*9);
+            drawtile(grafika1, i * 9, i * 9, 0, 160);
+            drawtile(grafika1, i * 9, i * 9, 0, 160); //ok
+            drawtile(grafika1, i * 9, i * 9, 0, 160);
         }
 
     }
 
-    public static void grafika2(Graphics square, int a, int b) {
-        square.fillRect(a, a, b, b);
+    public static void drawtile (Graphics grafika3,int x, int y, int w, int z){
+        grafika3.setColor(Color.MAGENTA);
+        grafika3.drawLine(x, w, z, y);
+
     }
 
+
+
+
+
+
+    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
-    public static void main(String[] args) {
+    public static void main (String[]args){
         JFrame jFrame = new JFrame("Drawing");
         jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         ImagePanel panel = new ImagePanel();

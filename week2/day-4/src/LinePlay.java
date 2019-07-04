@@ -1,26 +1,26 @@
-
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps3d {
+public class LinePlay {
     public static void mainDraw(Graphics grafika1) {
 
-        grafika1.setColor(new Color(180, 80, 240));
-        int a = 0;
-        for (int i = 0; i < 7; i++) {
-            a += i * 10;
-            grafika2(grafika1, 10 + a, 10 + i * 10);
+        for (int i = 1; i < 18; i++){
+            grafika2(grafika1, i*18, i*18);
         }
 
     }
 
-    public static void grafika2(Graphics square, int a, int b) {
-        square.fillRect(a, a, b, b);
+    public static void grafika2(Graphics grafika3, int x, int y) {
+        grafika3.setColor(Color.MAGENTA);
+        grafika3.drawLine(x, 0, 320, y);
+        grafika3.setColor(Color.GREEN);
+        grafika3.drawLine(0, y, x, 320);
     }
 
+    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
