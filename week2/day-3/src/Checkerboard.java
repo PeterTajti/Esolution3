@@ -5,30 +5,23 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps3d {
-    public static void mainDraw(Graphics grafika1) {
+public class Checkerboard {
+    public static void mainDraw(Graphics maingraphics) {
 
-
-        int a = 0;
-        for (int i = 0; i < 7; i++) {
-            a += i * 10;
-            grafika2(grafika1, 10 + a, 10 + i * 10);
-
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                if (j % 2 == 0 && i % 2 == 0) {
+                    maingraphics.fillRect(j * 40, i * 40, 40, 40);
+                }
+                if (j % 2 != 0 && i % 2 != 0) {
+                    maingraphics.fillRect(j * 40, i * 40, 40, 40);
+                }
+            }
         }
-
-    }
-
-    public static void grafika2(Graphics square, int a, int b) {
-
-        square.setColor(Color.CYAN);
-        square.fillRect(a, a, b, b);
-        square.setColor(Color.BLACK);
-        square.drawRect(a, a, b, b);
-
     }
 
 
-
+    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 

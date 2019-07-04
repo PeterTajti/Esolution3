@@ -41,15 +41,19 @@ public class Map2 {
         myHashMap.put("978-1-60309-444-3", "Red Panda and Moon Bear");
         myHashMap.put("978-1-60309-461-0", "The Lab");
 
-//Print all the key-value pairs in the following format
-//A Letter to Jo (ISBN: 978-1-60309-452-8)
-//Lupus (ISBN: 978-1-60309-459-7)
-//Red Panda and Moon Bear (ISBN: 978-1-60309-444-3)
-//The Lab (ISBN: 978-1-60309-461-0)
+        myHashMap.remove("978-1-60309-444-3");
+
+        // Remove the key-value pair with value The Lab !!!!!! (nincs kész)
 
         for (String key : myHashMap.keySet()) {
             System.out.println(myHashMap.get(key) + " (ISBN: " + key + ")");
         }
+
+        myHashMap.put("978-1-60309-450-4", "They Called Us Enemy");
+        myHashMap.put("978-1-60309-453-5", "Why Did We Trust Him?");
+
+        System.out.println(myHashMap.containsKey("478-0-61159-424-8"));
+        System.out.println(myHashMap.get("978-1-60309-453-5"));
 
     }
 
