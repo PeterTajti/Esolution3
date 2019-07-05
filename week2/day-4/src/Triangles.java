@@ -1,27 +1,34 @@
-
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Checkerboard {
-    public static void mainDraw(Graphics maingraphics) {
+public class Triangles {
 
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
-                if ((j + i) % 2 == 0) {
-                    maingraphics.fillRect(j * 40, i * 40, 40, 40);
-                }
-                /*if (j % 2 == 0 && i % 2 == 0) {
-                    maingraphics.fillRect(j * 40, i * 40, 40, 40);
-                }
-                if (j % 2 != 0 && i % 2 != 0) {
-                    maingraphics.fillRect(j * 40, i * 40, 40, 40);
-                }*/
-            }
-        }
+    //21 emeletes a háromszögekből álló nagy háromszög
+
+    public static void mainDraw(Graphics localgraphics){
+
+    triangleunit(localgraphics);
+
     }
+
+    public static void triangleunit (Graphics g) {
+
+        int trainglerow;
+        //int shiftx;
+        //int shifty;
+
+
+        g.drawLine(WIDTH/2, 0, WIDTH/2+10, 20);
+        g.drawLine(WIDTH/2+10, 20, WIDTH/2-10, 20);
+        g.drawLine(WIDTH/2-10, 20, WIDTH/2, 0);
+
+
+
+    }
+
 
 
     // Don't touch the code below

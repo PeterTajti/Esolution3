@@ -8,13 +8,13 @@ public class EnvelopeStar {
 
 
 
-        half1(localgraphics, WIDTH/2, HEIGHT/2-10);
+        half1(localgraphics, WIDTH/2, HEIGHT/2);
 
     }
 
     public static void half1 (Graphics lines, int x, int y) {
 
-        int linenumber = 15;
+        int linenumber = 16;
 
 
         for (int i = 0; i < linenumber; i++){

@@ -57,6 +57,7 @@ public class LinePlayPractice {
         jFrame.setLocationRelativeTo(null);
         jFrame.setVisible(true);
         jFrame.pack();
+        panel.setBackground(Color.BLACK);
     }
 
     static class ImagePanel extends JPanel {

@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9769c0fb-6980-4f99-9ed4-3c0907554ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-4/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-4/src/LinePlayPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/META-INF/day-7.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/Triangles$ImagePanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/Triangles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-4/src/Triangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/DrawDiamond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/DrawSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/DrawDiamond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/DrawSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w2d3/Checkerboard$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w2d3/Checkerboard$ImagePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w2d3/Checkerboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w2d3/Checkerboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w2d3/StarryNight$ImagePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w2d3/StarryNight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Checkerboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Checkerboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StarryNight.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/EnvelopeStar$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/EnvelopeStar$ImagePanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/EnvelopeStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/EnvelopeStar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4$ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayPractice$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayPractice$ImagePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayPractice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-4/src/EnvelopeStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/src/EnvelopeStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/src/LinePlayQuarters4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/src/LinePlayQuarters4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-4/src/LinePlayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/src/LinePlayPractice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +39,66 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="w2d3" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HorizontalLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SquarePos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MiddleLines.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,16 +136,17 @@
         <option value="$PROJECT_DIR$/src/PurpleSteps3D.java" />
         <option value="$PROJECT_DIR$/src/PurpleSetps3d.java" />
         <option value="$PROJECT_DIR$/src/PurpleSteps3d.java" />
-        <option value="$PROJECT_DIR$/src/Checkerboard.java" />
         <option value="$PROJECT_DIR$/src/FunctionToCenter.java" />
         <option value="$PROJECT_DIR$/src/StarryNight.java" />
+        <option value="$PROJECT_DIR$/src/Checkerboard.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="width" value="846" />
-    <option name="height" value="703" />
+    <option name="x" value="2" />
+    <option name="y" value="21" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StarryNight">
+  <component name="RunManager" selected="Application.Checkerboard">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="w2d3" />
@@ -139,15 +209,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoToCenter" />
+    <configuration name="MiddleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiddleLines" />
       <module name="w2d3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurpleSteps3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PurpleSteps3d" />
+    <configuration name="SquarePos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SquarePos" />
       <module name="w2d3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StarryNight" />
-        <item itemvalue="Application.FunctionToCenter" />
-        <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.Checkerboard" />
-        <item itemvalue="Application.PurpleSteps3d" />
+        <item itemvalue="Application.FunctionToCenter" />
+        <item itemvalue="Application.MiddleLines" />
+        <item itemvalue="Application.SquarePos" />
+        <item itemvalue="Application.StarryNight" />
       </list>
     </recent_temporary>
   </component>
@@ -186,23 +256,26 @@
       <workItem from="1562266685690" duration="6546000" />
       <workItem from="1562309153357" duration="629000" />
       <workItem from="1562315856011" duration="609000" />
+      <workItem from="1562334400187" duration="652000" />
+      <workItem from="1562335874903" duration="1155000" />
+      <workItem from="1562337758436" duration="278000" />
+      <workItem from="1562339711930" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39114000" />
+    <option name="totallyTimeSpent" value="41801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" visible="true" weight="0.28517398" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -253,16 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiddleLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CenterBoxFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -277,16 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquarePos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -323,33 +376,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="43" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -374,20 +406,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StarryNight.java">
+    <entry file="file://$PROJECT_DIR$/src/StarryNight.java" />
+    <entry file="file://$PROJECT_DIR$/src/HorizontalLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HorizontalLines.java">
+    <entry file="file://$PROJECT_DIR$/src/SquarePos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiddleLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
