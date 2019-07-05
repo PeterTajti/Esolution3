@@ -4,34 +4,51 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class EnvelopeStar {
 
-    public static void mainDraw (Graphics grafika1){
+    public static void mainDraw (Graphics localgraphics){
 
 
 
-        for (int i = 0; i < 2; i++) {
+        half1(localgraphics, WIDTH/2, HEIGHT/2-10);
 
-            for (int j = 0; j < 2; j++) {
-
-                drawtile(grafika1, 0, 160);
-
-            }
-
-
-        }
     }
 
-    public static void drawtile (Graphics grafika3, int w, int z){
+    public static void half1 (Graphics lines, int x, int y) {
 
-        for (int i =0; i < 18; i++) {
-            int x = i *9;
-            int y = i *9;
-            grafika3.setColor(Color.MAGENTA);
-            grafika3.drawLine(x, w, z, y);
+        int linenumber = 15;
 
+
+        for (int i = 0; i < linenumber; i++){
+        lines.setColor(Color.RED);
+        lines.drawLine(10+(10*i), WIDTH/2, WIDTH/2, 150-(10*i));
+        }
+
+        for (int j = 1; j < linenumber; j++){
+            lines.setColor(Color.GREEN);
+            lines.drawLine(10+(10*j), WIDTH/2, WIDTH/2, 150+(10*j));
 
         }
 
+        for (int k = 1; k < linenumber; k++){
+            lines.setColor(Color.BLUE);
+            lines.drawLine(x, y+10-(10*k), WIDTH-10-(10*k), HEIGHT/2);
+
+        }
+
+        for (int m = 1; m < linenumber; m++){
+            lines.setColor(Color.YELLOW);
+            lines.drawLine(x, y+(10*m), WIDTH-10-(10*m), HEIGHT/2);
+
+        }
+
     }
+
+
+
+
+
+
+
+
 
 
 
