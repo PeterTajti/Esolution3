@@ -9,7 +9,7 @@ public class Incrementelement {
 
             int [] t = {1, 2, 3, 4, 5};
 
-            t [2] += 1;
+            t [2] += 10;
 
         System.out.println(t[2]);
 

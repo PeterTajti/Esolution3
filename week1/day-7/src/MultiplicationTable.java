@@ -10,8 +10,6 @@ public class MultiplicationTable {
 //
 // 1 * 15 = 15
 
-        Scanner scanner = new Scanner(System.in);
-
         int x,y;
 
         System.out.println("Enter a NUMBER, IT WILL BE MULTIPLICATED BY 15");

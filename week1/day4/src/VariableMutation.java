@@ -34,27 +34,23 @@ public class VariableMutation {
         int f2 = 345;
         // tell if f1 is bigger than f2 (print as a boolean)
 
-        if (f1 < f2)
-        System.out.println("igaz, vagyis 123 kisebb mint 345");
-        if (f1 > f2)
-        System.out.println("hamis, vagyis 123 nem nagyobb mint 345");
+        boolean szam = f1 < f2;
 
-
+        System.out.println(szam);
 
         int g1 = 350;
         int g2 = 200;
         // tell if the double of g2 is bigger than g1 (print as a boolean)
 
-        if (g2*2 > g1)
-            System.out.println("igaz, vagyis 200*2 nagyobb mint 350");
-        if (g2*2 < g1)
-            System.out.println("hamis, mert 200*2 nem kisebb mint 350");
+        boolean szam2 = g2*2 > g1;
+
+        System.out.println(szam2);
 
         int h = 135798745;
         // tell if it has 11 as a divisor (print as a boolean)
 
         boolean hbool = (h%11 ==0);
-        System.out.println("a h-nak nem osztója a 11");
+        System.out.println(hbool);
 
 
 
@@ -63,18 +59,16 @@ public class VariableMutation {
         int i2 = 3;
         // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
 
-        if (i1 > Math.pow(3, 2))
-        System.out.println("igaz, 10 nagyobb mint 3*3");
-        if (i1 < Math.pow(3, 3))
-        System.out.println("igaz, 10 kisebb mint 3*3*3");
+       boolean szam3 = i1 > i2*i2;
+       boolean szam4 = i1 < i2*i2;
 
 
         int j = 1521;
         // tell if j is dividable by 3 or 5 (print as a boolean)
         boolean jbool = (j%3 ==0);
-        System.out.println("1521 osztható 3-val");
+        System.out.println(jbool);
         boolean jbool2 = (j%5 ==0);
-        System.out.println("1521 nem osztható 5-vel");
+        System.out.println(jbool2);
     }
 
 }

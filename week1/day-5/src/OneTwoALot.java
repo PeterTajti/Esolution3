@@ -4,9 +4,7 @@ public class OneTwoALot {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
-        int x;
+                int x;
 
         System.out.println("Enter an integer to check its size");
         Scanner in = new Scanner(System.in);
@@ -17,7 +15,7 @@ public class OneTwoALot {
         }
 
         else if (x < 3) {
-            System.out.println(x);
+            System.out.println(x + " (this number is enough)");
         }
 
         else  {

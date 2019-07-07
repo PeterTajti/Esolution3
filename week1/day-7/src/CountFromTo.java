@@ -6,8 +6,6 @@ public class CountFromTo {
 
            int a, b;
 
-        Scanner scanner = new Scanner(System.in);
-
         System.out.println("enter two number");
         Scanner in = new Scanner(System.in);
 
@@ -19,7 +17,7 @@ public class CountFromTo {
 
         } else if (a < b) {
 
-            for (int i = a+1; i < b; i++)
+                for (int i = a+1; i < b; i++)
                 System.out.println(i);
             }
 

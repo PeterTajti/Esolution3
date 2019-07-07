@@ -8,9 +8,7 @@ public class PrintBigger {
 
         int a,b;
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("enter 2 number");
+        System.out.println("enter two number");
         Scanner in = new Scanner(System.in);
 
         a = in.nextInt();
@@ -22,5 +20,7 @@ public class PrintBigger {
             if (b > a)
                 System.out.println(b);
 
+            if (a==b)
+                System.out.println("problem, the two number is the same");
     }
 }

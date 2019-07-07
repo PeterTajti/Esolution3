@@ -21,8 +21,6 @@ public class PartyIndicator {
 
         int x, y, z;
 
-        Scanner scanner = new Scanner(System.in);
-
         System.out.println("enter the number of girls, press enter, then the number of the boys, and press enter again");
         Scanner in = new Scanner(System.in);
 

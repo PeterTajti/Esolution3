@@ -7,9 +7,7 @@ public class OddEven {
                 // Write a program that reads a number from the standard input,
                 // Then prints "Odd" if the number is odd, or "Even" if it is even.
 
-            Scanner scanner = new Scanner(System.in);
-
-               int x;
+                int x;
 
                System.out.println("Enter an integer to check if it is odd or even");
                Scanner in = new Scanner(System.in);

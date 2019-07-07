@@ -8,15 +8,15 @@ public class Cuboid {
 // Surface Area: 600
 // Volume: 1000
 
-        double w = 100.555555;
-        double l = 100.55555;
-        double h = 200.55555;
+        double w = 80;
+        double l = 10;
+        double h = 120;
 
         double  s = ((w * l) * 2 + (w * h) * 2 + (l * h) * 2);
-        System.out.println(s + "this is the value of the surface");
+        System.out.println(s + " (mertekegyseg) is the value of the surface");
 
         double v = (w * l * h);
-        System.out.println(v + "this is the value of the volume");
+        System.out.println(v + " (mertekegyseg) is the value of the volume");
     }
 }
 

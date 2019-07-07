@@ -10,11 +10,7 @@ public class AverageOfInput {
     public static void main(String[] args) {
 
         int a, b, c, d, e;
-                double x, y;
-
-
-
-        Scanner scanner = new Scanner(System.in);
+        double x, y;
 
         System.out.println("enter five number in a row, then press ENTER");
         Scanner in = new Scanner(System.in);

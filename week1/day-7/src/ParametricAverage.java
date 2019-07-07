@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class ParametricAverage {
     public static void main(String[] args) {
 
+        Scanner userInput = new Scanner((System.in));
+        System.out.println("Add a number");
+        int b = userInput.nextInt();
+        int sum = 0, val;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Add as many number(s) that you wrote in the first line");
 
-// Write a program that asks for a number.
-// It would ask this many times to enter an integer,
-// if all the integers are entered, it should print the sum and average of these
-// integers like:
-//
-// Sum: 22, Average: 4.4
+        for (int i = 1; i <= b; i++) {
 
-
-
-
-
+            val = scanner.nextInt();
+            sum += val;
+        }
+        System.out.println("Sum: " + sum + "   Average: " + (sum / b));
     }
 }

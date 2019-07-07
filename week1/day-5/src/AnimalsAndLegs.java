@@ -6,7 +6,7 @@ public class AnimalsAndLegs {
 
                int x, y, z, q;
 
-        Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("enter the number of chickens, press enter, then the number of pigs, and press enter again");
         Scanner in = new Scanner(System.in);

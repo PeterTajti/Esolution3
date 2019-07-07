@@ -7,9 +7,9 @@ public class DrawTriangle {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-        for (int i = 1; i < number; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.printf("* ");
+        for (int i = 0; i < number; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
             }
             System.out.println();
 
