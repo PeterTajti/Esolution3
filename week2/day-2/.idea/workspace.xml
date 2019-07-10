@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1966e8ff-6fd2-4372-b059-d44173ad9147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week1/day-2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week1/day-3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-3/src/Checkerboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-3/src/FunctionToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-3/src/StarryNight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductDatabaseTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Factorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Factorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/AppendAFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-2/Map2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/Map2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/PurpleSteps3d$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/out/production/w2d3/PurpleSteps3d$ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/PurpleSteps3d.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/out/production/w2d3/PurpleSteps3d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/PurpleSteps3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/PurpleSteps3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4$ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/out/production/day-4/LinePlayQuarters4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/src/LinePlayQuarters4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/src/LinePlayQuarters4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,29 +29,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UrlFixer.java">
+        <entry file="file://$PROJECT_DIR$/src/PersonalFinance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="-204">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TodoPrint.java">
+        <entry file="file://$PROJECT_DIR$/src/TelephoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ShoppingList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="57" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProductDatabaseTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -131,13 +155,19 @@
         <option value="$PROJECT_DIR$/src/mapintroduction1.java" />
         <option value="$PROJECT_DIR$/src/List2.java" />
         <option value="$PROJECT_DIR$/src/Map2.java" />
+        <option value="$PROJECT_DIR$/src/PersonalFinance.java" />
+        <option value="$PROJECT_DIR$/src/TelephoneBook.java" />
+        <option value="$PROJECT_DIR$/src/ShoppingList.java" />
+        <option value="$PROJECT_DIR$/src/ProductDatabase.java" />
+        <option value="$PROJECT_DIR$/src/ProductDatabaseTwo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="width" value="846" />
-    <option name="height" value="703" />
+    <option name="x" value="2" />
+    <option name="y" value="21" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,7 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +192,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,37 +218,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Map2">
-    <configuration name="List1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List1" />
+  <component name="RunManager" selected="Application.ProductDatabaseTwo">
+    <configuration name="PersonalFinance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PersonalFinance" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List2" />
+    <configuration name="ProductDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductDatabase" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map2" />
+    <configuration name="ProductDatabaseTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductDatabaseTwo" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reverse" />
+    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShoppingList" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mapintroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mapintroduction1" />
+    <configuration name="TelephoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TelephoneBook" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Map2" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.List2" />
-        <item itemvalue="Application.mapintroduction1" />
-        <item itemvalue="Application.List1" />
+        <item itemvalue="Application.ProductDatabaseTwo" />
+        <item itemvalue="Application.ProductDatabase" />
+        <item itemvalue="Application.ShoppingList" />
+        <item itemvalue="Application.TelephoneBook" />
+        <item itemvalue="Application.PersonalFinance" />
       </list>
     </recent_temporary>
   </component>
@@ -250,17 +280,19 @@
       <workItem from="1562137313992" duration="1903000" />
       <workItem from="1562185999911" duration="34000" />
       <workItem from="1562272208987" duration="1542000" />
+      <workItem from="1562654397130" duration="2547000" />
+      <workItem from="1562789071573" duration="5747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27880000" />
+    <option name="totallyTimeSpent" value="36174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,6 +375,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="2" selection-start-column="4" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -353,17 +392,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/Map2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="2" selection-start-column="4" selection-end-line="3" />
+        <state relative-caret-position="187">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map2.java">
+    <entry file="file://$PROJECT_DIR$/src/PersonalFinance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="-204">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TelephoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShoppingList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductDatabaseTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

@@ -20,7 +20,7 @@ public class AppendAFunc {
 
         private static String appendAFunc (String x) {
 
-        return x + "a";
+        return x+"a";
 
         }
 

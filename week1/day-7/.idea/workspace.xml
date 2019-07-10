@@ -2,57 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486c79a5-1728-4308-ba5d-5cf3c6ce394e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-1/.idea/day-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParametricAverage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/AnimalsAndLegs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/AnimalsAndLegs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/AverageOfInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/AverageOfInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/OddEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/OddEven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/OneTwoALot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/OneTwoALot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/PartyIndicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/PartyIndicator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/out/production/day-5/PrintBigger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/out/production/day-5/PrintBigger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/AnimalsAndLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/AnimalsAndLegs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/AverageOfInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/AverageOfInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/ConditionalVariableMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/OddEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/OneTwoALot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/OneTwoALot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/PartyIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/PartyIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-5/src/PrintBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5/src/PrintBigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/src/Logs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/CountFromTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/CountFromTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/DrawPiramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/DrawPiramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/DrawTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/DrawTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/MultiplicationTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/ParametricAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/ParametricAverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-7/PrintEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-7/PrintEven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountFromTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountFromTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawPiramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawPiramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParametricAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParametricAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/BMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/BMI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/Cuboid.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/Cuboid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/FavoriteClass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/FavoriteClass2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/HelloUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/HelloUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/MileToKmConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/MileToKmConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/out/production/day4/VariableMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/out/production/day4/VariableMutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/BMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/Cuboid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/FavoriteClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/FavoriteClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/HelloUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/MileToKmConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/src/VariableMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Factorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Factorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/AppendAFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/Map2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/Map2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/Map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteSingleLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteSingleLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/WriteSingleLine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DrawDiagonal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="459">
               <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
@@ -93,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParametricAverage2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -148,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -173,7 +152,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week2/day-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -254,16 +233,18 @@
       <workItem from="1562334806083" duration="1352000" />
       <workItem from="1562337580552" duration="2421000" />
       <workItem from="1562496144504" duration="6993000" />
+      <workItem from="1562662190687" duration="661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28977000" />
+    <option name="totallyTimeSpent" value="29638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -360,20 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawDiagonal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GuessTheNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -405,6 +365,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawDiagonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessTheNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParametricAverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -415,7 +389,14 @@
     <entry file="file://$PROJECT_DIR$/src/ParametricAverage2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
