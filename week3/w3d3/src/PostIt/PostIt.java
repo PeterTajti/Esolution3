@@ -1,4 +1,4 @@
-package DataStructure;
+package PostIt;
 
 //Create a PostIt class that has
 //        a backgroundColor
