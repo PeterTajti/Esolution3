@@ -5,14 +5,16 @@ public class Teacher {
 //teach(student) -> calls the students learn method
 //answer() -> prints the teacher is answering a question
 
-    String question;
 
-    void question () {
-        question = "";
-    }
+
+   void teach (Student y){
+        y.learn();
+   }
 
     void answer () {
-        answer = student (question);
+        System.out.println("i am answering a question");
     }
+
+
 
 }
