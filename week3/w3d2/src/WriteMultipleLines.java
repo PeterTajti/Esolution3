@@ -9,7 +9,6 @@
 // into the file and each line should read 'apple'
 
 // The function should not raise any errors if it could not write the file.
-
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -19,15 +18,11 @@ import java.util.List;
 public class WriteMultipleLines {
 
     public static void main(String[] args) {
-
         multiLines("new-file.txt", "apple", 9);
-
     }
 
         public static void multiLines (String path, String word, long number) {
-
             List<String> content = new ArrayList();
-
             for (int i =0; i < number; i++) {
                 content.add(word);
             }
@@ -40,17 +35,8 @@ public class WriteMultipleLines {
             catch (Exception e) {
                 System.out.println("Uh-oh, could not write the file: my-file.txt!");
             }
-
-
-
-
         }
-
-
-
-
-
-        }
+}
 
 
 
