@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed206861-7764-49f5-bd9a-1e72434a3147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GetSet/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetSetCar/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetSetCar/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
@@ -24,12 +21,6 @@
       <change beforePath="$PROJECT_DIR$/../w3d5/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/Power.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d7/Cycle/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d7/Cycle/Bicycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d7/Cycle/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d7/Cycle/Cycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d7/Cycle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d7/Cycle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cycle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cycle/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle/Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cycle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,23 +36,29 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GetSet/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/GetSetCar/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GetSet/Example.java">
+        <entry file="file://$PROJECT_DIR$/src/GetSetCar/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/SuperKeyword/Dog.java" />
         <option value="$PROJECT_DIR$/src/GetSet/Main.java" />
         <option value="$PROJECT_DIR$/src/GetSet/Example.java" />
+        <option value="$PROJECT_DIR$/src/GetSetCar/GetSetCar.java" />
+        <option value="$PROJECT_DIR$/src/GetSetCar/Car.java" />
+        <option value="$PROJECT_DIR$/src/GetSetCar/Main.java" />
       </list>
     </option>
   </component>
@@ -122,7 +122,7 @@
               <item name="w3d7" type="b2602c69:ProjectViewProjectNode" />
               <item name="w3d7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GetSet" type="462c0819:PsiDirectoryNode" />
+              <item name="GetSetCar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetSet.Example" />
       <module name="w3d7" />
@@ -179,6 +179,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetSetCar.Main" />
+      <module name="w3d7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GetSetCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cycle.Main" />
       <module name="w3d7" />
@@ -194,6 +207,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -210,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563097944013</updated>
-      <workItem from="1563097946904" duration="6691000" />
+      <workItem from="1563097946904" duration="7607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6691000" />
+    <option name="totallyTimeSpent" value="7607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -236,7 +250,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,12 +352,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetSet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#138#139#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetSetCar/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetSetCar/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
         </state>
       </provider>
     </entry>
