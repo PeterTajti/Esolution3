@@ -3,8 +3,11 @@ package Cycle;
 public class Main {
     public static void main(String[] args) {
 
-        Bicycle myowncycle1 = new Bicycle();
+        Cycle myowncycle1 = new Cycle();
         myowncycle1.getInfo();
+
+        Bicycle myownBicycle1 = new Bicycle();
+        myownBicycle1.getInfo();
 
     }
 
