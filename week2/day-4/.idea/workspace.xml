@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c71fad5-138b-416e-8165-f0d91f4f8728" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/META-INF/day-7.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day-4/Triangles$ImagePanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day-4/Triangles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/DrawDiamond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/DrawSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/DrawDiamond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/DrawSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/Checkerboard$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/out/production/w2d3/Checkerboard$ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/Checkerboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/out/production/w2d3/Checkerboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/StarryNight$ImagePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/out/production/w2d3/StarryNight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/Checkerboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/Checkerboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/StarryNight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-4/EnvelopeStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/EnvelopeStar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnvelopeStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnvelopeStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinePlayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinePlayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-2/out/production/day-2/ProductDatabaseTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-2/src/ProductDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-2/src/ProductDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/WriteMultipleLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/out/production/w3d3/Battery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/out/production/w3d3/Battery/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/src/Battery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/src/Battery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/out/production/w3d5/SumDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/out/production/w3d5/SumDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/src/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/src/SumDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +39,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinePlayPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="714">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,10 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
+        <entry file="file://$PROJECT_DIR$/src/Triangles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="153">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="102">
               <caret line="10" column="35" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/LinePlayQuarters.java" />
         <option value="$PROJECT_DIR$/src/LinePlayQuarters4.java" />
         <option value="$PROJECT_DIR$/src/EnvelopeStar.java" />
-        <option value="$PROJECT_DIR$/src/Triangles.java" />
         <option value="$PROJECT_DIR$/src/LinePlayPractice.java" />
+        <option value="$PROJECT_DIR$/src/Triangles.java" />
       </list>
     </option>
   </component>
@@ -135,7 +144,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week1/day-7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -154,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinePlayPractice">
+  <component name="RunManager" selected="Application.Triangles">
     <configuration name="EnvelopeStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnvelopeStar" />
       <module name="day-4" />
@@ -192,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinePlayPractice" />
         <item itemvalue="Application.Triangles" />
+        <item itemvalue="Application.LinePlayPractice" />
         <item itemvalue="Application.EnvelopeStar" />
         <item itemvalue="Application.LinePlay" />
         <item itemvalue="Application.LinePlayQuarters4" />
@@ -216,11 +225,12 @@
       <workItem from="1562309206026" duration="22489000" />
       <workItem from="1562338553223" duration="864000" />
       <workItem from="1562339456753" duration="240000" />
+      <workItem from="1563126803821" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43477000" />
+    <option name="totallyTimeSpent" value="43751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -231,7 +241,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
@@ -240,7 +250,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -263,20 +273,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/LinePlayQuarters.java" />
     <entry file="file://$PROJECT_DIR$/src/LinePlayQuarters4.java" />
-    <entry file="file://$PROJECT_DIR$/src/Triangles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinePlayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="714">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -285,7 +285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinePlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="102">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -296,7 +296,17 @@
     <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Triangles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

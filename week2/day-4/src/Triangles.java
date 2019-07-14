@@ -2,34 +2,24 @@ import javax.swing.*;
 
 import java.awt.*;
 
+import static java.awt.Window.getOwnerlessWindows;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class Triangles {
+    public static void mainDraw(Graphics graphics1) {
 
-    //21 emeletes a háromszögekből álló nagy háromszög
-
-    public static void mainDraw(Graphics localgraphics){
-
-    triangleunit(localgraphics);
+        triangle(graphics1);
 
     }
 
-    public static void triangleunit (Graphics g) {
-
-        int trainglerow;
-        //int shiftx;
-        //int shifty;
-
-
-        g.drawLine(WIDTH/2, 0, WIDTH/2+10, 20);
-        g.drawLine(WIDTH/2+10, 20, WIDTH/2-10, 20);
-        g.drawLine(WIDTH/2-10, 20, WIDTH/2, 0);
-
-
-
+    public static void triangle ( Graphics graphics2) {
+        int number = 34;
+        for (int i = 0; i <= number; i++) {
+            graphics2.drawLine(WIDTH/2-5*i, 0+10*i, (WIDTH/2+(10*number/2)-10*i), 0+(10*number));
+           graphics2.drawLine(WIDTH/2+5*i, 0+10*i,(WIDTH/2-(10*number/2)+10*i), 0+(10*number));
+           graphics2.drawLine(WIDTH/2-5*i, 0+10*i, WIDTH/2+5*i, 0+10*i);
+        }
     }
-
-
 
     // Don't touch the code below
     static int WIDTH = 320;
