@@ -3,10 +3,10 @@ package GardenApp;
 public class Plant {
 
     String color;
-    int waterAmount;
+    double waterAmount;
+    double waterLimitValue;
 
-
-    public Plant (int waterAmount, String color) {
+    public Plant (double waterAmount, String color) {
         this.color = color;
         this.waterAmount = waterAmount;
 
@@ -14,6 +14,7 @@ public class Plant {
 
     public Plant () {}
 
-
-
+    public boolean needWater ( ) {
+        return waterAmount < waterLimitValue;
+    }
 }
