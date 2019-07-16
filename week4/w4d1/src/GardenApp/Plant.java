@@ -3,18 +3,26 @@ package GardenApp;
 public class Plant {
 
     String color;
-    double waterAmount;
+    double waterLevel;
     double waterLimitValue;
+    double waterAbsorbtion;
 
-    public Plant (double waterAmount, String color) {
+    public Plant (String color, double waterLevel, double waterLimitValue) {
         this.color = color;
-        this.waterAmount = waterAmount;
-
+        this.waterLevel = waterLevel;
+        this.waterLimitValue = waterLimitValue;
     }
 
     public Plant () {}
 
     public boolean needWater ( ) {
-        return waterAmount < waterLimitValue;
+        return waterLevel < waterLimitValue;
     }
+
+
+    public void watering (double waterIn) {
+        waterLevel = waterLevel + (waterIn * waterAbsorbtion);
+    }
+
 }
+
