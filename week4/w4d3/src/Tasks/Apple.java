@@ -1,4 +1,4 @@
-package Apples;
+package Tasks;
 
 public class Apple {
 
