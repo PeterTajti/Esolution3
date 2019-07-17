@@ -25,11 +25,14 @@ public class Sum {
 
         int sum = 0;
 
-        //a numberlist.size után kell a (), oda kell írni!
+            if (numberlist == null) {
+                return 0;
+            }
 
-        for (int i =0; i < numberlist.size(); i++)
-            sum += numberlist.get(i);
+            for (int i = 0; i < numberlist.size(); i++)//a numberlist.size után kell a (), oda kell írni!
+                sum += numberlist.get(i);
             return sum;
+
 
     }
 }

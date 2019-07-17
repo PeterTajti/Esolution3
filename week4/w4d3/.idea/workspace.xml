@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d371cbdb-f96d-4948-9760-8efd844af6d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/sumTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/anagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/sumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
@@ -35,10 +38,12 @@
       <change beforePath="$PROJECT_DIR$/../w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w4d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w4d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Apples/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tests/getAppleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w4d3/Tests/getAppleTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apples/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/getAppleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/getAppleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tasks/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w4d3/Tasks/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tests/getAppleTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tests/sumTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/getAppleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/getAppleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/sumTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,51 +59,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tasks/Apple.java">
+        <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#110#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/getAppleTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tasks/Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#353#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/sumTests.java">
+        <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="224">
+              <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/getAppleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/sumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="45" column="117" selection-start-line="45" selection-start-column="117" selection-end-line="45" selection-end-column="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tasks/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,14 +131,19 @@
         <option value="$PROJECT_DIR$/src/Tests/getAppleTests.java" />
         <option value="$PROJECT_DIR$/src/Tasks/Sum.java" />
         <option value="$PROJECT_DIR$/src/Tests/sumTests.java" />
+        <option value="$PROJECT_DIR$/src/Tasks/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/Tests/anagramTests.java" />
+        <option value="$PROJECT_DIR$/src/Tests/getAppleTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/sumTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/anagramTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="612" />
-    <option name="y" value="18" />
-    <option name="width" value="736" />
-    <option name="height" value="691" />
+    <option name="x" value="2" />
+    <option name="y" value="21" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,8 +191,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week2/day-1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,8 +208,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.sumTests">
-    <configuration name="getAppleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.anagramTest">
+    <configuration name="anagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w4d3" />
       <extension name="coverage">
         <pattern>
@@ -202,13 +218,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.getAppleTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.anagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="getAppleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w4d3" />
       <extension name="coverage">
         <pattern>
@@ -217,7 +233,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.sumTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.getAppleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w4d3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.sumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,6 +256,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.anagramTest" />
         <item itemvalue="JUnit.sumTests" />
         <item itemvalue="JUnit.getAppleTests" />
       </list>
@@ -240,44 +272,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563353937357</updated>
-      <workItem from="1563353940679" duration="6251000" />
+      <workItem from="1563353940679" duration="14547000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 11m 29s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 37m 46s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 38m 50s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 40m 33s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 46m 00s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 47m 16s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 51m 55s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 11h 52m 26s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getAppleTests - 2019.07.17 at 12h 34m 12s.xml">
-      <configuration name="getAppleTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="sumTests - 2019.07.17 at 12h 34m 30s.xml">
+    <history-entry file="sumTests - 2019.07.17 at 14h 36m 39s.xml">
       <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 14h 36m 59s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 14h 37m 13s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 14h 55m 51s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 14h 56m 24s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 15h 02m 43s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 15h 06m 53s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sumTests - 2019.07.17 at 15h 08m 40s.xml">
+      <configuration name="sumTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="anagramTest - 2019.07.17 at 16h 07m 21s.xml">
+      <configuration name="anagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="anagramTest - 2019.07.17 at 16h 09m 10s.xml">
+      <configuration name="anagramTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6251000" />
+    <option name="totallyTimeSpent" value="14547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -297,8 +329,8 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.41571194" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -318,42 +350,54 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tasks/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/getAppleTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="153">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
-            <element signature="e#0#353#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/sumTests.java">
+    <entry file="file://$PROJECT_DIR$/src/Tasks/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/sumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="45" column="117" selection-start-line="45" selection-start-column="117" selection-end-line="45" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/getAppleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

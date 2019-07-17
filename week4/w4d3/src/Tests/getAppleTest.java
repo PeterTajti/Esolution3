@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class getAppleTests {
+public class getAppleTest {
 
     //a teszt eset egy mini main függvény gyakorlatilag,
     // ezért az a jobb ha helyben hozunk létre egy példányt hozzá (benne)
