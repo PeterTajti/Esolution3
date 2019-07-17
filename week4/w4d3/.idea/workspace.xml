@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d371cbdb-f96d-4948-9760-8efd844af6d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/anagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/sumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/CountLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/countLettersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
@@ -38,12 +36,6 @@
       <change beforePath="$PROJECT_DIR$/../w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w4d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w4d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tasks/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w4d3/Tasks/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tests/getAppleTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w4d3/Tests/sumTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/getAppleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/getAppleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/sumTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,17 +53,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
+            <state relative-caret-position="136">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+            <state relative-caret-position="187">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,34 +72,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/getAppleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Tasks/CountLetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="139">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/sumTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/countLettersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="45" column="117" selection-start-line="45" selection-start-column="117" selection-end-line="45" selection-end-column="117" />
+            <state relative-caret-position="248">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tasks/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,14 +119,16 @@
         <option value="$PROJECT_DIR$/src/Tests/getAppleTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/sumTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/anagramTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/countLettersTest.java" />
+        <option value="$PROJECT_DIR$/src/Tasks/CountLetters.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
+    <option name="x" value="315" />
     <option name="y" value="21" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="width" value="736" />
+    <option name="height" value="691" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.anagramTest">
+  <component name="RunManager" selected="JUnit.countLettersTest">
     <configuration name="anagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w4d3" />
       <extension name="coverage">
@@ -219,6 +204,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.anagramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countLettersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w4d3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.countLettersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,6 +256,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.countLettersTest" />
         <item itemvalue="JUnit.anagramTest" />
         <item itemvalue="JUnit.sumTests" />
         <item itemvalue="JUnit.getAppleTests" />
@@ -272,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563353937357</updated>
-      <workItem from="1563353940679" duration="14547000" />
+      <workItem from="1563353940679" duration="19022000" />
     </task>
     <servers />
   </component>
@@ -309,7 +310,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14547000" />
+    <option name="totallyTimeSpent" value="19022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -320,16 +321,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.36006546" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.41571194" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.41571194" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -389,15 +390,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="136">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+        <state relative-caret-position="187">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasks/CountLetters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/countLettersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
