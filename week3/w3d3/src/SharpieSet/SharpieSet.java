@@ -12,17 +12,12 @@ public class SharpieSet {
         int sum = 0;
 
         for (int i = 0; i < sharpieList.size(); i++) {
-
             if (sharpieList.get(i).inkAmount > 0) {
 
                 sum++;
-
             }
-
         }
-
         return sum;
-
     }
 
     public void removeTrash() {
@@ -30,21 +25,14 @@ public class SharpieSet {
         List<Sharpie> trash = new ArrayList<>();
 
         for (int i = 0; i < sharpieList.size(); i++) {
-
             if (sharpieList.get(i).inkAmount <= 0) {
                 trash.add(sharpieList.get(i));
             }
-
         }
-
         sharpieList.removeAll(trash);
-
     }
 
     void addSharpie(Sharpie sharpie) {
-
         sharpieList.add(sharpie);
-
     }
-
 }

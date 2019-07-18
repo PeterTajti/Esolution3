@@ -18,25 +18,25 @@ public class Main {
         Battery laptop = new Battery();
         laptop.energylevel = 300000;
 
-        mobilphone.downloadPicture();
-        mobilphone.downloadPicture();
-        mobilphone.downloadPicture();
-        mobilphone.playVideo();
-
-        tablet.downloadPicture();
-        tablet.downloadPicture();
-        tablet.downloadPicture();
-        tablet.playVideo();
-
-        laptop.downloadPicture();
-        laptop.downloadPicture();
-        laptop.downloadPicture();
-        laptop.playVideo();
-
-        System.out.println("Remaining energy of mobilphone : " + mobilphone.energylevel);
-        System.out.println("Remaining energy of tablet : " + tablet.energylevel);
-        System.out.println("Remaining energy of laptop : " + laptop.energylevel);
-
+//        mobilphone.downloadPicture();
+//        mobilphone.downloadPicture();
+//        mobilphone.downloadPicture();
+//        mobilphone.playVideo();
+//
+//        tablet.downloadPicture();
+//        tablet.downloadPicture();
+//        tablet.downloadPicture();
+//        tablet.playVideo();
+//
+//        laptop.downloadPicture();
+//        laptop.downloadPicture();
+//        laptop.downloadPicture();
+//        laptop.playVideo();
+//
+//        System.out.println("Remaining energy of mobilphone : " + mobilphone.energylevel);
+//        System.out.println("Remaining energy of tablet : " + tablet.energylevel);
+//        System.out.println("Remaining energy of laptop : " + laptop.energylevel);
+//
         mobilphone.recharge();
         tablet.recharge();
         laptop.recharge();

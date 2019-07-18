@@ -7,6 +7,13 @@ public class Car  {
     private int kilometer;
     private int price;
 
+    public Car () {
+        this.kilometer = 5;
+    }
+
+    public Car (int kilometer) {
+        this.kilometer = kilometer;
+    }
 
     //getters and setters
     //getters -> return type - > return something

@@ -1,4 +1,6 @@
 
+package SharpieSet;
+
 public class Sharpie {
 
     String color;

@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486c79a5-1728-4308-ba5d-5cf3c6ce394e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/File004.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week3/w3d2/src/Logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Factorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Factorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/AppendAFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/Map2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/Map2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/Map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabaseTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteMultipleLines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteSingleLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteSingleLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/CopyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/WriteSingleLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/WriteMultipleLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/out/production/w3d3/Battery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/out/production/w3d3/Battery/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/src/Battery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/src/Battery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/out/production/w3d5/SumDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/out/production/w3d5/SumDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/src/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/src/SumDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParametricAverage2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -72,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -128,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,17 +232,17 @@
       <workItem from="1562337580552" duration="2421000" />
       <workItem from="1562496144504" duration="6993000" />
       <workItem from="1562662190687" duration="661000" />
+      <workItem from="1563126820828" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29638000" />
+    <option name="totallyTimeSpent" value="29672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,17 +384,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParametricAverage2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParametricAverage2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

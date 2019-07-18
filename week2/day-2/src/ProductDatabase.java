@@ -1,8 +1,7 @@
 import javax.print.attribute.HashAttributeSet;
 import java.util.HashMap;
 
-public class ProductDatabase {
-
+public class ProductDatabase
     public static void main(String[] args) {
 
         HashMap<String, Integer> productHash = new HashMap<>();

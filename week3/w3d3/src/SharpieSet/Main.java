@@ -1,30 +1,29 @@
-import java.util.Arrays;
+
+package SharpieSet;
 
 public class Main {
+
     public static void main(String[] args) {
 
+        SharpieSet penbox = new SharpieSet();
 
+        Sharpie pen1 = new Sharpie ("red", 10, 100);
 
-        SharpieSet sharpieset1 = new SharpieSet();
-
-        Sharpie sharpieblue = new Sharpie("Blue", 1.2, 122);
-        sharpieset1.add(sharpieblue);
-        Sharpie sharpieRed = new Sharpie("Red", 1.2, 1);
-        sharpieset1.add(sharpieRed);
-        Sharpie sharpiePink = new Sharpie("Pink", 1.2, 12);
-        sharpieset1.add(sharpiePink);
-
-        sharpieRed.use();
-        sharpieset1.removeTresh();
-        for (int i = 0; i < sharpieset1.sharpieList.size(); i++) {
-            System.out.println(sharpieset1.sharpieList.get(i).inkAmount);
+        for (int i = 0; i < 50; i++) {
+            pen1.use();
         }
 
+        Sharpie pen2 = new Sharpie("Blue", 10, 30);
+        Sharpie pen3 = new Sharpie("Black", 10, 20);
 
+        penbox.addSharpie(pen1);
+        penbox.addSharpie(pen2);
+        penbox.addSharpie(pen3);
 
-        sharpieset1.countUseable();
+        System.out.println(penbox.countUsable());
 
-
+        penbox.removeTrash();
 
     }
+
 }

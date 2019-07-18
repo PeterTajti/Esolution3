@@ -13,7 +13,7 @@ public class SumDigits {
         //return i == 0 ? 0 : i % 10 + sumDigits(i / 10);
 
         if (i==0) {
-            return 0;
+            return i;
         }
         else {
             return i % 10 + sumDigits(i/10);

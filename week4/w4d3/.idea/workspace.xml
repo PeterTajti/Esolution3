@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d371cbdb-f96d-4948-9760-8efd844af6d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/CountLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/countLettersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
@@ -49,11 +47,11 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="748">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
@@ -62,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,23 +69,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasks/CountLetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/countLettersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/Tests/getAppleTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/sumTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/anagramTest.java" />
-        <option value="$PROJECT_DIR$/src/Tests/countLettersTest.java" />
         <option value="$PROJECT_DIR$/src/Tasks/CountLetters.java" />
+        <option value="$PROJECT_DIR$/src/Tests/countLettersTest.java" />
       </list>
     </option>
   </component>
@@ -137,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,8 +253,6 @@
       <list>
         <item itemvalue="JUnit.countLettersTest" />
         <item itemvalue="JUnit.anagramTest" />
-        <item itemvalue="JUnit.sumTests" />
-        <item itemvalue="JUnit.getAppleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -273,23 +266,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563353937357</updated>
-      <workItem from="1563353940679" duration="19022000" />
+      <workItem from="1563353940679" duration="19566000" />
+      <workItem from="1563433579311" duration="1750000" />
+      <workItem from="1563436639060" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="sumTests - 2019.07.17 at 14h 36m 39s.xml">
-      <configuration name="sumTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="sumTests - 2019.07.17 at 14h 36m 59s.xml">
-      <configuration name="sumTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="sumTests - 2019.07.17 at 14h 37m 13s.xml">
-      <configuration name="sumTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="sumTests - 2019.07.17 at 14h 55m 51s.xml">
-      <configuration name="sumTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="sumTests - 2019.07.17 at 14h 56m 24s.xml">
       <configuration name="sumTests" configurationId="JUnit" />
     </history-entry>
@@ -308,9 +291,21 @@
     <history-entry file="anagramTest - 2019.07.17 at 16h 09m 10s.xml">
       <configuration name="anagramTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="anagramTest - 2019.07.17 at 17h 26m 39s.xml">
+      <configuration name="anagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="countLettersTest - 2019.07.17 at 17h 26m 44s.xml">
+      <configuration name="countLettersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="countLettersTest - 2019.07.17 at 17h 27m 02s.xml">
+      <configuration name="countLettersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="countLettersTest - 2019.07.17 at 17h 27m 21s.xml">
+      <configuration name="countLettersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19022000" />
+    <option name="totallyTimeSpent" value="21907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -321,11 +316,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22239032" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.36006546" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -390,15 +385,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="748">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/anagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/countLettersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -407,21 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/CountLetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/countLettersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
         </state>
       </provider>
     </entry>
