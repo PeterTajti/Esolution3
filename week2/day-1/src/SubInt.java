@@ -7,16 +7,12 @@ public class SubInt {
         int[] myArray = {1, 2, 5, 10, 15, 20, 25};
 
         System.out.println(subInt(1, myArray));
-
         System.out.println(subInt(9, myArray));
-
     }
-
         private static ArrayList<String> subInt(int a, int [] b) {
 
             ArrayList<String> result = new ArrayList<>();
 
-            Arrays.toString(b);
             String check = new String();
             for (int i = 0; i < b.length; i++) {
                 check = Integer.toString(b[i]);
@@ -28,5 +24,5 @@ public class SubInt {
 
         }
 
-        }
+}
 
