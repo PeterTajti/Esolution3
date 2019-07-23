@@ -1,7 +1,6 @@
 public class Sum {
     public static void main(String[] args) {
-        int myNumber = 3;
-        sum(myNumber);
+        int myNumber = 5;
         System.out.println(sum(myNumber));
     }
 
