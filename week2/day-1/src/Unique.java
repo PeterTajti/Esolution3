@@ -13,7 +13,7 @@ public class Unique {
 
         Arrays.sort(numbers);
 
-        for (int i = 0; i < numbers.length - 1; i++) {
+        for (int i = 0; i < numbers.length-1; i++) {
             if (numbers[i] != numbers[i + 1]) {
                 indexes.add(numbers[i]);
             }
