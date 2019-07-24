@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb7020e-27a0-4a02-8e4a-5af982f5bfed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/egy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ketto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newCopyFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new-file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/CopyFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/CountLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/CountLines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/DivideByZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/DivideByZero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/PrintEachLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/PrintEachLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/WriteFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d2/WriteMultipleLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/WriteMultipleLines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideByZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thorjatek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thorjatek.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
@@ -49,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Logs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,12 +209,12 @@
       <workItem from="1563441533510" duration="1299000" />
       <workItem from="1563454009289" duration="2465000" />
       <workItem from="1563524400871" duration="693000" />
-      <workItem from="1563959703134" duration="9245000" />
+      <workItem from="1563959703134" duration="10320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43452000" />
+    <option name="totallyTimeSpent" value="44527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -253,7 +234,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -481,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

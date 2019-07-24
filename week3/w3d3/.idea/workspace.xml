@@ -2,34 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0bd9d2-7ee4-4777-b044-6806b576586c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SharpieSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SharpieSet/Sharpie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SharpieSet/SharpieSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sharpie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sharpie/Sharpie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabaseTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d3/Battery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d3/Battery/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d3/Sharpie/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w3d3/Sharpie/Sharpie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Battery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Battery/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sharpie/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sharpie/Sharpie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/out/production/w3d5/SumDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/out/production/w3d5/SumDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Teacher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,33 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SharpieSet/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SharpieSet/SharpieSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SharpieSet/Sharpie.java">
+        <entry file="file://$PROJECT_DIR$/src/Sharpie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="255">
+              <caret line="15" column="192" selection-start-line="15" selection-start-column="192" selection-end-line="15" selection-end-column="192" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sharpie/Sharpie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,12 +97,12 @@
         <option value="$PROJECT_DIR$/src/PetrolStation/Station.java" />
         <option value="$PROJECT_DIR$/src/Battery/Battery.java" />
         <option value="$PROJECT_DIR$/src/Battery/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sharpie/Sharpie.java" />
         <option value="$PROJECT_DIR$/src/Sharpie/SharpieSet.java" />
-        <option value="$PROJECT_DIR$/src/Sharpie/Main.java" />
         <option value="$PROJECT_DIR$/src/SharpieSet/Sharpie.java" />
         <option value="$PROJECT_DIR$/src/SharpieSet/SharpieSet.java" />
         <option value="$PROJECT_DIR$/src/SharpieSet/Main.java" />
+        <option value="$PROJECT_DIR$/src/Sharpie/Sharpie.java" />
+        <option value="$PROJECT_DIR$/src/Sharpie/Main.java" />
       </list>
     </option>
   </component>
@@ -139,6 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,18 +132,10 @@
               <item name="w3d3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="w3d3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w3d3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SharpieSet" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +146,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w3d7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -190,13 +163,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dominoes">
-    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dominoes.Dominoes" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PostIt.Main" />
       <module name="w3d3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dominoes.*" />
+          <option name="PATTERN" value="PostIt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Animal.Main" />
+      <module name="w3d3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sharpie.Main" />
+      <module name="w3d3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sharpie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,25 +242,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TeacherStudent.TeacherStudent" />
-      <module name="w3d3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TeacherStudent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PetrolStation" />
-        <item itemvalue="Application.TeacherStudent" />
-        <item itemvalue="Application.Dominoes" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +271,7 @@
       <workItem from="1563097874690" duration="1098000" />
       <workItem from="1563136445337" duration="3625000" />
       <workItem from="1563171717117" duration="620000" />
+      <workItem from="1563996106460" duration="2280000" />
     </task>
     <servers />
   </component>
@@ -293,17 +281,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57170000" />
+    <option name="totallyTimeSpent" value="59450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.5650529" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24054463" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -333,37 +322,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PostIt/PostIt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PostIt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlogPost/BlogPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlogPost/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter/CounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
@@ -517,16 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animal/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Battery/Battery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -572,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animal/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SharpieSet/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SharpieSet/SharpieSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -597,10 +531,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PostIt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PostIt/PostIt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlogPost/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlogPost/BlogPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animal/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animal/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SharpieSet/Sharpie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SharpieSet/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sharpie/Sharpie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sharpie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="192" selection-start-line="15" selection-start-column="192" selection-end-line="15" selection-end-column="192" />
         </state>
       </provider>
     </entry>
