@@ -2,39 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb7020e-27a0-4a02-8e4a-5af982f5bfed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week4/w4d4/src/ToDoApp/ToDoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/egy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ketto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newCopyFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/PersonalFinance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/out/production/day-2/ProductDatabaseTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/src/ProductDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/out/production/w3d3/Battery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/out/production/w3d3/Battery/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/out/production/w3d3/Sharpie/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/out/production/w3d3/Sharpie/Sharpie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/src/Battery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/src/Battery/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/src/SharpieSet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/src/SharpieSet/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/src/SharpieSet/Sharpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/src/SharpieSet/Sharpie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d3/src/SharpieSet/SharpieSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d3/src/SharpieSet/SharpieSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/out/production/w3d5/SumDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/out/production/w3d5/SumDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d5/src/SumDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/out/production/w3d7/GetSetCar/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/out/production/w3d7/GetSetCar/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/out/production/w3d7/GetSetCar/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/out/production/w3d7/GetSetCar/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w3d7/src/GetSetCar/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new-file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/CountLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/CountLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/DivideByZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/DivideByZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/PrintEachLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/PrintEachLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/WriteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w3d2/WriteMultipleLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w3d2/WriteMultipleLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DivideByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideByZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thorjatek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thorjatek.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Teacher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,44 +46,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Logs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="102">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WriteFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -106,33 +74,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/UnhandledException.java" />
-        <option value="$PROJECT_DIR$/src/DivideByZero.java" />
         <option value="$PROJECT_DIR$/src/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/PrintEachLine.java" />
-        <option value="$PROJECT_DIR$/src/CountLines.java" />
-        <option value="$PROJECT_DIR$/src/WriteFile.java" />
-        <option value="$PROJECT_DIR$/File002.txt" />
         <option value="$PROJECT_DIR$/src/WriteSingleLine.java" />
         <option value="$PROJECT_DIR$/src/FileUtils.java" />
         <option value="$PROJECT_DIR$/File001.txt" />
-        <option value="$PROJECT_DIR$/src/CopyFile.java" />
         <option value="$PROJECT_DIR$/File003.txt" />
         <option value="$PROJECT_DIR$/File004.txt" />
         <option value="$PROJECT_DIR$/src/CopyFile2.java" />
         <option value="$PROJECT_DIR$/log.txt" />
-        <option value="$PROJECT_DIR$/src/WriteMultipleLines.java" />
         <option value="$PROJECT_DIR$/new-file.txt" />
         <option value="$PROJECT_DIR$/src/Logs.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe.java" />
         <option value="$PROJECT_DIR$/win-o.txt" />
         <option value="$PROJECT_DIR$/win-x.txt" />
         <option value="$PROJECT_DIR$/draw.txt" />
+        <option value="$PROJECT_DIR$/src/DivideByZero.java" />
+        <option value="$PROJECT_DIR$/thorjatek.txt" />
+        <option value="$PROJECT_DIR$/src/PrintEachLine.java" />
+        <option value="$PROJECT_DIR$/src/CountLines.java" />
+        <option value="$PROJECT_DIR$/src/WriteFile.java" />
+        <option value="$PROJECT_DIR$/src/WriteMultipleLines.java" />
+        <option value="$PROJECT_DIR$/File002.txt" />
+        <option value="$PROJECT_DIR$/src/CopyFile.java" />
+        <option value="$PROJECT_DIR$/egy.txt" />
+        <option value="$PROJECT_DIR$/ketto.txt" />
+        <option value="$PROJECT_DIR$/src/newCopyFile.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="612" />
-    <option name="y" value="18" />
+    <option name="x" value="743" />
+    <option name="y" value="10" />
     <option name="width" value="736" />
     <option name="height" value="691" />
   </component>
@@ -143,7 +115,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +131,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week2/day-3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -198,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CopyFile2" />
+    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="w3d2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,15 +184,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteMultipleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WriteMultipleLines" />
+    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WriteFile" />
       <module name="w3d2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteSingleLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WriteSingleLine" />
+    <configuration name="newCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newCopyFile" />
       <module name="w3d2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,10 +201,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Logs" />
-        <item itemvalue="Application.WriteMultipleLines" />
-        <item itemvalue="Application.CopyFile2" />
+        <item itemvalue="Application.newCopyFile" />
         <item itemvalue="Application.CopyFile" />
-        <item itemvalue="Application.WriteSingleLine" />
+        <item itemvalue="Application.WriteFile" />
+        <item itemvalue="Application.CountLines" />
       </list>
     </recent_temporary>
   </component>
@@ -255,11 +227,13 @@
       <workItem from="1563129037797" duration="2426000" />
       <workItem from="1563441533510" duration="1299000" />
       <workItem from="1563454009289" duration="2465000" />
+      <workItem from="1563524400871" duration="693000" />
+      <workItem from="1563959703134" duration="9245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33514000" />
+    <option name="totallyTimeSpent" value="43452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -270,7 +244,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2806354" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28971255" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -279,7 +253,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -307,57 +281,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DivideByZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-file.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#224#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileUtils.java" />
     <entry file="file://$PROJECT_DIR$/File002.txt)" />
     <entry file="file://$PROJECT_DIR$/File002" />
-    <entry file="file://$PROJECT_DIR$/File001.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/File002.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -382,16 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CopyFile2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -399,23 +318,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -447,10 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logs.java">
+    <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,25 +361,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WriteFile.java">
+    <entry file="file://$PROJECT_DIR$/src/DivideByZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thorjatek.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
+    <entry file="file://$PROJECT_DIR$/src/CountLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="5" selection-start-line="5" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WriteFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="40" selection-start-line="17" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File001.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File002.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#876#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/egy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ketto.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newCopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

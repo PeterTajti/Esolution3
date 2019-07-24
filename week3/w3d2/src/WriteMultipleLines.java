@@ -18,6 +18,7 @@ import java.util.List;
 public class WriteMultipleLines {
 
     public static void main(String[] args) {
+
         multiLines("new-file.txt", "apple", 9);
     }
 

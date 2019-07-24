@@ -1,9 +1,1 @@
-apple
-apple
-apple
-apple
-apple
-apple
-apple
-apple
-apple
+First line of my file
