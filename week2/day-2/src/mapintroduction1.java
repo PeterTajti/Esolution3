@@ -29,18 +29,10 @@ import java.util.Map;
 //Print the value that is associated with key 99
 //
 //Remove the key-value pair where with key 97
-//
 //Print whether there is an associated value with key 100 or not
-//
 //Remove all the key-value pairs
-
 public class mapintroduction1 {
-
     public static void main(String... args) {
-
-//Create an empty map where the keys are integers and the values are characters
-//
-//Print out whether the map is empty or not
 
         HashMap<Integer, String> myHashMap = new HashMap<>();
 
@@ -59,37 +51,24 @@ public class mapintroduction1 {
 
         myHashMap.put(68, "D");
 
-        //Print how many key-value pairs are in the map
-
+//Print how many key-value pairs are in the map
         System.out.println(myHashMap);
 
 //Print the value that is associated with key 99
-
         System.out.println(myHashMap.get(99));
 
-
 //Remove the key-value pair where with key 97
-
         myHashMap.remove(97);
         System.out.println(myHashMap);
 
-
 //Print whether there is an associated value with key 100 or not
-
         boolean contains = myHashMap.containsKey(100);
         System.out.println(contains);
 
 //Remove all the key-value pairs
-
         myHashMap.clear();
         System.out.println(myHashMap);
-
     }
-
-
-
-
-
 }
 
 

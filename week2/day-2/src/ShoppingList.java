@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-
 public class ShoppingList {
-
     public static void main(String[] args) {
 
         ArrayList<String> shoppingList = new ArrayList<>();
@@ -15,7 +13,6 @@ public class ShoppingList {
 
         listSearch(shoppingList, "Milk");
         listSearch(shoppingList, "Banana");
-
     }
 
     public static void listSearch(ArrayList<String> input, String item) {
@@ -25,6 +22,5 @@ public class ShoppingList {
         } else {
             System.out.println("You don't have this item in your shopping list.");
         }
-
     }
 }

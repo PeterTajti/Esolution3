@@ -1,6 +1,5 @@
 import javax.print.attribute.HashAttributeSet;
 import java.util.HashMap;
-
 public class ProductDatabase {
     public static void main(String[] args) {
 
@@ -73,5 +72,4 @@ public class ProductDatabase {
         }
         return cheapest;
     }
-
 }

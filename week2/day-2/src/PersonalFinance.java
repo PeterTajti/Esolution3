@@ -1,9 +1,6 @@
 import java.util.ArrayList;
-
 public class PersonalFinance {
-
     public static void main(String[] args) {
-
 
         ArrayList<Integer> spendings = new ArrayList<>();
 
@@ -14,12 +11,10 @@ public class PersonalFinance {
         spendings.add(800);
         spendings.add(120);
 
-
         System.out.println("Spent amount: " + totalSpendings(spendings));
         System.out.println("Greatest expense: " + greatesExpense(spendings));
         System.out.println("Cheapest spending: " + cheapestExpense(spendings));
         System.out.println("Average spendings: " + averageExpense(spendings));
-
     }
 
     //  'How much did we spend?' funciton
@@ -63,5 +58,4 @@ public class PersonalFinance {
 
         return average;
     }
-
 }

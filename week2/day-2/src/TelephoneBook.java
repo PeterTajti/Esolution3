@@ -1,11 +1,5 @@
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
-import javax.print.attribute.HashAttributeSet;
-import java.util.ArrayList;
 import java.util.HashMap;
-
 public class TelephoneBook {
-
     public static void main(String[] args) {
 
         HashMap<String, String> telephoneBook = new HashMap<>();
@@ -28,14 +22,19 @@ public class TelephoneBook {
     }
 
     public static String needName (HashMap<String, String> input, String number) {
-        String a = "";
+
         for (String b : input.keySet()){
-            if (number == input.get(b)) {
-                a = b;
+            if (number.equals(input.get(b))) {
+                return b;
             }
         }
-        return a;
+        return null;
     }
+    //a "b" változóval végigjárjuk a hashmap keyset-jét, vagyis ciklusonként a "b" az ember neve lesz.
+    // az input.get(b) a "b" névhez tartozó telefonszámot veszi ki,
+    // amit összehasonlít a "number" paraméterrel, és ha egyezik a kettő, akkor az "a"-ban tárolja a "b"-t.
+
+
 
     public static void numberList (HashMap<String, String> input, String name) {
         boolean a = false;
@@ -43,5 +42,4 @@ public class TelephoneBook {
             System.out.println("You don't have this contact's number.");
         }
     }
-
 }
