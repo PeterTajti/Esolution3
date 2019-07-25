@@ -1,8 +1,4 @@
 package FleetOfThings;
-
-/**
- * Created by aze on 2017.03.29..
- */
 public class Thing {
     private String name;
     private boolean completed;

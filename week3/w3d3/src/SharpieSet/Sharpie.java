@@ -7,8 +7,8 @@ public class Sharpie {
     double width;
     double inkAmount = 100;
 
-    public Sharpie(String c, double width, double inkAmount){
-        color = c;
+    public Sharpie(String color, double width, double inkAmount){
+        this.color = color;
         this.width = width;
         this.inkAmount = inkAmount;
     }

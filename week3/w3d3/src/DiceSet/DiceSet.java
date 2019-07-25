@@ -1,5 +1,4 @@
 package DiceSet;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,13 +9,10 @@ public class DiceSet {
     public List<Integer> roll() {
         for (int i = 0; i < 6; i++) {
             dice.add((int) (Math.random() * 6) + 1);
-
             }
-
         return dice;
 
     }
-
     public List<Integer> getCurrent() {
         return dice;
     }
@@ -37,10 +33,7 @@ public class DiceSet {
 
     public static void main(String[] args) {
 
-
         DiceSet kockak = new DiceSet();
-
-//        System.out.println(diceSet.getCurrent());
 
        kockak.roll();
 
@@ -49,22 +42,9 @@ public class DiceSet {
                 while (kockak.getCurrent(i)  != 6) {
                     kockak.reroll(i);
                     kockak.getCurrent(i);
-
                     }
-
                }
 
         System.out.println(kockak.getCurrent());
-
            }
-
        }
-
-
-//        System.out.println(diceSet.getCurrent());
-//       System.out.println(diceSet.getCurrent(5));
-//        diceSet.reroll();
-//        System.out.println(diceSet.getCurrent());
-//      diceSet.reroll(4);
-//      System.out.println(diceSet.getCurrent());
-

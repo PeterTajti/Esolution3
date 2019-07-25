@@ -1,19 +1,12 @@
 package Pokemon;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
+
         List<Pokemon> pokemonOfAsh = initializePokemons();
 
         String goodPokemon = "null";
-
-        // Every pokemon has a name and a type.
-        // Certain types are effective against others, e.g. water is effective against fire.
-
-        // Ash has a few pokemon.
-        // A wild pokemon appeared!
 
         Pokemon wildPokemon = new Pokemon("Oddish", "leaf", "water");
 

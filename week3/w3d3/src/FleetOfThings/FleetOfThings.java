@@ -1,7 +1,5 @@
 package FleetOfThings;
-
 public class FleetOfThings {
-
     public static void main(String[] args) {
 
         Fleet fleet1 = new Fleet();
@@ -14,22 +12,11 @@ public class FleetOfThings {
          fleet1.add (thing1);
          fleet1.add (thing2);
 
+        fleet1.add (thing3);
         thing3.complete();
-         fleet1.add (thing3);
 
+        fleet1.add (thing4);
         thing4.complete();
-         fleet1.add (thing4);
-
-
-
-        // - In the main method create a fleet
-
-        // - Achieve this output:
-        // Create a fleet of things to have this output:
-        // 1. [ ] Get milk
-        // 2. [ ] Remove the obstacles
-        // 3. [x] Stand up
-        // 4. [x] Eat lunch
 
         System.out.println(fleet1);
     }
