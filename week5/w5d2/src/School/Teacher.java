@@ -1,4 +1,4 @@
 package School;
 
-public class Teacher {
+public class Teacher extends Person{
 }
