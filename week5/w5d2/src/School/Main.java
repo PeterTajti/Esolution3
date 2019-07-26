@@ -15,7 +15,10 @@ public class Main {
         Student Erik = new Student("Erik", 24, "male", 28);
         Student Patricia = new Student("Patricia", 29  , "female", 32);
 
-        //a hat tanuót hozzáadom az iskola tanulókat tartalmazó listájához
+        David.party();
+        Bob.learn();
+
+        //a hat tanulót hozzáadom az iskola tanulóit tartalmazó listához
         mySchool.addStudent(Adam);
         mySchool.addStudent(Bob);
         mySchool.addStudent(Cathy);
@@ -23,15 +26,15 @@ public class Main {
         mySchool.addStudent(Erik);
         mySchool.addStudent(Patricia);
 
-        //kiíratom valamennyi tanulói adatait
+        //kiíratom valamennyi tanuló adatait
         //kiíratom a tanulók tudásának az összegét
         mySchool.printStudentList();
         System.out.println("The sum of the students knowledge is: " + mySchool.totalKnowledge()+"\n");
 
-        //kiíratom a tanulók tudásának átlagát (valamiért egész számot ad vissza)
+        //kiíratom a tanulók tudásának átlagát (egész számot ad vissza!!!)
         System.out.println("The average of the students knowledge is: " + mySchool.averageKnowledge()+"\n");
 
-        //a tanulók vizsgázni mennek, akinek a lekisebb a knowledgeje, azt eltávolítjuk
+        //a tanulók vizsgázni mennek (3x), akinek a lekissebb a knowledge-je, azt eltávolítjuk
         mySchool.exam();
         mySchool.exam();
         mySchool.exam();
