@@ -18,6 +18,11 @@ public class Student {
         System.out.println("Hello! My name is " + name + ", i am an "+ age + " old " + gender + " and my knowledge is " + knowledge + ".");
     }
 
+    public void party () {
+        knowledge-=1;
+    }
+
+
     public void learn () {
         knowledge += 5;
     }

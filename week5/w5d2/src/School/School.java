@@ -30,11 +30,53 @@ public class School {
         System.out.println();
     }
 
+    public int totalKnowledge () {
+        int sumOfKnowledge=0;
 
+        for (Student i: this.listOfStudents) {
+            sumOfKnowledge += i.knowledge;
+        }
+        return sumOfKnowledge;
+    }
 
-    public void trialExam () {}
+    public double averageKnowledge () {
+        double averageKnowledge=0;
+        averageKnowledge = totalKnowledge() / listOfStudents.size();
+        return  averageKnowledge;
+    }
 
-    public void realExam () {}
+    //if (this.listOfAnimals.size() > 0) {
+    //            hungriest = this.listOfAnimals.get(0);
+    //            for (Animal i : this.listOfAnimals) {
+    //                if (i.getHunger() > hungriest.getHunger()) {
+    //                    hungriest = i;
+    //                }
+    //            }
+    //            this.listOfAnimals.remove(hungriest);
+    //            System.out.println("we slaughtered " + hungriest.name);
+    //        } else {
+    //            System.out.println("there is no animal to slaughter");
+    //        }
+
+    public void exam () {
+        Student stupidest;
+
+        if (this.listOfStudents.size() > 0) {
+            stupidest = this.listOfStudents.get(0);
+            for (Student i : this.listOfStudents) {
+                if (i.getKnowledge() < stupidest.getKnowledge()) {
+                    stupidest = i;
+                }
+            }
+
+            this.listOfStudents.remove(stupidest);
+            System.out.println("We removed " + stupidest.name + " because he had the smallest knowledge. It was only " + stupidest.knowledge +"\n" );
+        } else {
+            System.out.println("there is no student to remove");
+        }
+
+    }
+
 
 
 }
