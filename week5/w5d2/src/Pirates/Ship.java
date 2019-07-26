@@ -24,7 +24,6 @@ public class Ship {
         }
     }
 
-
     List<String> getPoorPirates () {
         List<String> poorPirates = new ArrayList<>();
 
