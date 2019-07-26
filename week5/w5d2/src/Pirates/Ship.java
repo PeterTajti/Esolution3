@@ -1,78 +1,69 @@
 package Pirates;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Ship {
-    ArrayList<Pirate> pirateList;
+    List<Pirate> listOfPirates = new ArrayList<>();
 
-    public Ship() {
-        this.pirateList = new ArrayList<>();
-    }
+    //nem látja hogy captain.e mert private a field)
 
-    public void addPirate(Pirate p) {
-        boolean hasAlreadyACaptain = this.checkCaptain();
+    void recruitPirate (Pirate p) {
+       boolean hasCaptain = false;
 
-        if ((!hasAlreadyACaptain) || (!(p instanceof Captain))) {
-            this.pirateList.add(p);
+        for (Pirate x: listOfPirates) {
+           if (x.getIsCaptain()){
+               hasCaptain = true;
+           }
+       }
+
+        if (hasCaptain == true && p.getIsCaptain() == true){
+            return;
         } else {
-            System.out.println("Can't add this Captain, this ship already has a Captain!");
+            listOfPirates.add(p);
         }
     }
 
-    public boolean checkCaptain() {
-        boolean result = false;
 
-        if (this.pirateList.size() < 1) {
-            return result;
-        }
+    List<String> getPoorPirates () {
+        List<String> poorPirates = new ArrayList<>();
 
-        for (Pirate i : this.pirateList) {
-            if (i instanceof Captain) {
-                result = true;
+        for (int i = 0; i < listOfPirates.size(); i++) {
+            if (listOfPirates.get(i).hasWoodenLeg
+                    && listOfPirates.get(i).amountOfGold < 15) {
+                poorPirates.add(listOfPirates.get(i).name);
             }
-        }
 
-        return result;
-    }
-
-    public ArrayList<String> getPoorPirates() {
-        ArrayList<String> poorPirates = new ArrayList<>();
-
-        if (this.pirateList.size() < 1) {
-            return poorPirates;
-        }
-
-        for (Pirate i : this.pirateList) {
-            if ((i.gold < 15) && (i.hasWoodenLeg)) {
-                poorPirates.add(i.name);
-            }
         }
 
         return poorPirates;
     }
 
-    public int getGolds() {
-        int golds = 0;
 
-        for (Pirate i : this.pirateList) {
-            golds += i.gold;
+    int getGold () {
+        int sum = 0;
+        for (Pirate p : listOfPirates) {
+            sum += p.amountOfGold;
         }
-
-        return golds;
+        return sum;
     }
 
-    public void lastDayOnTheShip() {
-        for (Pirate i : this.pirateList) {
-            i.party();
+
+    void lastDayOnTheShip () {
+        for (Pirate p : listOfPirates) {
+            p.party();
         }
     }
 
-    public void prepareForBattle() {
-        for (Pirate i : this.pirateList) {
-            for (int j = 0; j < 5; j++) {
-                i.work();
+    void prepareForBattle () {
+
+        for (int i = 0; i < 5 ; i++) {
+            for (Pirate p : listOfPirates) {
+                p.work();
             }
         }
-        this.lastDayOnTheShip();
+        lastDayOnTheShip();
+
     }
+
 }
