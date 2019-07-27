@@ -1,6 +1,7 @@
 package SteelMonsters;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Army {
@@ -45,9 +46,31 @@ public class Army {
     }
 
     public void enemyAirStrike () {
-          if (this.listOfTanks.size() > 0) {
+      System.out.println("\n" + "*** The enemy airstrike damaged all tanks, each of them lost 600 HP and 10 firepower. ***");
+
+      if (this.listOfTanks.size() > 0) {
+
+      for (int i = 0; i < listOfTanks.size(); i++) {      //600 sebzés mindegyik tankra
+        this.listOfTanks.get(i).healthPoints -= 600;
+        this.listOfTanks.get(i).firePower -= 10;
+      }
+
+        for (int i = 0; i < listOfTanks.size(); i++) {
+          if (this.listOfTanks.get(i).healthPoints <= 0) {
+            System.out.println(this.listOfTanks.get(i).name + " is destroyed.");
+            this.listOfTanks.remove(i);
 
           }
+
+        }
+
+      } else {
+        System.out.println("There is no tank to bomb.");
+      }
+
+
+
+
     }
 }
 

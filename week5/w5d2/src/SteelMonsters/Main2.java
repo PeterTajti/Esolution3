@@ -23,6 +23,8 @@ public class Main2 {
 
     System.out.println("\n"+"The average HP of the tanks is: " + myArmy.averageHealthpoints());
 
+    myArmy.enemyAirStrike();
+    myArmy.printTankList();
 
   }
 
