@@ -73,20 +73,3 @@ public class Army {
 
     }
 }
-
-// Student stupidest;
-//
-//        if (this.listOfStudents.size() > 0) {
-//            stupidest = this.listOfStudents.get(0);
-//            for (Student i : this.listOfStudents) {
-//                if (i.knowledge < stupidest.knowledge) {
-//                    stupidest = i;
-//                }
-//            }
-//
-//            this.listOfStudents.remove(stupidest);
-//            System.out.println("We removed " + stupidest.name + " because he had the smallest knowledge. It was only " + stupidest.knowledge +"\n" );
-//        } else {
-//            System.out.println("there is no student to remove");
-//        }
-
