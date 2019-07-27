@@ -5,7 +5,7 @@ public class Student {
     String name;
     int age;
     String gender;
-    int knowledge = 20;
+    int knowledge;
 
     public Student (String name, int age, String gender, int knowledge) {
         this.name=name;
@@ -27,7 +27,7 @@ public class Student {
         knowledge += 5;
     }
 
-    public int getKnowledge () {
+    private int getKnowledge () {
         return knowledge;
     }
 

@@ -7,15 +7,15 @@ public class School {
 
     int maxNumberOfStudent;
     ArrayList<Student> listOfStudents = new ArrayList<>();
-    boolean hasStudents;
+
 
     public School (int maxNumberOfStudent) {
         this.maxNumberOfStudent = maxNumberOfStudent;
     }
 
-    public void addStudent (Student s) {
+    public void addStudent (Student student) {
         if (this.maxNumberOfStudent > this.listOfStudents.size()) {
-                this.listOfStudents.add(s);
+                this.listOfStudents.add(student);
         } else {
             System.out.println("The school is full, cannot add more students.");
         }
@@ -64,7 +64,7 @@ public class School {
         if (this.listOfStudents.size() > 0) {
             stupidest = this.listOfStudents.get(0);
             for (Student i : this.listOfStudents) {
-                if (i.getKnowledge() < stupidest.getKnowledge()) {
+                if (i.knowledge < stupidest.knowledge) {
                     stupidest = i;
                 }
             }
