@@ -23,29 +23,15 @@ public class MostCommonCharacters {
       //System.out.println(file.toString());
       //System.out.println(singleLineFile);
 
+      singleLineFile = singleLineFile.toLowerCase();
+
       char [] newCharArray = singleLineFile.toCharArray();
 
       String [] newNewStringArray = new String[singleLineFile.length()];
 
       newNewStringArray = singleLineFile.split("");
 
-      //egyik verzió
-      HashMap <Character, Integer> countedCharactersSecond = new HashMap<>();
-
-      for (int i = 0; i < singleLineFile.length(); i++) {
-        Character singleChar = singleLineFile.charAt(i);
-
-        if (countedCharactersSecond.containsKey(singleLineFile.charAt(i))) {
-          countedCharactersSecond.put(singleLineFile.charAt(i), countedCharactersSecond.get(singleLineFile.charAt(i))+1);
-
-        } else {
-          countedCharactersSecond .put(singleLineFile.charAt(i), 1);
-        }
-      }
-
-
-      //másik verzió
-      HashMap<String, Integer> countedCharacters = new HashMap<>();
+     HashMap<String, Integer> countedCharacters = new HashMap<>();
 
       for (String character : newNewStringArray) {
         if (countedCharacters.containsKey(character)) {
@@ -56,7 +42,24 @@ public class MostCommonCharacters {
         }
       }
 
+      String mostCommon =" ";
+      String secondMostCommon =" ";
+      for (String character: countedCharacters.keySet()) {
+        if (countedCharacters.get(character) > countedCharacters.get(mostCommon)) {
+          secondMostCommon = mostCommon;
+          mostCommon = character;
+
+        } else {
+          if (countedCharacters.get(character) > countedCharacters.get(secondMostCommon)) {
+            secondMostCommon = character;
+          }
+        }
+        }
+      System.out.println(mostCommon + " : " + countedCharacters.get(mostCommon));
+      System.out.println(secondMostCommon + " : " + countedCharacters.get(secondMostCommon));
     }
+
+
 
     public static List<String> readFile (String fileName) {
        try {
