@@ -4,8 +4,13 @@ public class Main {
 
     Tank Panther = new Tank ("Panther", 500, 75);
     Tank Tiger = new Tank ("Tiger", 750, 88);
-      Panther.attack(Tiger, 7);
-          }
+
+      Panther.attack(Tiger, 10);
+
+
+
+
+  }
 }
 
 
