@@ -13,14 +13,14 @@ public class Tank {
   }
 
   public void getStats () {
-    System.out.println(this.name + "'s stats: " + this.healthPoints + " healthpoints " + " & " + this.firePower + " firepower."+"\n");
+    System.out.println(this.name + "'s stats: " + this.healthPoints + " healthpoints " + " & " + this.firePower + " firepower.");
   }
 
   public void repair (int numberOfRepairs) {
     for (int j = 0; j < numberOfRepairs; j++) {
       this.healthPoints += 100;
       }
-    System.out.println("\n" + "We repaired " + this.name + " for " + (numberOfRepairs) + "*100" + " healthpoints" + "\n");
+    System.out.println("\n" + "We repaired " + this.name + " for " + (numberOfRepairs) + "*100" + " healthpoints");
   }
 
   public void upgradeWeapon (int numberOfUpgrades) {
@@ -42,15 +42,15 @@ public class Tank {
         System.out.println("No more attacks! " + targetTankName.name + " has been destroyed!");
       }
 
-      if (this.healthPoints <= 0) {
-        System.out.println("\n" + this.name + " is destroyed! " + "\n" + targetTankName.name + " survived the battle.");
-      break;
-      }
-
-      if (targetTankName.healthPoints <= 0) {
-        System.out.println("\n" + targetTankName.name + " is destroyed! " + " \n" + this.name + " survived the battle.");
-      break;
-      }
+//      if (this.healthPoints <= 0) {
+//        System.out.println("\n" + this.name + " is destroyed! " + "\n" + targetTankName.name + " survived the battle.");
+//      break;
+//      }
+//
+//      if (targetTankName.healthPoints <= 0) {
+//        System.out.println("\n" + targetTankName.name + " is destroyed! " + " \n" + this.name + " survived the battle.");
+//      break;
+//      }
 
       targetTankName.healthPoints -= this.firePower;
       this.healthPoints -= targetTankName.firePower;
@@ -66,6 +66,7 @@ public class Tank {
               targetTankName.name + " counterattacked " + this.name + ". \n" +
               this.name + " suffered " + targetTankName.firePower + " damage, and it has " +
                       this.healthPoints + " healthpoints left." + "\n" + " ");
+
 
       if (this.healthPoints <= 0) {
         System.out.println("\n" + this.name + " is destroyed! " + "\n" + targetTankName.name + " survived the battle.");
