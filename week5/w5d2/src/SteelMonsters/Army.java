@@ -1,13 +1,10 @@
 package SteelMonsters;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Army {
-
   int armySize;
-
   List<Tank> listOfTanks = new ArrayList<>();
 
   Army (int armySize) {
@@ -17,9 +14,9 @@ public class Army {
   public void addTank (Tank tank) {
     if (this.armySize > this.listOfTanks.size()) {
       this.listOfTanks.add(tank);
-    } else {
+      } else {
       System.out.println("The army is full, cant add more tanks into it.");
-    }
+      }
 
     }
 
@@ -59,17 +56,10 @@ public class Army {
           if (this.listOfTanks.get(i).healthPoints <= 0) {
             System.out.println(this.listOfTanks.get(i).name + " is destroyed.");
             this.listOfTanks.remove(i);
-
           }
-
         }
-
       } else {
         System.out.println("There is no tank to bomb.");
       }
-
-
-
-
     }
 }

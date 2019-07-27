@@ -42,19 +42,8 @@ public class Tank {
         System.out.println("No more attacks! " + targetTankName.name + " has been destroyed!");
       }
 
-//      if (this.healthPoints <= 0) {
-//        System.out.println("\n" + this.name + " is destroyed! " + "\n" + targetTankName.name + " survived the battle.");
-//      break;
-//      }
-//
-//      if (targetTankName.healthPoints <= 0) {
-//        System.out.println("\n" + targetTankName.name + " is destroyed! " + " \n" + this.name + " survived the battle.");
-//      break;
-//      }
-
       targetTankName.healthPoints -= this.firePower;
       this.healthPoints -= targetTankName.firePower;
-
 
       System.out.println("*** This is the " + (i) + "." + " attack. ***" + "\n" +
               this.name + " attacked " + targetTankName.name + ". \n" +
@@ -67,7 +56,6 @@ public class Tank {
               this.name + " suffered " + targetTankName.firePower + " damage, and it has " +
                       this.healthPoints + " healthpoints left." + "\n" + " ");
 
-
       if (this.healthPoints <= 0) {
         System.out.println("\n" + this.name + " is destroyed! " + "\n" + targetTankName.name + " survived the battle.");
         break;
@@ -77,7 +65,6 @@ public class Tank {
         System.out.println("\n" + targetTankName.name + " is destroyed! " + " \n" + this.name + " survived the battle.");
         break;
       }
-
     }
   }
 }
