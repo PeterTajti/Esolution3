@@ -16,6 +16,8 @@ public class Main {
       Tiger.getStats();
 
       Panther.attack(Tiger, 6);
+
+
   }
 }
 

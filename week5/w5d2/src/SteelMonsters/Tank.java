@@ -6,15 +6,20 @@ public class Tank {
   int healthPoints;
   int firePower;
 
+
   Tank (String name, int healthPoints, int firePower) {
     this.name = name;
     this.healthPoints = healthPoints;
     this.firePower = firePower;
+
   }
 
   public void getStats () {
     System.out.println(this.name + "'s stats: " + this.healthPoints + " healthpoints " + " & " + this.firePower + " firepower.");
   }
+
+  public void getIsAlive () {}
+  public void sufferDamage () {}
 
   public void repair (int numberOfRepairs) {
     for (int j = 0; j < numberOfRepairs; j++) {
@@ -29,6 +34,7 @@ public class Tank {
     }
     System.out.println("\n" + "We upgraded " + this.name + " for " + (numberOfUpgrades) + "*5" + " firepower" + "\n");
   }
+
 
   public void attack (Tank targetTankName, int numberOfAttacks) {
 
@@ -68,6 +74,8 @@ public class Tank {
     }
   }
 }
+
+
 
 // sufferDamage (tankra megírni, ezt lehet majd haszhnálni pl. aknára is
 
