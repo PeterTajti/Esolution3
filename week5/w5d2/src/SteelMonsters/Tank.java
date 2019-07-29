@@ -68,3 +68,7 @@ public class Tank {
     }
   }
 }
+
+// sufferDamage (tankra megírni, ezt lehet majd haszhnálni pl. aknára is
+
+// isAlive

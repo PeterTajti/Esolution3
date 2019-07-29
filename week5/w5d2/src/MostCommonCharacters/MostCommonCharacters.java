@@ -25,8 +25,6 @@ public class MostCommonCharacters {
 
       singleLineFile = singleLineFile.toLowerCase();
 
-      char [] newCharArray = singleLineFile.toCharArray();
-
       String [] newNewStringArray = new String[singleLineFile.length()];
 
       newNewStringArray = singleLineFile.split("");

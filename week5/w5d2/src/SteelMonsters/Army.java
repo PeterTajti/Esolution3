@@ -17,8 +17,7 @@ public class Army {
       } else {
       System.out.println("The army is full, cant add more tanks into it.");
       }
-
-    }
+   }
 
     public void printTankList () {
       for (Tank tank : this.listOfTanks  ) {
