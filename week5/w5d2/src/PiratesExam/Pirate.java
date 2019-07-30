@@ -13,16 +13,20 @@ package PiratesExam;
 
 public class Pirate {
 
-
+  String name;
   int alcoholLevel = 0;
   boolean isAlive = true;
+  boolean isPassedOut = false;
+  boolean isCaptain = false;
 
-  Pirate() {
+  Pirate(String name) {
+    this.name = name;
   }
 
   public void drinkSomeRum() {
     if (this.isAlive == true) {
       this.alcoholLevel++;
+      System.out.println("The pirate has  " + this.alcoholLevel + " alcohol level now.");
     }
     if (this.isAlive == false) {
       System.out.println("This pirate is dead, cannot drink more.");
@@ -30,22 +34,21 @@ public class Pirate {
   }
 
   public void getAlcoholLevel() {
-    System.out.println("The alcohol levels is " + this.alcoholLevel + ".");
+    System.out.println("The alcohol level is " + this.alcoholLevel + ".");
   }
 
   public void howsItGoingMate() {
     if (this.alcoholLevel <= 4) {
       System.out.println("Pour me anudder!" + "\n");
     } else {
-      System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin?" + "\n");
-    }
+      System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin? (the pirate passes out, and sleeps off." + "\n");
+      this.isPassedOut = true;
+      }
   }
 
   public void die() {
     isAlive = false;
   }
-
-
 
   public void aliveChecker() {
     if (this.isAlive == true) {
@@ -53,9 +56,7 @@ public class Pirate {
     } else {
       System.out.println("This pirate is dead.");
     }
-
   }
-
 
   public void brawl(Pirate targetPirate) {
 
@@ -67,8 +68,9 @@ public class Pirate {
       if (brawlNumber == 0) {this.die();}
       if (brawlNumber == 1) {targetPirate.die();}
       if (brawlNumber == 2) {
-        this.die();
-        targetPirate.die();
+        System.out.println("Its a draw! Noone died, but both brawling pirate passed out.");
+        this.isPassedOut = true;
+        targetPirate.isPassedOut = true;
       }
 
     } else {

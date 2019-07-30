@@ -4,12 +4,11 @@ public class Main {
 
   public static void main(String[] args) {
 
-    Pirate pirate1 = new Pirate ();
+    Pirate pirate1 = new Pirate ("pirate1");
+    Pirate pirate2 = new Pirate ("pirate2");
+    Pirate pirate3 = new Pirate ("pirate3");
 
-    Pirate pirate2 = new Pirate ();
-    Pirate pirate3 = new Pirate ();
-
-    pirate1.drinkSomeRum();
+   pirate1.drinkSomeRum();
     pirate1.drinkSomeRum();
     pirate1.drinkSomeRum();
     pirate1.drinkSomeRum();
@@ -26,6 +25,9 @@ public class Main {
 
     pirate2.brawl(pirate3);
 
+    Ship ship1 = new Ship();
+    ship1.fillShip();
+    ship1.getCrewNumber();
   }
 
 }
