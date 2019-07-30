@@ -17,29 +17,66 @@ public class Pirate {
   int alcoholLevel = 0;
   boolean isAlive = true;
 
-  Pirate () {}
+  Pirate() {
+  }
 
-  public void drinkSomeRum () {
-    if (this.isAlive == true) {this.alcoholLevel ++;}
+  public void drinkSomeRum() {
+    if (this.isAlive == true) {
+      this.alcoholLevel++;
+    }
     if (this.isAlive == false) {
       System.out.println("This pirate is dead, cannot drink more.");
     }
   }
 
-  public void getAlcoholLevel () {
+  public void getAlcoholLevel() {
     System.out.println("The alcohol levels is " + this.alcoholLevel + ".");
   }
 
   public void howsItGoingMate() {
-    if (this.alcoholLevel <= 4){
+    if (this.alcoholLevel <= 4) {
       System.out.println("Pour me anudder!" + "\n");
     } else {
-      System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin?"+ "\n");
+      System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin?" + "\n");
     }
   }
 
-  public boolean die () {
-    return isAlive = false;
+  public void die() {
+    isAlive = false;
+  }
+
+
+
+  public void aliveChecker() {
+    if (this.isAlive == true) {
+      System.out.println("This pirate is alive.");
+    } else {
+      System.out.println("This pirate is dead.");
+    }
+
+  }
+
+
+  public void brawl(Pirate targetPirate) {
+
+    if (targetPirate.isAlive == true) {
+
+      int brawlNumber;
+      brawlNumber = (int) (Math.random() * 3);
+
+      if (brawlNumber == 0) {this.die();}
+      if (brawlNumber == 1) {targetPirate.die();}
+      if (brawlNumber == 2) {
+        this.die();
+        targetPirate.die();
+      }
+
+    } else {
+      System.out.println("The targeted pirate is dead, it cannot be attacked.");
+    }
+
   }
 
 }
+
+

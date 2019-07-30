@@ -6,6 +6,9 @@ public class Main {
 
     Pirate pirate1 = new Pirate ();
 
+    Pirate pirate2 = new Pirate ();
+    Pirate pirate3 = new Pirate ();
+
     pirate1.drinkSomeRum();
     pirate1.drinkSomeRum();
     pirate1.drinkSomeRum();
@@ -19,6 +22,9 @@ public class Main {
 
     pirate1.die();
     pirate1.drinkSomeRum();
+    pirate1.aliveChecker();
+
+    pirate2.brawl(pirate3);
 
   }
 
