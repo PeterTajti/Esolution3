@@ -2,11 +2,11 @@ package AnimalProtection;
 
 public class Dog extends Animal {
 
-  String name;
-  int healCost = 1+(int)(Math.random()*8);
+   Dog (boolean isHealthy) {
 
-  public Dog () {
-    this.name = name;
-  }
+     this.isHealty = isHealthy;
+     int healCost = 1+(int)(Math.random()*8);
+
+   }
 
 }

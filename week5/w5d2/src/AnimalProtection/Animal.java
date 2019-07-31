@@ -25,8 +25,8 @@ public class Animal {
 
   @Override
   public String toString() {
-    if (this.isHealty = false) {
-      return(this.name + "is healthy? --->" + this.isHealty + " < " +
+    if (this.isHealty == false) {
+      return(this.name + " is healthy? --->" + this.isHealty + " < " +
               this.healCost + " > " + " and adpotable? --->" + this.isAdoptable());
     } else {
       return(this.name + "is healthy? --->" + this.isHealty + " and adpotable? --->" + this.isAdoptable());

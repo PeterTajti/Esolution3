@@ -8,10 +8,7 @@ public class AnimalShelter {
   int healedAnimals = 0;
 
   ArrayList<Animal> animals = new ArrayList<>();
-  ArrayList<String> adopters = new ArrayList<>();
-
-  //It must have a method named rescue this method takes an Animal as parameter
-  //and add the animal to the shelter's list and return the size of the list
+  ArrayList<String> potentionalAdopters = new ArrayList<>();
 
   public int rescue (Animal animal) {
 
@@ -19,21 +16,48 @@ public class AnimalShelter {
     return animals.size();
   }
 
-  //It must have a method named heal this method heals the first not healthy Animal
-  //if it is possible by budget, returns the amount of healed animals(0 or 1)
+  //kell egy int healedAnimals???
 
   public int heal () {
     for (int i = 0; i < animals.size(); i++) {
       if ((animals.get(i).isHealty == false) && (animals.get(i).healCost <= budget)) {
         animals.get(i).isHealty = true;
-        budget = budget - animals.get(i).healCost;
+        this.budget = this.budget - animals.get(i).healCost;
         healedAnimals++;
+        break;    // ide kell a break ???
       }
     } return healedAnimals;
   }
 
+  public void addAdopter (String string){
+    potentionalAdopters.add(string);
+  }
 
+  public void findNewOwner (){
+    for (int i = 0; i < animals.size(); i++) {
+      if (animals.get(i).isAdoptable() == true) {
+        animals.remove(i);
+        potentionalAdopters.remove(0);
+      } break;  // ide kell a break ???
+    }
+  }
 
-  //ha a lista első eleme beteg
+  public int earnDonation (int amount){
+    this.budget = this.budget + amount;
+    return budget;
 
-}
+  }
+
+  //ez sincs kész
+
+  @Override
+  public String toString(){
+    return ("Budget: " + this.budget + " Euro" + "\n" +
+            "There are " + animals.size() + " animal(s) and " + potentionalAdopters.size() + " potential adopter(s)"
+
+            //<name> is not healthy (<heal cost>€), and not adoptable
+            //<name> is healthy, and adoptable
+            );
+    }
+  }
+

@@ -2,11 +2,10 @@ package AnimalProtection;
 
 public class Parrot extends Animal {
 
-  String name;
-  int healCost = 4+(int)(Math.random()*7);
+   Parrot (boolean isHealthy) {
 
-  public Parrot () {
-    this.name = name;
-  }
+     this.isHealty = isHealthy;
+     int healCost = 4+(int)(Math.random()*7);
+   }
 
 }
