@@ -19,23 +19,15 @@ public class MatrixRotate {
       }
       System.out.println();
     }
-
-
   }
 
   static int N = 3;
 
-
   public static void rotateMatrix(int[][] matrix) {
 
-
-
    // Traverse each cycle
-    for (int i = 0; i < N / 2; i++)
-    {
-      for (int j = i; j < N - i - 1; j++)
-      {
-
+    for (int i = 0; i < N / 2; i++) {
+      for (int j = i; j < N - i - 1; j++) {
         // Swap elements of each cycle
         // in clockwise direction
         int temp = matrix[i][j];
@@ -45,10 +37,7 @@ public class MatrixRotate {
         matrix[j][N - 1 - i] = temp;
       }
     }
-
   }
-
-
-  }
+}
 
 

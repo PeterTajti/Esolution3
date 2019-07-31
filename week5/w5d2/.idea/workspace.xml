@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a20f1d7-230c-4ab6-862b-e9382b91ae9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PiratesExam/Captain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalProtection/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
@@ -11,16 +16,14 @@
       <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w5d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Pirate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Pirate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w5d2/MatrixRotate/MatrixRotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w5d2/MatrixRotate/MatrixRotate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w5d2/PiratesExam/Ship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiratesExam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PiratesExam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiratesExam/Pirate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PiratesExam/Pirate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiratesExam/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PiratesExam/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,38 +37,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PiratesExam/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PiratesExam/Pirate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PiratesExam/Ship.java">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PiratesExam/Captain.java">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Cat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Parrot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,17 +138,23 @@
         <option value="$PROJECT_DIR$/src/SteelMonsters/Tank.java" />
         <option value="$PROJECT_DIR$/src/SteelMonsters/Main.java" />
         <option value="$PROJECT_DIR$/src/RotateMatrix/MatrixRotate.java" />
-        <option value="$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java" />
         <option value="$PROJECT_DIR$/src/PiratesExam/Captain.java" />
         <option value="$PROJECT_DIR$/src/PiratesExam/Pirate.java" />
         <option value="$PROJECT_DIR$/src/PiratesExam/Main.java" />
         <option value="$PROJECT_DIR$/src/PiratesExam/Ship.java" />
+        <option value="$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/Animal.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/Dog.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/Parrot.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/Main.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java" />
+        <option value="$PROJECT_DIR$/src/AnimalProtection/Cat.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="612" />
-    <option name="y" value="18" />
+    <option name="x" value="329" />
+    <option name="y" value="73" />
     <option name="width" value="736" />
     <option name="height" value="691" />
   </component>
@@ -144,6 +175,12 @@
               <item name="w5d2" type="b2602c69:ProjectViewProjectNode" />
               <item name="w5d2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w5d2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w5d2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalProtection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="w5d2" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +220,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimalProtection.Main" />
+      <module name="w5d2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AnimalProtection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SteelMonsters.Main" />
       <module name="w5d2" />
@@ -223,19 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SteelMonsters.Main2" />
-      <module name="w5d2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SteelMonsters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MatrixRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MatrixRotate.MatrixRotate" />
       <module name="w5d2" />
@@ -251,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MatrixRotate" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -286,17 +323,22 @@
       <workItem from="1564468102084" duration="3947000" />
       <workItem from="1564495046074" duration="681000" />
       <workItem from="1564511339429" duration="14422000" />
-      <workItem from="1564555202206" duration="5390000" />
+      <workItem from="1564555202206" duration="6139000" />
+      <workItem from="1564574222369" duration="637000" />
+      <workItem from="1564575830715" duration="9000" />
+      <workItem from="1564578086993" duration="980000" />
+      <workItem from="1564579822406" duration="4818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100286000" />
+    <option name="totallyTimeSpent" value="107479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -305,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.507365" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,38 +506,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pirates/Pirate.java">
+    <entry file="file://$PROJECT_DIR$/src/PiratesExam/Captain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pirates/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PiratesExam/Captain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="493">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -513,10 +534,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pirates/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pirates/Pirate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PiratesExam/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Parrot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
