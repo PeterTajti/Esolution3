@@ -18,7 +18,6 @@ public class Ship {
     }
   }
 
-
   public void shipInfo() {
 
     int livingPirateCounter = 0;
