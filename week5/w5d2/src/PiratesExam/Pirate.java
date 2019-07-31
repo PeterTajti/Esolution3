@@ -13,17 +13,15 @@ package PiratesExam;
 
 public class Pirate {
 
-  String name;
+
   int alcoholLevel = 0;
   boolean isAlive = true;
   boolean isPassedOut = false;
   boolean isCaptain = false;
 
-  Pirate(String name) {
-    this.name = name;
-  }
+  public Pirate() {}
 
-  public void drinkSomeRum() {
+    public void drinkSomeRum() {
     if (this.isAlive == true) {
       this.alcoholLevel++;
       System.out.println("The pirate has  " + this.alcoholLevel + " alcohol level now.");
@@ -48,6 +46,7 @@ public class Pirate {
 
   public void die() {
     isAlive = false;
+    System.out.println("This pirate is dead.");
   }
 
   public void aliveChecker() {
