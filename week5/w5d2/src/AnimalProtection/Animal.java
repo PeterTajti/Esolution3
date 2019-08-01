@@ -15,7 +15,8 @@ public class Animal {
   }
 
   public boolean isAdoptable() {
-    if (this.isHealty = true) {
+    if (this.isHealty == true) {
+      this.Adoptable = true;
 
     } else {
       System.out.println("Sick animal cannot be adopted.");
@@ -26,10 +27,10 @@ public class Animal {
   @Override
   public String toString() {
     if (this.isHealty == false) {
-      return(this.name + " is healthy? --->" + this.isHealty + " < " +
-              this.healCost + " > " + " and adpotable? --->" + this.isAdoptable());
+      return this.name + " is not healthy" + " < " +
+              this.healCost + " €> " + "is not adoptable.";
     } else {
-      return(this.name + "is healthy? --->" + this.isHealty + " and adpotable? --->" + this.isAdoptable());
+      return this.name + " is healthy" + " is adoptable";
     }
   }
 }

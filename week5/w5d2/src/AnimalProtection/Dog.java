@@ -4,8 +4,9 @@ public class Dog extends Animal {
 
    Dog (boolean isHealthy) {
 
+     this.name = getClass().getSimpleName();
      this.isHealty = isHealthy;
-     int healCost = 1+(int)(Math.random()*8);
+     this.healCost = 1+(int)(Math.random()*8);
 
    }
 
