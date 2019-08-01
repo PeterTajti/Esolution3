@@ -5,7 +5,7 @@ public class Pirate {
     String name;
     int amountOfGold;
     int healthPoints;
-    private boolean isCaptain;
+    boolean isCaptain;
     boolean hasWoodenLeg;
 
     Pirate (String name, boolean hasWoodenLeg) {
@@ -16,6 +16,11 @@ public class Pirate {
 
     boolean getIsCaptain () {
         return isCaptain;
+    }
+
+    void promoteCaptain () {
+        this.isCaptain = true;
+        System.out.println(this.name + " is promoted to Captain! Yarrrr!");
     }
 
     void work () {
@@ -42,9 +47,9 @@ public class Pirate {
     @Override
     public String toString () {
         if (hasWoodenLeg) {
-        return "Hello, I am " + name + ". I have wooden leg and " + amountOfGold + " golds";
+        return "Hello, I am " + this.name + ". I have wooden leg and " + amountOfGold + " golds";
     } else {
-        return "Hello, I am " + name + ". I still have my leg and " + amountOfGold + " golds";
+        return "Hello, I am " + this.name + ". I still have my leg and " + amountOfGold + " golds";
         }
     }
 }

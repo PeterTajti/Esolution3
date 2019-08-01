@@ -14,18 +14,8 @@ public class Main {
     myShelter.addAdopter("Jack");
     myShelter.addAdopter("Tom");
 
-    //cat.isAdoptable();
-
-    // nem megy !!!
-
     myShelter.heal();
-//    myShelter.heal();
-//    myShelter.heal();
 
-    //myShelter.findNewOwner();
-    //myShelter.findNewOwner();
-
-    //myShelter.earnDonation(25);
     System.out.println(myShelter);
   }
 

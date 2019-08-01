@@ -4,9 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ship {
+
+    String name;
+
+    Ship (String name) {
+        this.name = name;
+    }
+
     List<Pirate> listOfPirates = new ArrayList<>();
 
-    //nem látja hogy captain.e mert private a field)
+    //nem látja hogy captain-e ha private a field
 
     void recruitPirate (Pirate p) {
        boolean hasCaptain = false;
@@ -39,12 +46,13 @@ public class Ship {
     }
 
 
-    int getGold () {
+    void getGold () {
         int sum = 0;
         for (Pirate p : listOfPirates) {
             sum += p.amountOfGold;
         }
-        return sum;
+
+        System.out.println("The " + name + " crew has " + sum + " gold.");
     }
 
 

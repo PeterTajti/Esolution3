@@ -44,7 +44,7 @@ public class MatrixRotate2 {
             {4, 5, 6},
             {7, 8, 9}};
 
-    int [][] finalMatrix = rotateMatrix(inputMatrix);
+    int[][] finalMatrix = rotateMatrix(inputMatrix);
 
     // print out matrix
 
@@ -57,16 +57,16 @@ public class MatrixRotate2 {
 
   }
 
-  public static int [][] rotateMatrix(int[][] matrix) {
+  public static int[][] rotateMatrix(int[][] matrix) {
 
     int L = 3; // ez a mátrix mérete/hossza/lenght
 
-    int [][] newMatrix = new int [L][L];
+    int[][] newMatrix = new int[L][L];
 
 
-    for (int i = 0; i < matrix.length ; i++) {
+    for (int i = 0; i < matrix.length; i++) {
       for (int j = 0; j < matrix.length; j++) {
-        newMatrix [i][j] = matrix [L-1-j][i];
+        newMatrix[i][j] = matrix[L - 1 - j][i];
       }
     }
     return newMatrix;
