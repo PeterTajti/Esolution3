@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a20f1d7-230c-4ab6-862b-e9382b91ae9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwearWords/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
@@ -13,14 +15,11 @@
       <change beforePath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w5d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalProtection/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalProtection/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalProtection/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/w5d2/AnimalProtection/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/w5d2/AnimalProtection/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalProtection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalProtection/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalProtection/Parrot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/SwearWords/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="25" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,37 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Animal.java">
+        <entry file="file://$PROJECT_DIR$/content.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Parrot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -99,6 +62,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fuck</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -145,14 +113,20 @@
         <option value="$PROJECT_DIR$/src/AnimalProtection/AnimalShelter.java" />
         <option value="$PROJECT_DIR$/src/AnimalProtection/Animal.java" />
         <option value="$PROJECT_DIR$/src/AnimalProtection/Main.java" />
+        <option value="$PROJECT_DIR$/src/SwearWords/content.txt" />
+        <option value="$PROJECT_DIR$/src/SwearWords/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/SwearWords/readFile.java" />
+        <option value="$PROJECT_DIR$/src/SwearWords/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/MostCommonCharacters/BadWordCounter.java" />
+        <option value="$PROJECT_DIR$/src/SwearWords/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="410" />
+    <option name="y" value="35" />
+    <option name="width" value="825" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,13 +152,13 @@
               <item name="w5d2" type="b2602c69:ProjectViewProjectNode" />
               <item name="w5d2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimalProtection" type="462c0819:PsiDirectoryNode" />
+              <item name="MatrixRotate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="w5d2" type="b2602c69:ProjectViewProjectNode" />
               <item name="w5d2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PiratesExam" type="462c0819:PsiDirectoryNode" />
+              <item name="SwearWords" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,13 +170,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Wanderer/wanderer-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week4/w4d3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\izs\greenfox\isteneszsolt\week5\w5d2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalProtection.Main" />
       <module name="w5d2" />
@@ -256,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hero.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwearWords.Main" />
       <module name="w5d2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hero.*" />
+          <option name="PATTERN" value="SwearWords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MatrixRotate" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -325,18 +304,18 @@
       <workItem from="1564578086993" duration="980000" />
       <workItem from="1564579822406" duration="5089000" />
       <workItem from="1564594345251" duration="6193000" />
-      <workItem from="1564641646527" duration="5613000" />
+      <workItem from="1564641646527" duration="19192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119556000" />
+    <option name="totallyTimeSpent" value="133135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32753405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,7 +324,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28477904" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2831424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,16 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MostCommonCharacters/MostCommonCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hero/Creature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -508,13 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -600,8 +562,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnimalProtection/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwearWords/ReadFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwearWords/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MostCommonCharacters/BadWordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixRotate/MatrixRotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MostCommonCharacters/MostCommonCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwearWords/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

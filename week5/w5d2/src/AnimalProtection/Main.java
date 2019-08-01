@@ -14,10 +14,7 @@ public class Main {
     myShelter.addAdopter("Jack");
     myShelter.addAdopter("Tom");
 
-
-
     //cat.isAdoptable();
-
 
     // nem megy !!!
 
