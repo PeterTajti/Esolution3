@@ -31,7 +31,7 @@
 
 //newMatrix[j][l - 1 - i] = matrix[i][j];
 
-package MatrixRotate;
+package MatrixRotate2;
 
 import java.util.ArrayList;
 

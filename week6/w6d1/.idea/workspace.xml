@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fc68ddd-50ab-4795-b646-de3506b46aa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixMirror/MatrixMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixReverse/MatrixReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/AircraftCarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/AnimalShelter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Parrot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MostCommonCharacters/MostCommonCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Captain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Army.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SwearWords/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate/MatrixRotate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="2" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercise4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/Exercise2.java" />
+        <option value="$PROJECT_DIR$/src/Exercise3.java" />
+        <option value="$PROJECT_DIR$/src/Exercise4.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="671" />
+    <option name="y" value="4" />
+    <option name="width" value="736" />
+    <option name="height" value="691" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="w6d1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w6d1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w6d1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w6d1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Exercise4">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1" />
+      <module name="w6d1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2" />
+      <module name="w6d1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise3" />
+      <module name="w6d1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise4" />
+      <module name="w6d1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercise4" />
+        <item itemvalue="Application.Exercise3" />
+        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fc68ddd-50ab-4795-b646-de3506b46aa8" name="Default Changelist" comment="" />
+      <created>1564991425899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564991425899</updated>
+      <workItem from="1564991431361" duration="3759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.36021507" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Exercise2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="2" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
