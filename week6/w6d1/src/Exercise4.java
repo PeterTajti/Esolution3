@@ -14,7 +14,9 @@ public class Exercise4 {
             .filter(number -> number%2 != 0)
             .mapToDouble(x -> x)
             .average()
-            .getAsDouble();
+
+            .getAsDouble();   //ez minek kell ide ???
+
 
     System.out.println(averageNumbers);
 
