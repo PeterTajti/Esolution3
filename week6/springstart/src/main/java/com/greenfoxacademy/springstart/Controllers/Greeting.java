@@ -2,19 +2,21 @@ package com.greenfoxacademy.springstart.Controllers;
 
 public class Greeting {
 
-  long id;
+
+  long greetCoount;
   String content;
 
-  public long getId() {
-    return id;
-  }
 
   public String getContent() {
     return content;
   }
 
-  public Greeting(long id, String content) {
-    this.id = id;
+  public long getGreetCoount() {
+    return greetCoount;
+  }
+
+  public Greeting(long greetCoount, String content) {
+    this.greetCoount = greetCoount;
     this.content = content;
   }
 }
