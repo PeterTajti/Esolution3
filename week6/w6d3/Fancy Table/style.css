@@ -17,17 +17,12 @@ th {
 
 }
 
-
-
-
-
 table, th, td {
     /*border: 1.5px solid #afafaf;*/
     border-collapse: collapse;
     width: 500px;
     color: #606060;
     font-family: sans-serif;
-
 }
 
 th, td {
@@ -43,22 +38,23 @@ tr:nth-child(odd) {
     background-color: white;
 }
 
-tr:last-child td:last-child {
-    border-bottom-right-radius: 10px;
 
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
 }
 
 tr:last-child td:first-child {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
 }
 
 tr:first-child th:first-child {
-    border-top-left-radius: 10px;
+    border-top-left-radius: 5px;
 
 }
 
 tr:first-child th:last-child {
-    border-top-right-radius: 10px;
+    border-top-right-radius: 5px;
 }
 
 tr {
@@ -70,4 +66,33 @@ th {
     color: #cfcfcf;
 }
 
+th:first-child {
+    border-right: 1px solid;
+    border-color: #afafaf;
+}
 
+td:first-child {
+    border-right: 1px solid;
+    border-color: #afafaf;
+
+    border-bottom: 1px solid;
+    border-color: #afafaf;
+}
+
+td:last-child {
+    border-bottom: 1px solid;
+    border-color: #afafaf;
+}
+
+tr:last-child td:first-child {
+    border-bottom: none;
+}
+
+tr:last-child td:last-child {
+    border-bottom: none;
+}
+
+
+/*th (table header)*/
+/*tr (table row)*/
+/*td (table data)*/
