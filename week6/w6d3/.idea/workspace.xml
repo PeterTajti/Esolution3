@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53840848-1d89-4c4d-8b1f-17f876837653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Login Form/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login Form/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sign up Form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sign up Form/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
@@ -63,6 +63,9 @@
       <change beforePath="$PROJECT_DIR$/../w6d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w6d1/src/Exercise10/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d1/src/Exercise10/Fox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login Form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login Form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login Form/myEye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login Form/smallEye.psd" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,16 +84,34 @@
         <entry file="file://$PROJECT_DIR$/Login Form/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="43" />
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Login Form/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="45" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sign up Form/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Login Form/style.css">
+        <entry file="file://$PROJECT_DIR$/Sign up Form/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="325">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -115,8 +136,10 @@
         <option value="$PROJECT_DIR$/Login-form/index.html" />
         <option value="$PROJECT_DIR$/Fancy Table/index.html" />
         <option value="$PROJECT_DIR$/Fancy Table/style.css" />
-        <option value="$PROJECT_DIR$/Login Form/index.html" />
         <option value="$PROJECT_DIR$/Login Form/style.css" />
+        <option value="$PROJECT_DIR$/Login Form/index.html" />
+        <option value="$PROJECT_DIR$/Sign up Form/index.html" />
+        <option value="$PROJECT_DIR$/Sign up Form/style.css" />
       </list>
     </option>
   </component>
@@ -146,7 +169,7 @@
             <path>
               <item name="w6d3" type="b2602c69:ProjectViewProjectNode" />
               <item name="w6d3" type="462c0819:PsiDirectoryNode" />
-              <item name="Login Form" type="462c0819:PsiDirectoryNode" />
+              <item name="Sign up Form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +188,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\izs\greenfox\isteneszsolt\week6\w6d3" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -177,8 +205,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w6d3/Login Form/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w6d3/Sign up Form/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w6d3/Fancy Table/index.html" useBuiltInWebServerPort="true">
@@ -186,6 +217,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -201,15 +233,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565165946683</updated>
-      <workItem from="1565165950693" duration="16637000" />
+      <workItem from="1565165950693" duration="20744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16637000" />
+    <option name="totallyTimeSpent" value="20744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="0" width="637" height="729" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -217,7 +249,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.52513" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15582451" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
@@ -241,36 +273,6 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.52513" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.14893617" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -285,7 +287,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fancy Table/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-255">
           <caret selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
@@ -293,14 +295,28 @@
     <entry file="file://$PROJECT_DIR$/Login Form/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="43" />
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sign up Form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Login Form/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="357">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sign up Form/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
