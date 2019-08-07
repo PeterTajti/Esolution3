@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+
+}
+
+.loginbox {
+    width: 500px;
+    height: 500px;
+    background: white;
+    color: grey;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%) ;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+form {
+    padding-left: 100px;
+
+}
+
+
+/* alább_ a form és input közé kacsacsőr kell, ez jelzi hogy a child-ja,
+aztán pedig nem kellettek az idézőjelek a type elé, valamint a text és password után
+*/
+form>input[type=text], form>input[type=password] {
+    width: 300px;
+}
+
+a {
+    margin-left: 190px;
+    text-align: right;
+}
+
+input:focus{
+    box-shadow: 0 0 5px rgb(255,140,0);
+    outline: 1px solid rgb(255,0,0);
+}
+
+form>input[type=submit] {
+    width: 100px;
+    height: 40px;
+    background: #4b4b4b;
+    border-radius: 25px;
+    color: white;
+}
+
+form>input[type=password] {
+    background: url(smallEye.png) no-repeat;
+    background-position: right;
+}
+
