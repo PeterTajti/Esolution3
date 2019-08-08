@@ -1,13 +1,13 @@
-package com.greenfoxacademy.zsoltiswebshop;
+package com.greenfoxacademy.zsoltiswebshop.Models;
 
 public class ShopItem {
 
   String name;
   String description;
-  int price;
+  double price;
   int quantityOfStock;
 
-  public ShopItem(String name, String description, int price, int quantityOfStock) {
+  public ShopItem(String name, String description, double price, int quantityOfStock) {
     this.name = name;
     this.description = description;
     this.price = price;
@@ -30,7 +30,7 @@ public class ShopItem {
     this.description = description;
   }
 
-  public int getPrice() {
+  public double getPrice() {
     return price;
   }
 

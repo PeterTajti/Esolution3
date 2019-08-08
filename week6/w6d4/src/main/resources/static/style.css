@@ -1,17 +1,21 @@
 .myshop {
-    font-size: 10px;
-    color: aqua;
+    font-size: 30px;
+    color: #22b3d3;
+    border-bottom: 2px solid #22b3d3;
 }
 
 
 button{
     color: white;
-    background-color: darkred;
-    height: 35px;
-    width: 120px;
+    background-color: #ff4853;
+    height: 30px;
+    width: 150px;
+    position: center;
     border: none;
-    font-size: 14px;
+    font-size: 8px;
     font-weight: bolder;
     margin-top: 30px;
     cursor: pointer;
+    margin-right: 25px;
+    border-radius: 10px;
 }
