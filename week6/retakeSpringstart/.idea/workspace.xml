@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c956062-9cc8-4086-8972-a62e19cc64df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../w6d2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/Models/ShopItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/Models/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d4/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/out/production/day-1/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-1/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/AircraftCarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/AnimalShelter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Parrot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MostCommonCharacters/MostCommonCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Captain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Army.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SwearWords/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixMirror/MatrixMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixMirror/MatrixMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixReverse/MatrixReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixReverse/MatrixReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d1/src/Exercise10/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d1/src/Exercise10/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/controllers/filterControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/Models.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/ShopItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d4/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../w6d4/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w6d4/src/main/resources/static/styles.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c956062-9cc8-4086-8972-a62e19cc64df" name="Default Changelist" comment="" />
+      <created>1565259120418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565259120418</updated>
+      <workItem from="1565259127025" duration="1266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1266000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25037822" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/greenfoxacademy/springstart/SpringstartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
