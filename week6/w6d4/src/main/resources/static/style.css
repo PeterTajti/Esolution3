@@ -14,6 +14,8 @@ p {
 form {
     margin-top:1px;
     margin-bottom: 1px;
+
+
 }
 
 #searchbutton {
@@ -26,6 +28,7 @@ form {
     color: black;
     border-color: #ff4853;
     border-radius: 3px;
+    width: 500px;
 }
 
 button{
@@ -51,4 +54,8 @@ th {
     font-size: 8px;
 
     font-size: 30px;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    font-weight: bold ;
 }
