@@ -11,15 +11,24 @@
 <body>
 
 
-<div class="myshop">My Shop</div>
+<div class="myshop" onclick="location.href='home'">My Shop</div>
 
 <div class="buttons">
     <button type="button" onclick="location.href='only-available'">ONLY AVAILABLE</button>
     <button type="button" onclick="location.href='cheapest-first'">CHEAPEST FIRST</button>
     <button type="button" onclick="location.href='contains-nike'">CONTAINS NIKE</button>
     <button type="button" onclick="location.href='average-stock'">AVERAGE STOCK</button>
-    <button type="button">MOST EXPENSIVE AVAILABLE</button>
+    <button type="button" onclick="location.href='most-expensive-available'">MOST EXPENSIVE AVAILABLE</button>
+
 </div>
+
+
+<p>Search for:</p>
+
+<form>
+    <input id="searchfield" type="text" placeholder="...something like Nike">
+    <button id="searchbutton">Search</button>
+</form>
 
 
 <table>
@@ -30,8 +39,8 @@
         <th>Quantity</th>
     </tr>
 
-<!--    for each-vel az itemnek elnevezett elemmel végigmegyek az items-en (ez a controllerben létrehozott hashmap kulcsa
--->
+    <!--    for each-vel az itemnek elnevezett elemmel végigmegyek az items-en (ez a controllerben létrehozott hashmap kulcsa
+    -->
     <tr th:each="item : ${items}">
         <td th:text="${item.name}"></td>
         <td th:text="${item.description}"></td>

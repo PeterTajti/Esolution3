@@ -58,15 +58,27 @@ public class filterControllers {
   }
 
 
-//  Itt attributeName-nek "average"-t adunk meg
+  //  Itt attributeName-nek "average"-t adunk meg
   @RequestMapping(value = "/average-stock")
   public String averageStock(Model model) {
     model.addAttribute("average", myTable.getListOfShopItems().stream()
 
-                    .mapToDouble(item -> item.getQuantityOfStock())
-                    .average()
-                    .getAsDouble());
+            .mapToDouble(item -> item.getQuantityOfStock())
+            .average()
+            .getAsDouble());
 
     return "index";
   }
+
+  @RequestMapping(value = "/most-expensive-available")
+  public String mostExpensiveAvailable(Model model) {
+    model.addAttribute("items", myTable.getListOfShopItems().stream()
+
+            .filter(item -> item.getQuantityOfStock() > 0)
+            .max(Comparator.comparingDouble(ShopItem::getPrice)).get());
+
+    return "index";
+  }
+
+
 }
