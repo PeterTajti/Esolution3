@@ -20,12 +20,18 @@ public class Table {
   ShopItem item4 = new ShopItem("Wokin", "Chicken with fried rice and WOKIN sauce", 119.0, 100);
   ShopItem item5 = new ShopItem("T-shirt", "Blue with a corgi on a bike", 300.0, 1);
 
+  public List<ShopItem> getListOfShopItems() {
+    return listOfShopItems;
+  }
+
   public void fillList () {
     listOfShopItems.add(item1);
     listOfShopItems.add(item2);
     listOfShopItems.add(item3);
     listOfShopItems.add(item4);
     listOfShopItems.add(item5);
+
+
 
   }
 

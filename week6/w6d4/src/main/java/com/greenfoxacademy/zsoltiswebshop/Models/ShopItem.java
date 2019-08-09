@@ -2,10 +2,10 @@ package com.greenfoxacademy.zsoltiswebshop.Models;
 
 public class ShopItem {
 
-  String name;
-  String description;
-  double price;
-  int quantityOfStock;
+  private String name;
+  private String description;
+  private double price;
+  private int quantityOfStock;
 
   public ShopItem(String name, String description, double price, int quantityOfStock) {
     this.name = name;
