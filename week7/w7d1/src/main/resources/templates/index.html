@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank of Savannah</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+    <h1>Bank of Savannah</h1>
+
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Balance</th>
+            <th>AnimalType</th>
+
+        </tr>
+
+        <!--    for each-vel az itemnek elnevezett elemmel végigmegyek az items-en (ez a controllerben létrehozott hashmap kulcsa
+        -->
+        <tr th:each="account : ${accounts}">
+            <td th:text="${account.name}"></td>
+            <td th:text="${account.balance + ' Zebra'}"></td>
+            <td th:text="${account.animalType }"></td>
+
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+</html>
