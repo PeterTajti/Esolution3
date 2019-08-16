@@ -9,20 +9,18 @@ public class Database {
 
     List<Fox> listOfFoxes;
 
-
-
     public Database() {
         listOfFoxes = new ArrayList<>();
         fillList();
     }
 
-    Fox fox1 = new Fox("Green Fox", "A very special good animal, which is crafting computer codes.", "green", "pizza", 9999, 20  );
-    Fox fox2 = new Fox("Red Fox", "An angry evil fox. He is very hungry.", "red", "meat", 100, 2  );
-    Fox fox3 = new Fox("Black Fox", "An evil fox. He is hunting pets!", "black", "pet", 5000, 1  );
-    Fox fox4 = new Fox("Blue Fox", "This good fox lives far away, at icy poles.", "blue", "fish", 2000, 3  );
-    Fox fox5 = new Fox("Purple Fox", "A magical good fox from the tales.", "purple", "flower", 5000, 0  );
-    Fox fox6 = new Fox("Yellow Fox", "An old and good fox.", "yellow", "puding", 50, 100  );
-    Fox fox7 = new Fox("Classic Fox", "Old evil fox, nothing special :)", "orange", "sheep", 300, 10  );
+    Fox fox1 = new Fox("Green Fox", "A very special good animal, which is crafting computer codes.", "green", "pizza", 9999, 20, "fox-green.png"  );
+    Fox fox2 = new Fox("Red Fox", "An angry evil fox. He is very hungry.", "red", "meat", 100, 2, "fox-red.png"  );
+    Fox fox3 = new Fox("Black Fox", "An evil fox. He is hunting pets!", "black", "pet", 5000, 1 , "fox-black.png" );
+    Fox fox4 = new Fox("Blue Fox", "This good fox lives far away, at icy poles.", "blue", "fish", 2000, 3, "fox-blue.png"  );
+    Fox fox5 = new Fox("Purple Fox", "A magical good fox from the tales.", "purple", "flower", 5000, 0, "fox-purple.png" );
+    Fox fox6 = new Fox("Yellow Fox", "An old and good fox.", "yellow", "puding", 50, 100, "fox-yellow.png"  );
+    Fox fox7 = new Fox("Classic Fox", "Old evil fox, nothing special :)", "orange", "sheep", 300, 10, "fox-classic.png"  );
 
     public List<Fox> getListOfFoxes() {
         return listOfFoxes;

@@ -10,12 +10,8 @@
 
 <body>
 
+<div class="welcome" onclick="location.href='/home'">Welcome to the Fox Factory   <img class="pic1" src="fox-scheme.png"></div>
 
-<div class="welcome" onclick="location.href='/home'">Welcome to the Fox Factory</div>
-
-<div class="pic1">
-    <img src="fox-scheme.png">
-</div>
 
 
 <div>
@@ -40,7 +36,7 @@
 <p>Search for:</p>
 <form action="search" method="post">
     <input type="text" name="keyword" placeholder="...search in desc...">
-    <button type="submit" id="searchButton">Search</button>
+    <button type="submit" class="buttons2" id="searchButton">Search</button>
 </form>
 
 <h1>Fox Storage</h1>
@@ -53,6 +49,7 @@
         <th>Food</th>
         <th>Value</th>
         <th>Quantity</th>
+        <th>Picture</th>
     </tr>
 
 
@@ -63,6 +60,9 @@
         <td th:text="${item.getFood()}"></td>
         <td th:text="${item.getValue()} + ' €'"></td>
         <td th:text="${item.getQuantity()}"></td>
+        <td>
+            <img class="tablepic" th:src="${item.getFoxPicture()}" />
+        </td>
     </tr>
 
 </table>

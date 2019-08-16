@@ -1,5 +1,4 @@
 package spring.webrestaurant.Controllers;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import spring.webrestaurant.Models.Fox;
 import spring.webrestaurant.Repositories.Database;
-
 import java.util.Comparator;
 import java.util.stream.Collectors;
 
