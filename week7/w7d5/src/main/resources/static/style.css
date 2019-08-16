@@ -1,0 +1,89 @@
+.welcome {
+    font-size: 65px;
+    color: #0093b5;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 1px;
+    color: #ff4853;
+}
+
+form {
+    margin-top:1px;
+    margin-bottom: 1px;
+
+
+}
+
+#searchbutton {
+    margin-top:1px;
+    margin-bottom: 1px;
+
+}
+
+#searchfield {
+    color: black;
+    border-color: #ff4853;
+    border-radius: 3px;
+    width: 500px;
+}
+
+
+
+
+button{
+    color: white;
+    background-color: #e04550;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 8px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.buttons1 {
+    color: white;
+    background-color: #3489e0;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 8px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+}
+
+th {
+    background-color: orange;
+    height: 60px;
+    width: 150px;
+    font-size: 8px;
+
+    font-size: 30px;
+}
+
+td:nth-child(5), td:nth-child(6) {
+    font-weight: bold ;
+}

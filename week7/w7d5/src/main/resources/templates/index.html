@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fox Factory</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+
+<div class="welcome" onclick="location.href='/home'">Welcome to the Fox Factory</div>
+
+<div class="pic1">
+    <img src="fox-scheme.png">
+</div>
+
+
+<div id="buttons1">
+    <button type="button" onclick="location.href='greenfoxpage'">GREEN FOX</button>
+    <button type="button" onclick="location.href='redfoxpage'">RED FOX</button>
+    <button type="button" onclick="location.href='blackfoxpage'">BLACK FOX</button>
+    <button type="button" onclick="location.href='bluefoxpage'">BLUE FOX</button>
+    <button type="button" onclick="location.href='purplefoxpage'">PURPLE FOX</button>
+    <button type="button" onclick="location.href='yellowfoxpage'">YELLOW FOX</button>
+    <button type="button" onclick="location.href='classicfoxpage'">CLASSIC FOX</button>
+</div>
+
+<div>
+    <button type="button" onclick="location.href='only-available'">ONLY AVAILABLE</button>
+    <button type="button" onclick="location.href='less-valuable'">LESS VALUABLE</button>
+    <button type="button" onclick="location.href='contains-good'">CONTAINS GOOD</button>
+    <button type="button" onclick="location.href='average-stock'">AVERAGE STOCK</button>
+    <button type="button" onclick="location.href='most-valuable-available'">MOST VALUABLE AVAILABLE</button>
+</div>
+
+
+<p>Search for:</p>
+<form action="search" method="post">
+    <input type="text" name="keyword" placeholder="... something fox thing">
+    <button type="submit" id="searchButton">Search</button>
+</form>
+
+<h1>Fox Storage</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Color</th>
+        <th>Food</th>
+        <th>Value</th>
+        <th>Quantity</th>
+    </tr>
+
+
+    <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getColor()}"></td>
+        <td th:text="${item.getFood()}"></td>
+        <td th:text="${item.getValue()} + ' €'"></td>
+        <td th:text="${item.getQuantity()}"></td>
+    </tr>
+
+</table>
+<span th:if="${average != null}" th:text="'The average is: '+${average}"></span>
+
+</body>
+</html>
