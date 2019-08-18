@@ -7,14 +7,9 @@ import java.util.stream.Collectors;
 public class Exercise6 {
 
   public static void main(String[] args) {
-
     String myString = "AppleTreeIsMyStringToExamine";
 
     List<Character> tempChars = new ArrayList<>();
-
-//    myString.split("");
-//
-//    myString.chars().mapToObj(c -> (char) c ).collect(Collectors.toList()) // vagy ahogy eddig tanultuk
 
     for (int i = 0; i < myString.length(); i++) {
       tempChars.add(myString.charAt(i));
@@ -25,5 +20,4 @@ public class Exercise6 {
             .forEach(System.out::print);
 
   }
-
 }

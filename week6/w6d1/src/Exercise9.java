@@ -9,30 +9,13 @@ import java.util.stream.Collectors;
 import static java.util.stream.Collectors.toMap;
 
 public class Exercise9 {
-
   public static void main(String[] args) {
 
     String myString = ("almafa");
 
-//    Map<Character, Integer> frequencies = myString.chars().boxed()
-//            .collect(toMap(
-//                    // key = char
-//                    k -> Character.valueOf((char) k.intValue()),
-//                    v -> 1,         // 1 occurence
-//                    Integer::sum)); // counting
-//    System.out.println("Frequencies:\n" + frequencies);
-
     String [] letters = myString.split("");
 
-    //Arrays.stream(letters).collect(Collectors.groupingBy(x -> x.charAt(0), Collectors.counting()))
-
     System.out.println( Arrays.stream(letters).collect(Collectors.groupingBy(x -> x.charAt(0), Collectors.counting())));
-
-
-
-
-
-
 
   }
 

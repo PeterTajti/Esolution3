@@ -1,0 +1,39 @@
+Copper Project
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+Copper Project
+Developer(s)	Element Software
+Operating system	Cross-platform
+Type	Project management
+License	Proprietary
+Website	www.copperproject.com
+Copper Project is a web-based project-management tool, first launched in 2001 by Element Software. As of 2011, the product is in its 4th version release and is used predominantly by creative consultancies. Copper is also provided via SAAS or a Proprietary based license.
+
+In 2007, Element Software CEO Ben Prendergast was featured on Apple.com as a leading entrepreneur in the Project Management Software industry.[1]
+
+Its headquarter is located in Melbourne, Australia.[2]
+
+
+Contents
+1	Reviews
+2	Features
+3	See also
+4	References
+5	External links
+Reviews
+The Copper Project was voted one of the Top 20 Project Management Software products 2013.[3]
+
+Previous reviews include Web Worker Daily,[4] Venture Beat,[5] Mashable,[6] "Bright Hub",[7] "Top 10 Review",[8] "PM-Sherpa",[9] "Web Based Software.com",[10] "About.com Women in Business"[11] "PM-Software.Org"[12]
+
+Features
+Project management (with Basecamp import)
+Time tracking with online stopwatch
+File and Document Management
+Drag and Drop Gantt chart
+Resource Management
+Calendar (Filterable with iCal export)
+Invoicing with PDF export
+Timesheets
+Reports
+Integrates with Xero
+Copper is proprietary software available in English, Spanish, French, Italian, German, Dutch, Polish.

@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Main {
-
   public static void main(String[] args) {
 
     List<Fox> myFoxList = new ArrayList<>();
@@ -37,8 +36,6 @@ public class Main {
             .filter(fox -> fox.color == "Green")
             .filter(fox -> fox.age < 5)
             .forEach(fox -> System.out.println(fox.name));
-
-
 
     System.out.println(myFoxList.stream().collect(Collectors.groupingBy(fox -> fox.color, Collectors.counting())));
 

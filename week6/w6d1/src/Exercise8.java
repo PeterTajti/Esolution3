@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Exercise8 {
-
   public static void main(String[] args) {
 
     List<Character> myList = Arrays.asList('a', 'l', 'm', 'a', 'f', 'a');
@@ -17,7 +16,5 @@ public class Exercise8 {
 
     System.out.println(myString);
 
-
   }
-
 }
