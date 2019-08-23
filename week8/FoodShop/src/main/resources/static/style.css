@@ -1,0 +1,72 @@
+body {
+    background: antiquewhite;
+}
+
+.welcome {
+    font-size: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.welcomepic {
+    width: 60px;
+}
+
+table, th, td {
+
+    width: 750px;
+    color: #606060;
+    font-family: sans-serif;
+}
+
+th {
+    text-align: left;
+    font-style: initial;
+    border-bottom: 3px solid;
+    border-bottom-color: #afafaf;
+
+}
+
+th, td {
+    padding: 10px;
+    margin: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+button{
+    color: white;
+    background-color: #e04550;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.buttons1 {
+    background: #008abf;
+}
+
+.buttons2 {
+    background-color: #ff6926;
+}

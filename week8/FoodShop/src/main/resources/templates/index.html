@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zsolti's Foodshop</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+    <div class="welcome" onclick="location.href='/home'"> Welcome to the Foodshop
+    <img class="welcomepic" src="foodshop-logo-pic.png">
+    </div>
+
+    <div>
+        <form
+                action="#"
+                th:action="@{/shopitem/add}"
+                method="post"
+        >
+            <label for="name">Name</label>
+            <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+            />
+
+            <label for="description">Description</label>
+            <input
+                    type="text"
+                    name="description"
+                    id="description"
+                    required
+            />
+
+            <label for="calories">Calories</label>
+            <input
+                    type="number"
+                    name="calories"
+                    id="calories"
+                    required
+            />
+
+            <label for="price">Price</label>
+            <input
+                    type="number"
+                    name="price"
+                    id="price"
+                    required
+            />
+
+            <label for="quantity">Quantity</label>
+            <input
+                    type="number"
+                    name="quantity"
+                    id="quantity"
+                    required
+            />
+
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+
+    <div>
+        <button type="button" class="buttons1" onclick="location.href='cheapest'">CHEAPEST</button>
+    </div>
+
+    <p>Search for:</p>
+    <form action="search" method="post">
+        <input type="text" name="keyword" placeholder="Search by name and description...">
+        <button type="submit" class="buttons2" id="searchButton">Search</button>
+    </form>
+
+<h1>Menu</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Calories</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+
+    <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getCalories() + ' kcal'}"></td>
+        <td th:text="${item.getPrice() + ' Ft'}"></td>
+        <td th:text="${item.getQuantity() + ' db'}"></td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>
