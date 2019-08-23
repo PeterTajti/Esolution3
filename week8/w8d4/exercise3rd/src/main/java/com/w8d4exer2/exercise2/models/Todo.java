@@ -3,13 +3,15 @@ package com.w8d4exer2.exercise2.models;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 public class Todo {
 
+
   @Id
   @GeneratedValue
-  private long id;
+  private Integer id;
 
   private String title;
   private boolean isUrgent = false;
@@ -25,7 +27,7 @@ public Todo(String title){
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
