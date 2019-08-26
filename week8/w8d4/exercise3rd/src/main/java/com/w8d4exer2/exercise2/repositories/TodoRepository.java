@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 //@Repository   (ha rárakom és vmi hiba van, akkor az intelliJ tudni fogja hogy a repoban a hiba)
-public interface TodoRepository extends CrudRepository<Todo, Long> {
+public interface TodoRepository extends CrudRepository<Todo, Integer> {
 
 List<Todo> findAllByIsDone (boolean isItDone);
 
