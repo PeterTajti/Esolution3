@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>FoodShop with SQL</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+
+<h1>Welcome to the FoodShop</h1>
+
+<table>
+
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>DESCRIPTION</th>
+        <th>CALORIES</th>
+        <th>PRICE</th>
+        <th>QUANTITY</th>
+    </tr>
+    <tr th:each="item : ${items}">
+        <td th:text="${item.getId()}"></td>
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getCalories()}"></td>
+        <td th:text="${item.getPrice()+ ' Ft'}"></td>
+        <td th:text="${item.getQuantity()}"></td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>
