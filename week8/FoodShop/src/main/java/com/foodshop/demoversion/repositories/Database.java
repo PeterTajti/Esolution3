@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Database {
 
-    List<ShopItem> shopItems;
+   private List<ShopItem> shopItems;
 
     public Database() {
         shopItems = new ArrayList<>();
@@ -15,15 +15,15 @@ public class Database {
     }
 
 
-    ShopItem ShopItem1 = new ShopItem("Hamburger", "Roll with 16gr beef and vegetables.", 300, 800, 10);
-    ShopItem ShopItem2 = new ShopItem("Pizza", "32cm pizza on tomato basis with cheese and ham. ", 600, 1200, 3);
-    ShopItem ShopItem3 = new ShopItem("Gyros", "Chicken meat with vegetables and yoghurt sauce in pita.", 250, 700, 5);
+    private ShopItem ShopItem1 = new ShopItem("Hamburger", "Roll with 16gr beef and vegetables.", 300, 800, 10);
+    private ShopItem ShopItem2 = new ShopItem("Pizza", "32cm pizza on tomato basis with cheese and ham. ", 600, 1200, 3);
+    private ShopItem ShopItem3 = new ShopItem("Gyros", "Chicken meat with vegetables and yoghurt sauce in pita.", 250, 700, 5);
 
     public List<ShopItem> getShopItems() {
         return shopItems;
     }
 
-    public void fillList () {
+    private void fillList () {
         shopItems.add(ShopItem1);
         shopItems.add(ShopItem2);
         shopItems.add(ShopItem3);

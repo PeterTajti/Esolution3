@@ -10,70 +10,123 @@
 
 <body>
 
-    <div class="welcome" onclick="location.href='/home'"> Welcome to the Foodshop
-    <img class="welcomepic" src="foodshop-logo-pic.png">
-    </div>
+<div class="welcome"> Welcome to the Foodshop
+    <img class="welcomepic" onclick="location.href='/home'" src="foodshop-logo-pic.png">
+</div>
 
-    <div>
-        <form
-                action="#"
-                th:action="@{/shopitem/add}"
-                method="post"
-        >
-            <label for="name">Name</label>
-            <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    required
-            />
+<div>
+    <p class="help msg">Click on the pizza to get the default view the actual menu</p>
+</div>
 
-            <label for="description">Description</label>
-            <input
-                    type="text"
-                    name="description"
-                    id="description"
-                    required
-            />
+<div>
+    <form
+            action="#"
+            th:action="@{/shopitem/add}"
+            method="post"
+    >
 
-            <label for="calories">Calories</label>
-            <input
-                    type="number"
-                    name="calories"
-                    id="calories"
-                    required
-            />
+        <label for="name">Name</label>
+        <input
+                type="text"
+                name="name"
+                id="name"
+                required
+        />
 
-            <label for="price">Price</label>
-            <input
-                    type="number"
-                    name="price"
-                    id="price"
-                    required
-            />
+        <label for="description">Description</label>
+        <input
+                type="text"
+                name="description"
+                id="description"
+                required
+        />
 
-            <label for="quantity">Quantity</label>
-            <input
-                    type="number"
-                    name="quantity"
-                    id="quantity"
-                    required
-            />
+        <label for="calories">Calories</label>
+        <input
+                type="number"
+                name="calories"
+                id="calories"
+                required
+        />
 
-            <button type="submit">Add</button>
-        </form>
-    </div>
+        <label for="price">Price</label>
+        <input
+                type="number"
+                name="price"
+                id="price"
+                required
+        />
 
+        <label for="quantity">Quantity</label>
+        <input
+                type="number"
+                name="quantity"
+                id="quantity"
+                required
+        />
 
-    <div>
-        <button type="button" class="buttons1" onclick="location.href='cheapest'">CHEAPEST</button>
-    </div>
-
-    <p>Search for:</p>
-    <form action="search" method="post">
-        <input type="text" name="keyword" placeholder="Search by name and description...">
-        <button type="submit" class="buttons2" id="searchButton">Search</button>
+        <button type="submit">Add</button>
     </form>
+</div>
+
+
+<div>
+    <button type="button" class="buttons1" onclick="location.href='less-kcal'">LESS KCAL</button>
+    <button type="button" class="buttons1" onclick="location.href='most-kcal'">MOST KCAL</button>
+    <button type="button" class="buttons1" onclick="location.href='average-kcal'">AVERAGE KCAL</button>
+    <button type="button" class="buttons1" onclick="location.href='less-kcal-available'">LESS KCAL AVAILABLE</button>
+</div>
+
+<div>
+    <button type="button" class="buttons2" onclick="location.href='cheapest'">CHEAPEST</button>
+    <button type="button" class="buttons2" onclick="location.href='most-expensive'">MOST EXPENSIVE</button>
+    <button type="button" class="buttons2" onclick="location.href='average-price'">AVERAGE PRICE</button>
+    <button type="button" class="buttons2" onclick="location.href='most-expensive-available'">MOST EXPENSIVE AVAILABLE
+    </button>
+</div>
+
+<div>
+    <button type="button" class="buttons3" onclick="location.href='less-quantity'">LESS QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='most-quantity'">MOST QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='average-quantity'">AVERAGE QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='only-available'">ONLY AVAILABLE</button>
+</div>
+
+<div>
+<form action="priceincreaseplus10" method="post">
+    <button type="submit" class="buttons5" name="priceincreaseplus10">Price increase! (+10 HUF)</button>
+</form>
+
+<form action="priceincreaseplus100" method="post">
+    <button type="submit" class="buttons5" name="priceincreaseplus100">Price increase! (+100 HUF)</button>
+</form>
+
+<form action="pricedecrease10" method="post">
+    <button type="submit" class="buttons6" name="pricedecrease10">Price decrease! (-10 HUF)</button>
+</form>
+
+<form action="pricedecrease100" method="post">
+    <button type="submit" class="buttons6" name="pricedecrease100">Price decrease! (-100 HUF)</button>
+</form>
+</div>
+
+
+<form action="changePrice" method="post">
+
+    <input th:each="item : ${items}" th:text="${item.name}" type="radio" name="item" th:value="${item.name}">
+
+    <input type="number" name="amoutOfPriceChange">
+
+    <button type="submit" value="higherprice" name="button">Price increase</button>
+    <button type="submit" value="lowerprice" name="button">Price decrease</button>
+</form>
+
+
+<p>Search for:</p>
+<form action="search" method="post">
+    <input type="text" name="keyword" placeholder="Search by name and description...">
+    <button type="submit" class="buttons4" id="searchButton">Search</button>
+</form>
 
 <h1>Menu</h1>
 
@@ -86,15 +139,21 @@
         <th>Quantity</th>
     </tr>
 
-    <tr th:each="item : ${items}">
+    <tr class="tdtext1" th:each="item : ${items}">
         <td th:text="${item.getName()}"></td>
         <td th:text="${item.getDescription()}"></td>
         <td th:text="${item.getCalories() + ' kcal'}"></td>
-        <td th:text="${item.getPrice() + ' Ft'}"></td>
+        <td th:text="${item.getPrice() + ' HUF'}"></td>
         <td th:text="${item.getQuantity() + ' db'}"></td>
     </tr>
 
 </table>
+
+<span th:if="${averagePrice != null}" th:text="'The average price is: '+${averagePrice} + ' HUF.'"></span>
+
+<span th:if="${averageKcal != null}" th:text="'The average calories is: '+${averageKcal} + ' kcal.'"></span>
+
+<span th:if="${averageQuantity != null}" th:text="'The average calories is: '+${averageQuantity} + ' piece.'"></span>
 
 </body>
 

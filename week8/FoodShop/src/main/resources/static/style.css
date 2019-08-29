@@ -5,7 +5,12 @@ body {
 .welcome {
     font-size: 50px;
     font-family: sans-serif;
-    cursor: pointer;
+}
+
+.helpmsg {
+    font-size: 10px;
+    font-family: sans-serif;
+
 }
 
 h1 {
@@ -15,6 +20,7 @@ h1 {
 
 .welcomepic {
     width: 60px;
+    cursor: pointer;
 }
 
 table, th, td {
@@ -64,9 +70,23 @@ button{
 }
 
 .buttons1 {
-    background: #008abf;
+    background-color: #00b2f5;
 }
 
 .buttons2 {
+    background: #00a1da;
+}
+
+.buttons3 {
+    background: #008abf;
+}
+
+.buttons4 {
     background-color: #ff6926;
+}
+
+.tdtext1 {
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
 }
