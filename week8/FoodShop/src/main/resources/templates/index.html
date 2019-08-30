@@ -10,13 +10,21 @@
 
 <body>
 
-<div class="welcome"> Welcome to the Foodshop
-    <img class="welcomepic" onclick="location.href='/home'" src="foodshop-logo-pic.png">
+<div>
+
+    <p class="welcome">Welcome to the Foodshop <img class="welcomepic" onclick="location.href='/home'"
+                                                    src="foodshop-logo-pic.png"></p>
+    <p class="help msg">(Click on the pizza to get the default view of the actual menu)</p>
 </div>
 
 <div>
-    <p class="help msg">Click on the pizza to get the default view the actual menu</p>
+    <form class="searchfieldarea" action="search" method="post">
+        <input class="searchfieldbox" type="text" name="keyword" placeholder="Search by name and description...">
+        <button type="submit" class="buttons4" id="searchButton">Search</button>
+    </form>
+
 </div>
+
 
 <div>
     <form
@@ -65,19 +73,23 @@
                 required
         />
 
-        <button type="submit">Add</button>
+        <button type="submit" class="buttonsAdd">Add</button>
     </form>
 </div>
 
+<form action="deleteShopitem" method="post">
+    <input th:each="item : ${items}" th:text="${item.name}" type="radio" name="item" th:value="${item.name}">
+    <button type="submit" class="buttons9" value="deleteItem" name="button">Delete</button>
+</form>
 
-<div>
+<div style="display: flex;">
     <button type="button" class="buttons1" onclick="location.href='less-kcal'">LESS KCAL</button>
     <button type="button" class="buttons1" onclick="location.href='most-kcal'">MOST KCAL</button>
     <button type="button" class="buttons1" onclick="location.href='average-kcal'">AVERAGE KCAL</button>
     <button type="button" class="buttons1" onclick="location.href='less-kcal-available'">LESS KCAL AVAILABLE</button>
 </div>
 
-<div>
+<div style="display: flex;">
     <button type="button" class="buttons2" onclick="location.href='cheapest'">CHEAPEST</button>
     <button type="button" class="buttons2" onclick="location.href='most-expensive'">MOST EXPENSIVE</button>
     <button type="button" class="buttons2" onclick="location.href='average-price'">AVERAGE PRICE</button>
@@ -85,29 +97,31 @@
     </button>
 </div>
 
-<div>
+<div style="display: flex;">
     <button type="button" class="buttons3" onclick="location.href='less-quantity'">LESS QUANTITY</button>
     <button type="button" class="buttons3" onclick="location.href='most-quantity'">MOST QUANTITY</button>
     <button type="button" class="buttons3" onclick="location.href='average-quantity'">AVERAGE QUANTITY</button>
     <button type="button" class="buttons3" onclick="location.href='only-available'">ONLY AVAILABLE</button>
 </div>
 
-<div>
-<form action="priceincreaseplus10" method="post">
-    <button type="submit" class="buttons5" name="priceincreaseplus10">Price increase! (+10 HUF)</button>
-</form>
+<div style="display: flex;">
 
-<form action="priceincreaseplus100" method="post">
-    <button type="submit" class="buttons5" name="priceincreaseplus100">Price increase! (+100 HUF)</button>
-</form>
+        <form action="priceincreaseplus10" method="post">
+            <button type="submit" class="buttons5" name="priceincreaseplus10">Price increase! (+10 HUF)</button>
+        </form>
 
-<form action="pricedecrease10" method="post">
-    <button type="submit" class="buttons6" name="pricedecrease10">Price decrease! (-10 HUF)</button>
-</form>
+        <form action="priceincreaseplus100" method="post">
+            <button type="submit" class="buttons5" name="priceincreaseplus100">Price increase! (+100 HUF)</button>
+        </form>
 
-<form action="pricedecrease100" method="post">
-    <button type="submit" class="buttons6" name="pricedecrease100">Price decrease! (-100 HUF)</button>
-</form>
+        <form action="pricedecrease10" method="post">
+            <button type="submit" class="buttons6" name="pricedecrease10">Price decrease! (-10 HUF)</button>
+        </form>
+
+        <form action="pricedecrease100" method="post">
+            <button type="submit" class="buttons6" name="pricedecrease100">Price decrease! (-100 HUF)</button>
+        </form>
+
 </div>
 
 
@@ -117,20 +131,23 @@
 
     <input type="number" name="amoutOfPriceChange">
 
-    <button type="submit" value="higherprice" name="button">Price increase</button>
-    <button type="submit" value="lowerprice" name="button">Price decrease</button>
+    <button type="submit" class="buttons7" value="higherprice" name="button">Price increase</button>
+    <button type="submit" class="buttons8" value="lowerprice" name="button">Price decrease</button>
 </form>
 
+<form action="changeQuantity" method="post">
 
-<p>Search for:</p>
-<form action="search" method="post">
-    <input type="text" name="keyword" placeholder="Search by name and description...">
-    <button type="submit" class="buttons4" id="searchButton">Search</button>
+    <input th:each="item : ${items}" th:text="${item.name}" type="radio" name="item" th:value="${item.name}">
+
+    <input type="number" name="amoutOfQuantityChange">
+
+    <button type="submit" class="buttons8" value="higherquantity" name="button">+ Quantity</button>
+    <button type="submit" class="buttons7" value="lowerquantity" name="button">- Quantity </button>
 </form>
 
-<h1>Menu</h1>
+<h1 class="h1class">Menu</h1>
 
-<table>
+<table class="shopitemstable">
     <tr>
         <th>Name</th>
         <th>Description</th>

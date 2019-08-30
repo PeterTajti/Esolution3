@@ -1,10 +1,25 @@
 body {
-    background: antiquewhite;
+    background: rgba(237, 250, 167, 0.76);
 }
 
 .welcome {
     font-size: 50px;
     font-family: sans-serif;
+    margin: 3px;
+    text-shadow: 2px 2px #b2b2b2;
+    border-bottom: 5px solid;
+    border-bottom-color: #383838;
+    background-color: rgba(237, 250, 167, 0.99);
+}
+
+
+
+.searchfieldarea {
+    margin: 3px;
+}
+
+.searchfieldbox {
+    width: 300px;
 }
 
 .helpmsg {
@@ -13,13 +28,17 @@ body {
 
 }
 
+.shopitemstable {
+    width: 1000px;
+}
+
 h1 {
     font-size: 20px;
     font-family: sans-serif;
 }
 
 .welcomepic {
-    width: 60px;
+    width: 70px;
     cursor: pointer;
 }
 
@@ -71,18 +90,52 @@ button{
 
 .buttons1 {
     background-color: #00b2f5;
+    box-shadow: 2px 2px #848484;
 }
 
 .buttons2 {
     background: #00a1da;
+    box-shadow: 2px 2px #848484;
 }
 
 .buttons3 {
     background: #008abf;
+    box-shadow: 2px 2px #848484;
 }
 
 .buttons4 {
     background-color: #ff6926;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons5 {
+    background-color: #b3343f;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons6 {
+    background-color: #209828;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons7 {
+    background-color: #b3343f;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons8 {
+    background-color: #209828;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons9 {
+    background-color: #b3343f;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttonsAdd {
+    background-color: #209828;
+    box-shadow: 2px 2px #848484;
 }
 
 .tdtext1 {
@@ -90,3 +143,9 @@ button{
     font-weight: normal;
     color: black;
 }
+
+.h1class {
+    font-size: 20px;
+    color: #000000;
+}
+
