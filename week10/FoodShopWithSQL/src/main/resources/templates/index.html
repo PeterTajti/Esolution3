@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>FoodShop with SQL</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+<div>
+    <p class="welcome">Welcome to the Foodshop <img class="welcomepic" onclick="location.href='/'"
+                                                    src="foodshop-logo-pic.png"></p>
+    <p class="help msg">(Click on the pizza to get the default view of the actual menu)</p>
+</div>
+
+<div>
+    <form class="searchfieldarea" action="search" method="post">
+        <input class="searchfieldbox" type="text" name="keyword" placeholder="Search by name and description...">
+        <button type="submit" class="buttons4" id="searchButton">Search</button>
+    </form>
+
+</div>
+
+<div style="display: flex;">
+    <button type="button" class="buttons1" onclick="location.href='least-calories'">LEAST CALORIES</button>
+    <button type="button" class="buttons1" onclick="location.href='most-calories'">MOST CALORIES</button>
+    <button type="button" class="buttons1" onclick="location.href='average-calories'">AVERAGE CALORIES</button>
+    <button type="button" class="buttons1" onclick="location.href='least-kcal-available'">LEAST CALORIES AVAILABLE</button>
+</div>
+
+<div>
+    <form
+            action="#"
+            th:action="@{/add}"
+            method="post"
+    >
+        <label for="name">Name</label>
+        <input
+                type="text"
+                name="name"
+                id="name"
+                required
+        />
+        <label for="description">Description</label>
+        <input
+                type="text"
+                name="description"
+                id="description"
+                required
+        />
+        <label for="calories">Calories</label>
+        <input
+                type="number"
+                name="calories"
+                id="calories"
+                required
+        />
+        <label for="price">Price</label>
+        <input
+                type="number"
+                name="price"
+                id="price"
+                required
+        />
+        <label for="quantity">Quantity</label>
+        <input
+                type="number"
+                name="quantity"
+                id="quantity"
+                required
+        />
+        <button type="submit" class="buttonsAdd">Add</button>
+    </form>
+</div>
+
+<h1 class="h1class">Menu</h1>
+
+<table class="shopitemstable">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>DESCRIPTION</th>
+        <th>CALORIES</th>
+        <th>PRICE</th>
+        <th>QUANTITY</th>
+    </tr>
+    <tr th:each="item : ${items}">
+
+        <td th:text="${item.getId()}"></td>
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getCalories()+' kcal'}"></td>
+        <td th:text="${item.getPrice()+ ' HUF'}"></td>
+        <td th:text="${item.getQuantity() + ' piece'}"></td>
+        <td><a th:href="${item.getId()} + '/delete'">[Delete]</a></td>
+        <td><a th:href="${item.getId()} + '/edit'">[Edit]</a></td>
+    </tr>
+
+</table>
+
+<span th:if="${averageKcal != null}" th:text="'The average calories is: '+${averageKcal} + ' kcal.'"></span>
+
+</body>
+</html>

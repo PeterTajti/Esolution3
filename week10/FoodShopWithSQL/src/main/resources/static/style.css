@@ -1,0 +1,100 @@
+body {
+    background: rgba(250, 234, 153, 0.54);
+}
+
+.welcome {
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 3px;
+    text-shadow: 2px 2px #b2b2b2;
+    border-bottom: 5px solid;
+    border-bottom-color: #383838;
+    background-color: rgba(250, 234, 153, 0.99);
+}
+
+.welcomepic {
+    width: 70px;
+    cursor: pointer;
+}
+
+.helpmsg {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.shopitemstable {
+    width: 1000px;
+}
+
+table, th, td {
+
+    width: 750px;
+    color: #606060;
+    font-family: sans-serif;
+}
+
+th {
+    text-align: left;
+    font-style: initial;
+    border-bottom: 3px solid;
+    border-bottom-color: #afafaf;
+
+}
+
+th, td {
+    padding: 10px;
+    margin: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+.tdtext1 {
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+.h1class {
+    font-size: 20px;
+    color: #000000;
+}
+
+button{
+    color: white;
+    background-color: #e04550;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttonsAdd {
+    background-color: #209828;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons1 {
+    background-color: #00b2f5;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons4 {
+    background-color: #ff6926;
+    box-shadow: 2px 2px #848484;
+}

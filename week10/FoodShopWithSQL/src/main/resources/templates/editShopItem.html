@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>FoodShop with SQL</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+
+<h1>Edit ShopItems</h1>
+
+<form method="post" th:action="'http://localhost:8080/' + ${id} + '/edit'" th:object="${item}">
+
+    <label for="edit">ShopItem's Name</label>
+    <input type="text" id="edit" name="editedText" th:field="*{name}">
+    <br>
+    <label for="edit">ShopItem's Description</label>
+    <input type="text" id="edit" name="editedText" th:field="*{description}">
+    <br>
+    <label for="edit">ShopItem's Price</label>
+    <input type="number" id="edit" name="editedNumber" th:field="*{price}">
+    <br>
+    <label for="edit">ShopItem's Calories</label>
+    <input type="number" id="edit" name="editedNumber" th:field="*{calories}">
+    <br>
+    <label for="edit">ShopItem's Quantity</label>
+    <input type="number" id="edit" name="editedNumber" th:field="*{quantity}">
+    <br>
+
+    <input type="submit" value="Submit">
+    <a href="http://localhost:8080">Cancel</a>
+
+</form>
+
+</body>
+</html>
