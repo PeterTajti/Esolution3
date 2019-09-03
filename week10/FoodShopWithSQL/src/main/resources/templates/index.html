@@ -4,9 +4,43 @@
     <title>FoodShop with SQL</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+
+    <script>
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =
+                h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i
+            }
+            ;  // add zero in front of numbers < 10
+            return i;
+        }
+    </script>
+
+    <div>
+        <div id="datetime" class="mydate"></div>
+        <div id="txt" class="myclock"></div>
+    </div>
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+    </script>
+
 </head>
 
-<body>
+<body onload="startTime()">
+
 
 <div>
     <p class="welcome">Welcome to the Foodshop <img class="welcomepic" onclick="location.href='/'"
@@ -26,10 +60,26 @@
     <button type="button" class="buttons1" onclick="location.href='least-calories'">LEAST CALORIES</button>
     <button type="button" class="buttons1" onclick="location.href='most-calories'">MOST CALORIES</button>
     <button type="button" class="buttons1" onclick="location.href='average-calories'">AVERAGE CALORIES</button>
-    <button type="button" class="buttons1" onclick="location.href='least-kcal-available'">LEAST CALORIES AVAILABLE</button>
+    <button type="button" class="buttons1" onclick="location.href='least-kcal-available'">LEAST CALORIES AVAILABLE
+    </button>
 </div>
 
-<div>
+<div style="display: flex;">
+    <button type="button" class="buttons2" onclick="location.href='cheapest'">CHEAPEST</button>
+    <button type="button" class="buttons2" onclick="location.href='most-expensive'">MOST EXPENSIVE</button>
+    <button type="button" class="buttons2" onclick="location.href='average-price'">AVERAGE PRICE</button>
+    <button type="button" class="buttons2" onclick="location.href='most-expensive-available'">MOST EXPENSIVE AVAILABLE
+    </button>
+</div>
+
+<div style="display: flex;">
+    <button type="button" class="buttons3" onclick="location.href='less-quantity'">LESS QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='most-quantity'">MOST QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='average-quantity'">AVERAGE QUANTITY</button>
+    <button type="button" class="buttons3" onclick="location.href='only-available'">ONLY AVAILABLE</button>
+</div>
+
+<div class="addform">
     <form
             action="#"
             th:action="@{/add}"
@@ -74,6 +124,26 @@
     </form>
 </div>
 
+<div style="display: flex;">
+
+    <form action="priceincreaseplus10" method="post">
+        <button type="submit" class="buttons5" name="priceincreaseplus10">Price increase! (+10 HUF)</button>
+    </form>
+
+    <form action="priceincreaseplus100" method="post">
+        <button type="submit" class="buttons5" name="priceincreaseplus100">Price increase! (+100 HUF)</button>
+    </form>
+
+    <form action="pricedecrease10" method="post">
+        <button type="submit" class="buttons6" name="pricedecrease10">Price decrease! (-10 HUF)</button>
+    </form>
+
+    <form action="pricedecrease100" method="post">
+        <button type="submit" class="buttons6" name="pricedecrease100">Price decrease! (-100 HUF)</button>
+    </form>
+
+</div>
+
 <h1 class="h1class">Menu</h1>
 
 <table class="shopitemstable">
@@ -93,13 +163,20 @@
         <td th:text="${item.getCalories()+' kcal'}"></td>
         <td th:text="${item.getPrice()+ ' HUF'}"></td>
         <td th:text="${item.getQuantity() + ' piece'}"></td>
-        <td><a th:href="${item.getId()} + '/delete'">[Delete]</a></td>
-        <td><a th:href="${item.getId()} + '/edit'">[Edit]</a></td>
+        <td><a th:href="${item.getId()} + '/delete'">
+            <button type="button" class="buttonsDel" onclick="location.href='deleteShopItem'">Delete</button>
+        </a></td>
+        <td><a th:href="${item.getId()} + '/edit'">
+            <button type="button" class="buttonsEdit" onclick="location.href='editShopItem'">Edit</button>
+        </a></td>
     </tr>
 
 </table>
 
 <span th:if="${averageKcal != null}" th:text="'The average calories is: '+${averageKcal} + ' kcal.'"></span>
 
+<span th:if="${averagePrice != null}" th:text="'The average price is: '+${averagePrice} + ' HUF.'"></span>
+
+<span th:if="${averageQuantity != null}" th:text="'The average quantity is: '+${averageQuantity} + ' piece.'"></span>
 </body>
 </html>

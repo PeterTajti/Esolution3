@@ -15,6 +15,7 @@ body {
 .welcomepic {
     width: 70px;
     cursor: pointer;
+    align-items: center;
 }
 
 .helpmsg {
@@ -22,8 +23,38 @@ body {
     font-family: sans-serif;
 }
 
+.addform {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.myclock {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin: 2px;
+    align: right;
+
+}
+
+.mydate {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin: 2px;
+
+}
+
+.searchfieldarea {
+    margin: 3px;
+}
+
+.searchfieldbox {
+    width: 300px;
+}
+
 .shopitemstable {
-    width: 1000px;
+    width: 1400px;
 }
 
 table, th, td {
@@ -87,6 +118,7 @@ button{
 .buttonsAdd {
     background-color: #209828;
     box-shadow: 2px 2px #848484;
+    font-weight: bold;
 }
 
 .buttons1 {
@@ -94,7 +126,39 @@ button{
     box-shadow: 2px 2px #848484;
 }
 
+.buttons2 {
+    background: #00a1da;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons3 {
+    background: #008abf;
+    box-shadow: 2px 2px #848484;
+}
+
 .buttons4 {
     background-color: #ff6926;
     box-shadow: 2px 2px #848484;
+}
+
+.buttons5 {
+    background-color: #b3343f;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttons6 {
+    background-color: #209828;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttonsEdit {
+    background-color: #ff6926;
+    box-shadow: 2px 2px #848484;
+    font-weight: bold;
+}
+
+.buttonsDel {
+    background-color: #d11112;
+    box-shadow: 2px 2px #848484;
+    font-weight: bold;
 }
