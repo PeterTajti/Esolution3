@@ -4,13 +4,15 @@ package com.practicing.todoswithsql.models;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="todo")
 public class Todo {
 
   @Id
   @GeneratedValue
-  private Long id;
+  private long id;
   private boolean urgent = false;
   private boolean done = false;
   private String title;
@@ -28,8 +30,12 @@ public class Todo {
     this.done = done;
   }
 
-  public Long getId() {
+  public long getId() {
     return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
   }
 
   public String getTitle() {
@@ -55,4 +61,6 @@ public class Todo {
   public void setDone(boolean done) {
     this.done = done;
   }
+
+
 }

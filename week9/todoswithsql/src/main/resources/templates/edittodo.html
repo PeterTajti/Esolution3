@@ -3,10 +3,13 @@
 <head>
     <title>My ToDo's</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <!--  <link rel="stylesheet" href="/styles.css" />-->
+      <link rel="stylesheet" href="/styles.css" />
 </head>
+
 <body>
+
 <h1>Edit Todo</h1>
+
 <form method="post" th:action="'http://localhost:8080/todo/' + ${id} + '/edit'" th:object="${todo}">
     <label for="edit">Todo Description</label>
     <input type="text" id="edit" name="editedText" th:field="*{title}">
@@ -20,5 +23,7 @@
     <input type="submit" value="Submit">
     <a href="http://localhost:8080/todo/list">Cancel</a>
 </form>
+
 </body>
+
 </html>
