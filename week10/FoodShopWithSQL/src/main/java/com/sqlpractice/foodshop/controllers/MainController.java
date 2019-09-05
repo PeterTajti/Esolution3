@@ -1,6 +1,7 @@
 package com.sqlpractice.foodshop.controllers;
 import com.sqlpractice.foodshop.models.ShopItem;
 import com.sqlpractice.foodshop.repositories.ShopItemRepository;
+import com.sqlpractice.foodshop.services.ShopItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,16 +14,16 @@ import java.util.stream.Collectors;
 @Controller
 public class MainController {
 
-  private ShopItemRepository shopItemRepository;
+  private ShopItemService shopItemService;
 
   @Autowired
-  public MainController(ShopItemRepository shopItemRepository) {
-    this.shopItemRepository = shopItemRepository;
+  public MainController(ShopItemService shopItemService) {
+    this.shopItemService = shopItemService;
   }
 
   @RequestMapping(value="")
   public String homePage(Model model){
-    model.addAttribute("items", shopItemRepository.findAll());
+    model.addAttribute("items", shopItemService.findAll());
     return "index";
   }
 

@@ -17,8 +17,10 @@ public class ShopItem {
   private int calories;
   private int price;
   private int quantity;
+  private boolean containsPreservatives;
 
-  ShopItem (){}
+
+  public ShopItem(){}
 
   public ShopItem(String name, String description, int calories, int price, int quantity) {
     this.name = name;
@@ -75,4 +77,15 @@ public class ShopItem {
   public void setQuantity(int quantity) {
     this.quantity = quantity;
   }
+
+  public boolean isContainsPreservatives() {
+    return containsPreservatives;
+  }
+
+  public void setContainsPreservatives(boolean containsPreservatives) {
+    this.containsPreservatives = containsPreservatives;
+  }
+
+
+
 }

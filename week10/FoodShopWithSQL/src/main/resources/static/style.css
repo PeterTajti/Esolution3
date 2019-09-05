@@ -1,5 +1,6 @@
 body {
     background: rgba(250, 234, 153, 0.54);
+
 }
 
 .welcome {
@@ -7,8 +8,8 @@ body {
     font-family: sans-serif;
     margin: 3px;
     text-shadow: 2px 2px #b2b2b2;
-    border-bottom: 5px solid;
-    border-bottom-color: #383838;
+    border: 5px solid;
+    border-color: rgba(203, 188, 117, 0.99);
     background-color: rgba(250, 234, 153, 0.99);
 }
 
@@ -19,13 +20,30 @@ body {
 }
 
 .helpmsg {
-    font-size: 10px;
+    font-size: 15px;
     font-family: sans-serif;
+    color: black;
+    font-weight: bolder;
 }
 
+
 .addform {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
+    margin: 3px;
+}
+
+.addText {
+    margin: 3px;
+    padding: 2px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bolder;
+
+}
+
+input.addText:focus {
+    background-color: #ffdf88;
 }
 
 .myclock {
@@ -33,7 +51,11 @@ body {
     font-weight: bolder;
     color: black;
     margin: 2px;
-    align: right;
+    position:absolute;
+    top:5px;
+    right:10px;
+    font-family: Arial;
+
 
 }
 
@@ -52,15 +74,25 @@ body {
 .searchfieldbox {
     width: 300px;
 }
+input.searchfieldbox:focus {
+    background-color: #ffdf88;
+}
+
+
 
 .shopitemstable {
-    width: 1400px;
+    width: 1300px;
+    font-family: sans-serif;
+}
+
+#datetime {
+
 }
 
 table, th, td {
 
     width: 750px;
-    color: #606060;
+    color: #000000;
     font-family: sans-serif;
 }
 
@@ -85,6 +117,10 @@ tr:nth-child(odd) {
     background-color: white;
 }
 
+td:nth-child(2), td:nth-child(5) {
+    font-weight: bolder;
+}
+
 .tdtext1 {
     font-size: 15px;
     font-weight: normal;
@@ -94,6 +130,28 @@ tr:nth-child(odd) {
 .h1class {
     font-size: 20px;
     color: #000000;
+    background-color: rgba(250, 234, 153, 0.99);
+    border: 5px solid;
+    border-color: rgba(203, 188, 117, 0.99);
+}
+
+.changepricestext {
+    padding: 2px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+    }
+
+.filtertext {
+    padding: 2px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+    margin: 2px;
+    margin-top: 10px;
 }
 
 button{
@@ -112,6 +170,16 @@ button{
     margin-right: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttonsPreservatives {
+    background-color: #3f843f;
+    box-shadow: 2px 2px #848484;
+}
+
+.buttonsPreservatives2 {
+    background-color: #5ad05a;
     box-shadow: 2px 2px #848484;
 }
 

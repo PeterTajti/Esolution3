@@ -1,6 +1,7 @@
 package com.sqlpractice.foodshop.controllers;
 
 import com.sqlpractice.foodshop.repositories.ShopItemRepository;
+import com.sqlpractice.foodshop.services.ShopItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,16 +13,16 @@ import java.util.stream.Collectors;
 @Controller
 public class SearchController {
 
-  private ShopItemRepository shopItemRepository;
+  private ShopItemService shopItemService;
 
   @Autowired
-  public SearchController(ShopItemRepository shopItemRepository) {
-    this.shopItemRepository = shopItemRepository;
+  public SearchController(ShopItemService shopItemService) {
+    this.shopItemService = shopItemService;
   }
 
   @PostMapping("/search")
   public String getText(@RequestParam("keyword") String keyword, Model model) {
-    model.addAttribute("items", shopItemRepository.findAll().stream()
+    model.addAttribute("items", shopItemService.findAll().stream()
             .filter(shopItem -> shopItem.getName().toLowerCase().contains(keyword) || shopItem.getDescription().toLowerCase().contains(keyword))
             .collect(Collectors.toList()));
     return "index";

@@ -10,5 +10,6 @@ import java.util.List;
 public interface ShopItemRepository extends CrudRepository<ShopItem, Integer> {
 
   List<ShopItem> findAll();
+  List<ShopItem> findById(int id);
 
 }

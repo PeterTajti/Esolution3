@@ -27,9 +27,8 @@
         }
     </script>
 
-    <div>
-        <div id="datetime" class="mydate"></div>
-        <div id="txt" class="myclock"></div>
+    <div style="display: flex;">
+        <div id="datetime" class="mydate"></div> <div id="txt" class="myclock"></div>
     </div>
 
     <script>
@@ -42,19 +41,85 @@
 <body onload="startTime()">
 
 
-<div>
+
     <p class="welcome">Welcome to the Foodshop <img class="welcomepic" onclick="location.href='/'"
-                                                    src="foodshop-logo-pic.png"></p>
-    <p class="help msg">(Click on the pizza to get the default view of the actual menu)</p>
-</div>
+                                                    src="foodshop-logo-pic.png"><span class="helpmsg">(PIZZA = DEFAULT VIEW)</span></p>
+
+
 
 <div>
     <form class="searchfieldarea" action="search" method="post">
         <input class="searchfieldbox" type="text" name="keyword" placeholder="Search by name and description...">
         <button type="submit" class="buttons4" id="searchButton">Search</button>
     </form>
-
 </div>
+
+    <div>
+        <form class="addText"
+              action="#"
+              th:action="@{/add}"
+              method="post"
+        >
+            <label for="name" >Name</label>
+            <input
+                    class="addText"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+            />
+            <label for="description" >Description</label>
+            <input
+                    class="addText"
+                    type="text"
+                    name="description"
+                    id="description"
+                    required
+            />
+            <label for="containsPreservatives" >Contains Preservatives</label>
+            <input
+                    class="addText"
+                    type="checkbox"
+                    name="containsPreservatives"
+                    id="containsPreservatives"
+
+            />
+            <label for="calories" >Calories</label>
+            <input
+                    class="addText"
+                    type="number"
+                    name="calories"
+                    id="calories"
+                    required
+            />
+            <label for="price" >Price</label>
+            <input
+                    class="addText"
+                    type="number"
+                    name="price"
+                    id="price"
+                    required
+            />
+            <label for="quantity" >Quantity</label>
+            <input
+                    class="addText"
+                    type="number"
+                    name="quantity"
+                    id="quantity"
+                    required
+            />
+            <button type="submit" class="buttonsAdd">Add</button>
+        </form>
+    </div>
+
+    <p class="filtertext">FILTERS</p>
+
+    <div style="display: flex">
+    <button type="button" class="buttonsPreservatives" onclick="location.href='preservatives'">CONTAINS PRESERVATIVES
+    </button>
+    <button type="button" class="buttonsPreservatives2" onclick="location.href='preservativeFree'">NO PRESERVATIVES
+    </button>
+    </div>
 
 <div style="display: flex;">
     <button type="button" class="buttons1" onclick="location.href='least-calories'">LEAST CALORIES</button>
@@ -79,50 +144,10 @@
     <button type="button" class="buttons3" onclick="location.href='only-available'">ONLY AVAILABLE</button>
 </div>
 
-<div class="addform">
-    <form
-            action="#"
-            th:action="@{/add}"
-            method="post"
-    >
-        <label for="name">Name</label>
-        <input
-                type="text"
-                name="name"
-                id="name"
-                required
-        />
-        <label for="description">Description</label>
-        <input
-                type="text"
-                name="description"
-                id="description"
-                required
-        />
-        <label for="calories">Calories</label>
-        <input
-                type="number"
-                name="calories"
-                id="calories"
-                required
-        />
-        <label for="price">Price</label>
-        <input
-                type="number"
-                name="price"
-                id="price"
-                required
-        />
-        <label for="quantity">Quantity</label>
-        <input
-                type="number"
-                name="quantity"
-                id="quantity"
-                required
-        />
-        <button type="submit" class="buttonsAdd">Add</button>
-    </form>
-</div>
+
+
+
+    <p class="changepricestext">CHANGE PRICES</p>
 
 <div style="display: flex;">
 
@@ -144,13 +169,14 @@
 
 </div>
 
-<h1 class="h1class">Menu</h1>
+<h1 class="h1class">MENU</h1>
 
 <table class="shopitemstable">
     <tr>
         <th>ID</th>
         <th>NAME</th>
         <th>DESCRIPTION</th>
+        <th>CONTAINS PRESERVATIVES</th>
         <th>CALORIES</th>
         <th>PRICE</th>
         <th>QUANTITY</th>
@@ -160,6 +186,7 @@
         <td th:text="${item.getId()}"></td>
         <td th:text="${item.getName()}"></td>
         <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.isContainsPreservatives()}"></td>
         <td th:text="${item.getCalories()+' kcal'}"></td>
         <td th:text="${item.getPrice()+ ' HUF'}"></td>
         <td th:text="${item.getQuantity() + ' piece'}"></td>
