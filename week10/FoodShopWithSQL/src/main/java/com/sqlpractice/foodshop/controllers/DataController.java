@@ -38,7 +38,6 @@ public class DataController {
 
   @PostMapping("/{id}/delete")
   public String deleting(@PathVariable("id") Integer id){
-
     shopItemService.deleteById(id);
     return "redirect:/";
   }
@@ -49,7 +48,6 @@ public class DataController {
     model.addAttribute("id", id);
     return "editShopItem";
   }
-
 
   @PostMapping("/{id}/edit")
   public String editing(@PathVariable("id") Integer id, @ModelAttribute ShopItem editedShopItem){

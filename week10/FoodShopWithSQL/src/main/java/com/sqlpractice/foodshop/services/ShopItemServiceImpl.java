@@ -14,7 +14,7 @@ public class ShopItemServiceImpl implements ShopItemService {
   ShopItemRepository shopItemRepository;
 
   @Autowired
-  public ShopItemServiceImpl (ShopItemRepository shopItemRepository) {
+  public ShopItemServiceImpl(ShopItemRepository shopItemRepository) {
     this.shopItemRepository = shopItemRepository;
   }
 
@@ -25,12 +25,12 @@ public class ShopItemServiceImpl implements ShopItemService {
 
   @Override
   public void save(ShopItem shopItem) {
-
+    shopItemRepository.save(shopItem);
   }
 
   @Override
   public void deleteById(Integer id) {
-
+    shopItemRepository.deleteById(id);
   }
 
   @Override

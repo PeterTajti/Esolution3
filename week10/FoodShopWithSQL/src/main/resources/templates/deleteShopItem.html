@@ -3,6 +3,7 @@
 <head>
     <title>FoodShop with SQL</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
 </head>
 
 <body>
@@ -11,10 +12,21 @@
 
 <form method="post" th:action="'http://localhost:8080/' + ${id} + '/delete'" th:object="${item}">
 
+<div class="deletepagetext" th:object="${item}">
 
     <p>Do you want to delete this shopitem from the foodshop?</p>
+    <label>ShopItem's name: </label>
+    <span th:text="*{name}".></span>
+    <br>
+    <label>ShopItem's description: </label>
+    <span th:text="*{description}".></span>
+    <br>
+    <label>ShopItem's price: </label>
+    <span th:text="*{price}".></span>
+</div>
 
 
+    <p></p>
 
     <br>
 

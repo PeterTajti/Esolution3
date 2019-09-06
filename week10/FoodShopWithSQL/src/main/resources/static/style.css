@@ -230,3 +230,7 @@ button{
     box-shadow: 2px 2px #848484;
     font-weight: bold;
 }
+
+.deletepagetext {
+    font-size: 25px;
+}
