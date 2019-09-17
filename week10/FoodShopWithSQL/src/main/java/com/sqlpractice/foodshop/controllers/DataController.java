@@ -23,34 +23,33 @@ public class DataController {
 
   @PostMapping("/add")
   public String addItem(@ModelAttribute(name = "shopitem") ShopItem shopItem) {
-    //System.out.println(shopItem.getName() + " " + shopItem.getDescription() + " " + shopItem.getCalories() + " " + shopItem.getPrice() + " " + shopItem.getQuantity());
     shopItemService.save(shopItem);
     return "redirect:/";
   }
 
 
   @GetMapping("/{id}/delete")
-  public String renderingDelete(@PathVariable("id") Integer id, Model model){
+  public String renderingDelete(@PathVariable("id") Integer id, Model model) {
     model.addAttribute("item", shopItemService.findById(id));
     model.addAttribute("id", id);
-        return "deleteShopItem";
+    return "deleteShopItem";
   }
 
   @PostMapping("/{id}/delete")
-  public String deleting(@PathVariable("id") Integer id){
+  public String deleting(@PathVariable("id") Integer id) {
     shopItemService.deleteById(id);
     return "redirect:/";
   }
 
   @GetMapping("/{id}/edit")
-  public String renderingEdit(@PathVariable("id") Integer id, Model model){
+  public String renderingEdit(@PathVariable("id") Integer id, Model model) {
     model.addAttribute("item", shopItemService.findById(id));
     model.addAttribute("id", id);
     return "editShopItem";
   }
 
   @PostMapping("/{id}/edit")
-  public String editing(@PathVariable("id") Integer id, @ModelAttribute ShopItem editedShopItem){
+  public String editing(@PathVariable("id") Integer id, @ModelAttribute ShopItem editedShopItem) {
     shopItemService.save(editedShopItem);
     return "redirect:/";
   }

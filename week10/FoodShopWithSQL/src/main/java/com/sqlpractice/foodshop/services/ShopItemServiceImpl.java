@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class ShopItemServiceImpl implements ShopItemService {
@@ -40,5 +40,26 @@ public class ShopItemServiceImpl implements ShopItemService {
       return resultList.get(0);
     }
     return new ShopItem();
+  }
+
+  @Override
+  public boolean isTypeOK(String type) {
+    boolean isTypeEquals = false;
+    if (type.equals("fatty") || type.equals("carbohidratebomb")) {
+      isTypeEquals = true;
+    }
+    return isTypeEquals;
+  }
+
+
+  @Override
+  public List<ShopItem> findBadItemsWith400kcal(String type) {
+    if (type.equals("fatty") || type.equals("carbohidratebomb")) {
+      return shopItemRepository.findAll().stream()
+              .filter(item -> item.getCalories() == 400)
+              .collect(Collectors.toList());
+    }
+
+    return null;
   }
 }

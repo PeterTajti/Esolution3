@@ -1,26 +1,32 @@
 package com.sqlpractice.foodshop.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="shopitems")
+@Table(name = "shopitems")
 public class ShopItem {
 
- @Id
-@GeneratedValue
- private Integer id;
+  @Id
+  @GeneratedValue
+  @JsonIgnore
+  private Integer id;
   private String name;
   private String description;
   private int calories;
+  @JsonIgnore
   private int price;
+  @JsonIgnore
   private int quantity;
   private boolean containsPreservatives;
 
 
-  public ShopItem(){}
+  public ShopItem() {
+  }
 
   public ShopItem(String name, String description, int calories, int price, int quantity) {
     this.name = name;
@@ -85,7 +91,6 @@ public class ShopItem {
   public void setContainsPreservatives(boolean containsPreservatives) {
     this.containsPreservatives = containsPreservatives;
   }
-
 
 
 }
