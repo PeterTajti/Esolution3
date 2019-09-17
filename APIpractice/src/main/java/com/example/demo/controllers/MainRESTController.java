@@ -3,7 +3,6 @@ package com.example.demo.controllers;
 import com.example.demo.models.*;
 import com.example.demo.services.UntilService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -88,5 +87,41 @@ public class MainRESTController {
     return null;
   }
 
+  @PostMapping("/arrays")
+  public ResponseEntity arrays(@RequestBody InputObject input) {
+
+    if (input.getWhat().equals("") || input.getWhat().isEmpty() || input.getNumbers().length == 0) {
+      MyErrorMsg em = new MyErrorMsg("Please provide what to do with the numbers!");
+      return ResponseEntity.status(200).body(em);
+    }
+
+    if (input.getWhat().equals("sum")) {
+
+      int sum = 0;
+      for (int i = 0; i < input.getNumbers().length; i++) {
+        sum = sum + input.getNumbers()[i];
+      }
+      return ResponseEntity.status(200).body(sum);
+
+    }
+
+    if (input.getWhat().equals("multiply")) {
+
+      int sum = 1;
+      for (int i = 0; i < input.getNumbers().length; i++) {
+        sum = sum * input.getNumbers()[i];
+      }
+
+      return ResponseEntity.status(200).body(sum);
+    }
+
+    if (input.getWhat().equals("double")) {
+      for (int i = 0; i < input.getNumbers().length; i++) {
+        input.getNumbers()[i] = input.getNumbers()[i]*2;
+      }
+      return ResponseEntity.status(200).body(input.getNumbers());
+    }
+    return null;
+  }
 
 }
