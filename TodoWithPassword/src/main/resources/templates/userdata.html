@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>TodoApp with password</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+<h1 th:text="${user.userName} + '\'s todos'"></h1>
+
+<h2>Add new ToDo</h2>
+
+<form th:action="@{/addtodo}" th:method="post">
+    <input type="hidden" name="userId" th:value="${user.id}" />
+    <input type="text" name="description" />
+    <input type="submit" value="Add" />
+</form>
+
+<table>
+
+    <tr>
+        <th>Title</th>
+    </tr>
+
+    <tr th:each="todo : ${user.getTodos()}">
+        <td th:text="${todo.getDescription()}"></td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>
