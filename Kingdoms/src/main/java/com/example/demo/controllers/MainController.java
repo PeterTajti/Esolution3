@@ -53,8 +53,9 @@ public class MainController {
     return "register";
   }
 
-  @GetMapping ("/login")
-  public String renderLoginPage (){
+  @GetMapping("/login")
+  public String renderLoginPage(Model model) {
+    model.addAttribute("users", userService.findAll());
     return "login";
   }
 
@@ -73,8 +74,8 @@ public class MainController {
 
   }
 
-  @GetMapping ("/userdata/{userId}")
-  public String userStats (@PathVariable("userId")Long id, Model model) {
+  @GetMapping("/userdata/{userId}")
+  public String userStats(@PathVariable("userId") Long id, Model model) {
     if (userService.findUserByUserId(id) != null) {
       model.addAttribute("user", userService.findUserByUserId(id));
       return "userdata";

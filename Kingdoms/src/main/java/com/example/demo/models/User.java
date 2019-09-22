@@ -18,6 +18,8 @@ public class User {
     @OneToMany (cascade = CascadeType.ALL, mappedBy = "owner")
     private List<Note> notes;
 
+    private int level = 1;
+
     private String townhall = "TownhallLevelOne";
     private String farm = "FarmZero";
     private String lumbermill = "LumbermillZero";
@@ -39,6 +41,7 @@ public class User {
         this.userPassword = userPassword;
         this.userAvatar = userAvatar;
         this.notes = new ArrayList<>();
+        this.level = 1;
     }
 
     public User(String userName, String userPassword, String userAvatar, List<Note> notes) {
@@ -187,5 +190,13 @@ public class User {
     public void addNote (Note note) {
         this.notes.add(note);
         note.setOwner(this);
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
     }
 }

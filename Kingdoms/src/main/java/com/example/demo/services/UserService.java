@@ -2,6 +2,8 @@ package com.example.demo.services;
 
 import com.example.demo.models.User;
 
+import java.util.List;
+
 public interface UserService {
 
     User findUserByName (String name);
@@ -9,4 +11,5 @@ public interface UserService {
     User findUserByUserPassword (String password);
     User findUserByUserId (Long id);
     void saveNote (Long userId, String description);
+    List<User> findAll();
 }

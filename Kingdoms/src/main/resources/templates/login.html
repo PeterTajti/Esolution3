@@ -11,19 +11,34 @@
 
 <h1>Welcome to the Kingdoms App</h1>
 
-<p th:utext="${errormessage}" ></p>
+<p th:utext="${errormessage}"></p>
 
 <form method="post" action="/login">
 
-    <label for="userName">User Name:</label><br>
+    <label for="userName">User Name</label><br>
     <input type="text" name="userName" id="userName"><br>
-    <label for="userPassword">Passord:</label><br>
+    <label for="userPassword">Password</label><br>
     <input type="password" name="userPassword" id="userPassword"><br>
 
-    <input type="submit" name="submit" value="Log in">
+    <input class="submitbutton" type="submit" name="submit" value="Log in">
 </form>
 
 <button type="button" onclick="location.href='/register'">Register new account</button>
+
+<h2 class="shadowed">Hall of Fame</h2>
+
+<table class="shadowed">
+
+    <tr>
+        <th>NAME</th>
+        <th>LEVEL</th>
+    </tr>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.getUserName()}"></td>
+        <td th:text="${user.getLevel()}"></td>
+    </tr>
+
+</table>
 
 </body>
 

@@ -1,0 +1,50 @@
+body {
+    background: grey;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffdf00;
+    text-shadow: 2px 2px #d4af37;
+}
+
+button{
+    color: white;
+    background-color: #9a9a9a;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #848484;
+}
+
+.submitbutton{
+    color: white;
+    background-color: #9a9a9a;
+    border-radius: 8px;
+
+    height: 30px;
+    width: 150px;
+    position: center;
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #848484;
+}
+
+.shadowed {text-shadow: 2px 2px #b2b2b2;}
