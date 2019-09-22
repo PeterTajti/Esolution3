@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>IZs's Kingdom App v0.1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+<h1>Please, fill this form to register your new account!</h1>
+
+<p class="succmsg" th:utext="${successmessage}"></p>
+<p class="errmsg" th:utext="${errormessage}"></p>
+
+<form method="post" action="/register">
+
+    <label for="userName">Name:</label><br>
+    <input type="text" name="userName" id="userName"><br>
+
+    <label for="userPassword">Password:</label><br>
+    <input type="text" name="userPassword" id="userPassword"><br>
+
+    <label for="userPassword2">Retype Password:</label><br>
+    <input type="text" name="userPassword2" id="userPassword2"><br>
+
+<label for="avatar">Avatar</label>
+<select name="avatar" id="avatar"><br>
+    <option>dwarf1</option>
+    <option>elf1</option>
+    <option>human1</option>
+    <option>human2</option>
+    <option>human3</option>
+    <option>human4</option>
+    <option>human5</option>
+    <option>human6</option>
+    <option>ogre1</option>
+    <option>orc1</option>
+    <option>orc2</option>
+    <option>orc3</option>
+    <option>orc4</option>
+    <option>orc5</option>
+    <option>troll1</option>
+    <option>undead1</option>
+
+</select><br>
+
+    <input type="submit" name="submit" value="Register User">
+
+</form>
+
+<button type="button" onclick="location.href='/login'">Back to the Login Page</button>
+
+</body>
+
+</html>

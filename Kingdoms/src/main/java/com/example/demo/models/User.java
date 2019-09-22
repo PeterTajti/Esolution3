@@ -1,0 +1,191 @@
+package com.example.demo.models;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+@Table(name = "users")
+public class User {
+
+    @Id
+    @GeneratedValue
+    private Long id;
+    private String userName;
+    private String userPassword;
+    private String userAvatar;
+
+    @OneToMany (cascade = CascadeType.ALL, mappedBy = "owner")
+    private List<Note> notes;
+
+    private String townhall = "TownhallLevelOne";
+    private String farm = "FarmZero";
+    private String lumbermill = "LumbermillZero";
+    private String mine = "MineZero";
+    private String barracks = "BarracksZero";
+    private String academy = "AcademyZero";
+
+    private int food = 100;
+    private int gold = 10;
+    private int wood = 50;
+    private int stone = 0;
+    private int iron = 0;
+    private int gem = 0;
+
+    public User (){}
+
+    public User(String userName, String userPassword, String userAvatar) {
+        this.userName = userName;
+        this.userPassword = userPassword;
+        this.userAvatar = userAvatar;
+        this.notes = new ArrayList<>();
+    }
+
+    public User(String userName, String userPassword, String userAvatar, List<Note> notes) {
+        this.userName = userName;
+        this.userPassword = userPassword;
+        this.userAvatar = userAvatar;
+        this.notes = notes;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPassword() {
+        return userPassword;
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
+    }
+
+    public String getUserAvatar() {
+        return userAvatar;
+    }
+
+    public void setUserAvatar(String userAvatar) {
+        this.userAvatar = userAvatar;
+    }
+
+    public List<Note> getNotes() {
+        return notes;
+    }
+
+    public void setNotes(List<Note> notes) {
+        this.notes = notes;
+    }
+
+    public String getTownhall() {
+        return townhall;
+    }
+
+    public void setTownhall(String townhall) {
+        this.townhall = townhall;
+    }
+
+    public String getFarm() {
+        return farm;
+    }
+
+    public void setFarm(String farm) {
+        this.farm = farm;
+    }
+
+    public String getLumbermill() {
+        return lumbermill;
+    }
+
+    public void setLumbermill(String lumbermill) {
+        this.lumbermill = lumbermill;
+    }
+
+    public String getMine() {
+        return mine;
+    }
+
+    public void setMine(String mine) {
+        this.mine = mine;
+    }
+
+    public int getFood() {
+        return food;
+    }
+
+    public void setFood(int food) {
+        this.food = food;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
+    }
+
+    public int getWood() {
+        return wood;
+    }
+
+    public void setWood(int wood) {
+        this.wood = wood;
+    }
+
+    public int getStone() {
+        return stone;
+    }
+
+    public void setStone(int stone) {
+        this.stone = stone;
+    }
+
+    public int getIron() {
+        return iron;
+    }
+
+    public void setIron(int iron) {
+        this.iron = iron;
+    }
+
+    public int getGem() {
+        return gem;
+    }
+
+    public void setGem(int gem) {
+        this.gem = gem;
+    }
+
+    public String getBarracks() {
+        return barracks;
+    }
+
+    public void setBarracks(String barracks) {
+        this.barracks = barracks;
+    }
+
+    public String getAcademy() {
+        return academy;
+    }
+
+    public void setAcademy(String academy) {
+        this.academy = academy;
+    }
+
+    public void addNote (Note note) {
+        this.notes.add(note);
+        note.setOwner(this);
+    }
+}
