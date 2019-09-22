@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -52,12 +53,17 @@ public class MainController {
     return "register";
   }
 
+  @GetMapping ("/login")
+  public String renderLoginPage (){
+    return "login";
+  }
+
   @PostMapping("/login")
   public String loggingin(@RequestParam("userName") String userName,
-                          @RequestParam("userPassword") String userpassword,
+                          @RequestParam("userPassword") String userPassword,
                           Model model) {
 
-    if (userService.findUserByName(userName).equals(userService.findUserByUserPassword(userpassword))) {
+    if (userService.findUserByName(userName).equals(userService.findUserByUserPassword(userPassword))) {
       User tempUser = userService.findUserByName(userName);
       return "redirect:/userdata/" + tempUser.getId();
     } else {
@@ -66,4 +72,21 @@ public class MainController {
     }
 
   }
+
+  @GetMapping ("/userdata/{userId}")
+  public String userStats (@PathVariable("userId")Long id, Model model) {
+    if (userService.findUserByUserId(id) != null) {
+      model.addAttribute("user", userService.findUserByUserId(id));
+      return "userdata";
+    } else {
+      return "errorpage";
+    }
+  }
+
+  @PostMapping("/addnote")
+  public String addNote(@RequestParam String description, @RequestParam Long userId) {
+    userService.saveNote(userId, description);
+    return "redirect:/userdata/" + userId;
+  }
+
 }

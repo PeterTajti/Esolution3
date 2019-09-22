@@ -1,5 +1,6 @@
 package com.example.demo.services;
 
+import com.example.demo.models.Note;
 import com.example.demo.models.User;
 import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,5 +29,18 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUserByUserPassword(String password) {
         return userRepository.findByUserPassword(password);
+    }
+
+    @Override
+    public User findUserByUserId(Long id) {
+        return userRepository.findById(id).get();
+    }
+
+    @Override
+    public void saveNote(Long userId, String description) {
+        User user = userRepository.findUserById(userId);
+        Note note = new Note (description);
+        user.addNote(note);
+        userRepository.save(user);
     }
 }

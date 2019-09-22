@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>IZs's Kingdom App v0.1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+
+<body>
+
+<h1 th:text="${user.userName} + '\'s profile'"></h1>
+
+<p th:text="${user.userAvatar}"></p>
+<img class="useravatarpic" th:src="'static/' + ${user.userAvatar} + 'avatar.png'">
+
+
+
+<p>Add new Note</p>
+
+<form th:action="@{/addnote}" th:method="post">
+    <input type="hidden" name="userId" th:value="${user.id}"/>
+    <input type="text" name="description"/>
+    <input type="submit" value="Add"/>
+</form>
+
+<div>
+    <table>
+
+        <tr>
+            <th th:text="${user.userName} +'\'s notes' "></th>
+        </tr>
+
+        <tr th:each="note : ${user.getNotes()}">
+            <td th:text="${note.getDescription()}"></td>
+        </tr>
+
+    </table>
+</div>
+
+<div>
+    <h1>Buildings</h1>
+    <p th:text="'Town hall: ' + ${user.townhall}"></p>
+    <p th:text="'Farm: ' + ${user.farm}"></p>
+    <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>
+    <p th:text="'Mine: ' + ${user.mine}"></p>
+    <p th:text="'Barracks: ' + ${user.barracks}"></p>
+    <p th:text="'Academy: ' + ${user.academy}"></p>
+
+</div>
+
+<div>
+    <h1>Resources</h1>
+    <p th:text="'Food: ' + ${user.food}"></p>
+    <p th:text="'Gold: ' + ${user.gold}"></p>
+    <p th:text="'Wood: ' + ${user.wood}"></p>
+    <p th:text="'Stone: ' + ${user.stone}"></p>
+    <p th:text="'Iron: ' + ${user.iron}"></p>
+    <p th:text="'Gem: ' + ${user.gem}"></p>
+
+</div>
+
+</body>
+
+</html>

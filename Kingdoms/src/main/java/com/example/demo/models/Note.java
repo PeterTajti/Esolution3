@@ -14,6 +14,8 @@ public class Note {
     @ManyToOne
     private User owner;
 
+    public Note () {}
+
     public Note(String description) {
         this.description = description;
     }
