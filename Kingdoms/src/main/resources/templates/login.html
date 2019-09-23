@@ -30,10 +30,12 @@
 <table class="shadowed">
 
     <tr>
+        <th>PLAYER</th>
         <th>NAME</th>
         <th>LEVEL</th>
     </tr>
     <tr th:each="user : ${users}">
+        <td><img class="useravatarpic" th:src="${user.userAvatar} + 'avatar.jpg'"></td>
         <td th:text="${user.getUserName()}"></td>
         <td th:text="${user.getLevel()}"></td>
     </tr>

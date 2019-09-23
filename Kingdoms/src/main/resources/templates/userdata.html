@@ -2,6 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
+    <base href="/" target="_self">
     <title>IZs's Kingdom App v0.1</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
@@ -9,11 +10,10 @@
 
 <body>
 
-<h1 th:text="${user.userName} + '\'s profile'"></h1>
-
-<p th:text="${user.userAvatar}"></p>
-<img class="useravatarpic" th:src="'static/' + ${user.userAvatar} + 'avatar.png'">
-
+<div>
+    <h1 th:text="${user.userName} + '\'s profile'"></h1>
+    <img class="useravatarpic" th:src="${user.userAvatar} + 'avatar.jpg'">
+</div>
 
 
 <p>Add new Note</p>
@@ -63,6 +63,8 @@
     <p th:text="'Gem: ' + ${user.gem}"></p>
 
 </div>
+
+<button type="button" onclick="location.href='/login'">Back to the main page</button>
 
 </body>
 
