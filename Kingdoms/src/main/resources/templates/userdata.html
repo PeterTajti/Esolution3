@@ -15,6 +15,9 @@
     <img class="useravatarpic" th:src="${user.userAvatar} + 'avatar.jpg'">
 </div>
 
+<div>
+    <p th:text="'Level: ' + ${user.level}"></p>
+</div>
 
 <p>Add new Note</p>
 
@@ -38,12 +41,10 @@
     </table>
 </div>
 
-<div>
-    <p th:text="'Level: ' + ${user.level}"></p>
-</div>
+
 
 <div>
-    <h1>Buildings</h1>
+    <h2>Buildings</h2>
     <p th:text="'Town hall: ' + ${user.townhall}"></p>
     <p th:text="'Farm: ' + ${user.farm}"></p>
     <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>
@@ -54,13 +55,34 @@
 </div>
 
 <div>
-    <h1>Resources</h1>
-    <p th:text="'Food: ' + ${user.food}"></p>
-    <p th:text="'Gold: ' + ${user.gold}"></p>
-    <p th:text="'Wood: ' + ${user.wood}"></p>
-    <p th:text="'Stone: ' + ${user.stone}"></p>
-    <p th:text="'Iron: ' + ${user.iron}"></p>
-    <p th:text="'Gem: ' + ${user.gem}"></p>
+    <h2>Resources</h2>
+
+    <table>
+        <tr>
+            <td><img class="resourceicon" src="foodicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.food}"></p></td>
+        </tr>
+        <tr>
+            <td><img class="resourceicon" src="goldicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.gold}"></p></td>
+        </tr>
+        <tr>
+            <td><img class="resourceicon" src="woodicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.wood}"></p></td>
+        </tr>
+        <tr>
+            <td><img class="resourceicon" src="stoneicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.stone}"></p></td>
+        </tr>
+        <tr>
+            <td><img class="resourceicon" src="ironicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.iron}"></p></td>
+        </tr>
+        <tr>
+            <td><img class="resourceicon" src="gemicon.png"></td>
+            <td><p class="resourcevalue" th:text="${user.gem}"></p></td>
+        </tr>
+    </table>
 
 </div>
 

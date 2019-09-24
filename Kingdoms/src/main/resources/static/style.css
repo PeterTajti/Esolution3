@@ -9,6 +9,13 @@ h1 {
     text-shadow: 2px 2px #d4af37;
 }
 
+h2 {
+    font-size: 25px;
+    color: #ffdf00;
+    text-shadow: 2px 2px #d4af37;
+}
+
+
 button{
     color: white;
     background-color: #9a9a9a;
@@ -48,3 +55,14 @@ button{
 }
 
 .shadowed {text-shadow: 2px 2px #b2b2b2;}
+
+.resourceicon {
+    width: 35px;
+}
+
+.resourcevalue {
+    font-size: 25px;
+}
+
+
+
