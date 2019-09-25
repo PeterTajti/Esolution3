@@ -42,15 +42,29 @@
 </div>
 
 
-
 <div>
     <h2>Buildings</h2>
-    <p th:text="'Town hall: ' + ${user.townhall}"></p>
-    <p th:text="'Farm: ' + ${user.farm}"></p>
-    <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>
-    <p th:text="'Mine: ' + ${user.mine}"></p>
-    <p th:text="'Barracks: ' + ${user.barracks}"></p>
-    <p th:text="'Academy: ' + ${user.academy}"></p>
+
+
+    <table>
+        <tr>
+            <td><img class="buildingicon" th:src="${user.townhall} + '.png'"></td>
+            <td><img class="buildingicon" th:src="${user.farm} + '.png'"></td>
+            <td><img class="buildingicon" th:src="${user.lumbermill}+ '.png'"></td>
+        </tr>
+        <tr>
+            <td><img class="buildingicon" th:src="${user.mine}+ '.png'"></td>
+            <td><img class="buildingicon" th:src="${user.barracks}+ '.png' "></td>
+            <td><img class="buildingicon" th:src="${user.blacksmith}+ '.png' "></td>
+        </tr>
+    </table>
+
+        <p th:text="'Town hall: ' + ${user.townhall}"></p>
+        <p th:text="'Farm: ' + ${user.farm}"></p>
+        <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>
+        <p th:text="'Mine: ' + ${user.mine}"></p>
+        <p th:text="'Barracks: ' + ${user.barracks}"></p>
+        <p th:text="'Academy: ' + ${user.blacksmith}"></p>
 
 </div>
 

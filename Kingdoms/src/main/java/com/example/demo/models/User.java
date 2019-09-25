@@ -20,12 +20,12 @@ public class User {
 
     private int level = 1;
 
-    private String townhall = "TownhallLevelOne";
-    private String farm = "FarmZero";
-    private String lumbermill = "LumbermillZero";
-    private String mine = "MineZero";
-    private String barracks = "BarracksZero";
-    private String academy = "AcademyZero";
+    private String townhall = "townhall1";
+    private String farm = "farm0";
+    private String lumbermill = "lumbermill0";
+    private String mine = "mine0";
+    private String barracks = "barracks0";
+    private String blacksmith = "blacksmith0";
 
     private int food = 100;
     private int gold = 10;
@@ -179,12 +179,12 @@ public class User {
         this.barracks = barracks;
     }
 
-    public String getAcademy() {
-        return academy;
+    public String getBlacksmith() {
+        return blacksmith;
     }
 
-    public void setAcademy(String academy) {
-        this.academy = academy;
+    public void setBlacksmith(String blacksmith) {
+        this.blacksmith = blacksmith;
     }
 
     public void addNote (Note note) {
