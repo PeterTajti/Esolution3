@@ -2,6 +2,7 @@ package com.example.demo.services;
 
 import com.example.demo.models.Note;
 import com.example.demo.models.User;
+import com.example.demo.repositories.NoteRepository;
 import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,10 +12,11 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
+    private NoteRepository noteRepository;
     private UserRepository userRepository;
 
-    @Autowired
-    public UserServiceImpl(UserRepository userRepository) {
+    public UserServiceImpl(NoteRepository noteRepository, UserRepository userRepository) {
+        this.noteRepository = noteRepository;
         this.userRepository = userRepository;
     }
 

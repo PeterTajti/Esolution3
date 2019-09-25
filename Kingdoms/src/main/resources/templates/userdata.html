@@ -10,14 +10,14 @@
 
 <body>
 
-<div>
-    <h1 th:text="${user.userName} + '\'s profile'"></h1>
-    <img class="useravatarpic" th:src="${user.userAvatar} + 'avatar.jpg'">
-</div>
+<table>
+    <tr>
+        <td><h1 th:text="${user.userName}"></h1></td>
+        <td><img class="useravatarpic" th:src="${user.userAvatar} + 'avatar.jpg'"></td>
+        <td><p class="userleveltext" th:text="'Level: ' + ${user.level}"></p></td>
+    </tr>
+</table>
 
-<div>
-    <p th:text="'Level: ' + ${user.level}"></p>
-</div>
 
 <p>Add new Note</p>
 
@@ -27,15 +27,20 @@
     <input type="submit" value="Add"/>
 </form>
 
+<p th:text="${user.userName} +'\'s notes' "></p>
+
 <div>
     <table>
 
-        <tr>
-            <th th:text="${user.userName} +'\'s notes' "></th>
-        </tr>
-
         <tr th:each="note : ${user.getNotes()}">
             <td th:text="${note.getDescription()}"></td>
+            <td>
+                <form action="/delete-note" method="get">
+                    <input type="hidden" th:name="userId" th:value="${user.id}"/>
+                    <input type="hidden" th:name="noteId" th:value="${note.id}"/>
+                    <input type="submit" value="Delete"/>
+                </form>
+            </td>
         </tr>
 
     </table>
@@ -51,20 +56,18 @@
             <td><img class="buildingicon" th:src="${user.townhall} + '.png'"></td>
             <td><img class="buildingicon" th:src="${user.farm} + '.png'"></td>
             <td><img class="buildingicon" th:src="${user.lumbermill}+ '.png'"></td>
-        </tr>
-        <tr>
             <td><img class="buildingicon" th:src="${user.mine}+ '.png'"></td>
             <td><img class="buildingicon" th:src="${user.barracks}+ '.png' "></td>
             <td><img class="buildingicon" th:src="${user.blacksmith}+ '.png' "></td>
         </tr>
     </table>
 
-        <p th:text="'Town hall: ' + ${user.townhall}"></p>
-        <p th:text="'Farm: ' + ${user.farm}"></p>
-        <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>
-        <p th:text="'Mine: ' + ${user.mine}"></p>
-        <p th:text="'Barracks: ' + ${user.barracks}"></p>
-        <p th:text="'Academy: ' + ${user.blacksmith}"></p>
+<!--    <p th:text="'Town hall: ' + ${user.townhall}"></p>-->
+<!--    <p th:text="'Farm: ' + ${user.farm}"></p>-->
+<!--    <p th:text="'Lumber mill: ' + ${user.lumbermill}"></p>-->
+<!--    <p th:text="'Mine: ' + ${user.mine}"></p>-->
+<!--    <p th:text="'Barracks: ' + ${user.barracks}"></p>-->
+<!--    <p th:text="'Academy: ' + ${user.blacksmith}"></p>-->
 
 </div>
 
@@ -75,32 +78,25 @@
         <tr>
             <td><img class="resourceicon" src="foodicon.png"></td>
             <td><p class="resourcevalue" th:text="${user.food}"></p></td>
-        </tr>
-        <tr>
             <td><img class="resourceicon" src="goldicon.png"></td>
             <td><p class="resourcevalue" th:text="${user.gold}"></p></td>
-        </tr>
-        <tr>
             <td><img class="resourceicon" src="woodicon.png"></td>
             <td><p class="resourcevalue" th:text="${user.wood}"></p></td>
         </tr>
-        <tr>
-            <td><img class="resourceicon" src="stoneicon.png"></td>
-            <td><p class="resourcevalue" th:text="${user.stone}"></p></td>
-        </tr>
-        <tr>
-            <td><img class="resourceicon" src="ironicon.png"></td>
-            <td><p class="resourcevalue" th:text="${user.iron}"></p></td>
-        </tr>
-        <tr>
-            <td><img class="resourceicon" src="gemicon.png"></td>
-            <td><p class="resourcevalue" th:text="${user.gem}"></p></td>
-        </tr>
+            <tr>
+                <td><img class="resourceicon" src="stoneicon.png"></td>
+                <td><p class="resourcevalue" th:text="${user.stone}"></p></td>
+                <td><img class="resourceicon" src="ironicon.png"></td>
+                <td><p class="resourcevalue" th:text="${user.iron}"></p></td>
+                <td><img class="resourceicon" src="gemicon.png"></td>
+                <td><p class="resourcevalue" th:text="${user.gem}"></p></td>
+            </tr>
+
     </table>
 
 </div>
 
-<button type="button" onclick="location.href='/login'">Back to the main page</button>
+<button class="submitbutton" type="button" onclick="location.href='/login'">Back to the Login Page</button>
 
 </body>
 

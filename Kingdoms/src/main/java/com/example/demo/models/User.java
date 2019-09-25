@@ -41,7 +41,7 @@ public class User {
         this.userPassword = userPassword;
         this.userAvatar = userAvatar;
         this.notes = new ArrayList<>();
-        this.level = 1;
+
     }
 
     public User(String userName, String userPassword, String userAvatar, List<Note> notes) {

@@ -90,4 +90,11 @@ public class MainController {
     return "redirect:/userdata/" + userId;
   }
 
+  @GetMapping("/delete-note")
+  public String deleteNote(@RequestParam Long userId, @RequestParam Long noteId) {
+    User user = noteService.deleteNote(userId, noteId);
+    return "redirect:/userdata/" + userId;
+  }
+
+
 }
