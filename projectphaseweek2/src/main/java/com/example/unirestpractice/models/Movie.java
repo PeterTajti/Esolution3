@@ -1,6 +1,17 @@
 package com.example.unirestpractice.models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name="movies")
 public class Movie {
+
+  @Id
+  @GeneratedValue
+  private Long id;
 
 //  private String poster_path;
   private boolean adult;
@@ -22,6 +33,8 @@ public class Movie {
   public Movie() {
   }
 
+
+
   public Movie(String title, int popularity) {
     this.title = title;
     this.popularity = popularity;
@@ -40,7 +53,15 @@ public class Movie {
     this.popularity = popularity;
   }
 
-//  public Movie(String poster_path, boolean adult, String overview, String release_date, int[] genre_ids, String original_title, String original_language, String title, String backdrop_path, int popularity, int vote_count, boolean video, double vote_average, int total_results, int total_pages) {
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  //  public Movie(String poster_path, boolean adult, String overview, String release_date, int[] genre_ids, String original_title, String original_language, String title, String backdrop_path, int popularity, int vote_count, boolean video, double vote_average, int total_results, int total_pages) {
 //    this.poster_path = poster_path;
 //    this.adult = adult;
 //    this.overview = overview;

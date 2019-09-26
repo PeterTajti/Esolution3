@@ -1,4 +1,9 @@
 package com.example.unirestpractice.services;
 
-public class MovieService {
+import com.example.unirestpractice.models.Movie;
+
+public interface MovieService {
+
+  void saveMovie(Movie movie);
+
 }

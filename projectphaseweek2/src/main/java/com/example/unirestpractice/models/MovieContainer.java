@@ -28,6 +28,13 @@ public class MovieContainer {
     this.total_pages = total_pages;
   }
 
+
+  public MovieContainer(int page, ArrayList<Movie> result,int total_pages ) {
+    this.page = page;
+    this.result = result;
+    this.total_pages = total_pages;
+  }
+
   public MovieContainer() {}
 
   public long getId() {
