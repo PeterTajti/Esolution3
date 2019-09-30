@@ -91,10 +91,24 @@ public class MainController {
   }
 
   @GetMapping("/delete-note")
-  public String deleteNote(@RequestParam Long userId, @RequestParam Long noteId) {
-    User user = noteService.deleteNote(userId, noteId);
+  public String deleteNoteRender(@RequestParam Long userId, @RequestParam Long noteId, Model model) {
+    model.addAttribute("user", userService.findUserByUserId(userId));
+    model.addAttribute("note", noteService.findNoteById(noteId));
+    return "deletenote";
+  }
+
+  @PostMapping("/delete-note")
+  public String deleteNoteExecute(@RequestParam Long userId, @RequestParam Long noteId) {
+
+        User user = noteService.deleteNote(userId, noteId);
     return "redirect:/userdata/" + userId;
   }
+
+//  @GetMapping("/delete-note")
+//  public String deleteNote(@RequestParam Long userId, @RequestParam Long noteId) {
+//    User user = noteService.deleteNote(userId, noteId);
+//    return "redirect:/userdata/" + userId;
+//  }
 
 
 }

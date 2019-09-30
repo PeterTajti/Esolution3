@@ -1,5 +1,6 @@
 package com.example.demo.services;
 
+import com.example.demo.models.Note;
 import com.example.demo.models.User;
 import com.example.demo.repositories.NoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,5 +21,10 @@ public class NoteServiceImpl implements NoteService {
     public User deleteNote(Long userId, Long noteId) {
         noteRepository.deleteById(noteId);
         return userService.findUserByUserId(userId);
+    }
+
+    @Override
+    public Note findNoteById(long noteId) {
+        return noteRepository.findById(noteId);
     }
 }
