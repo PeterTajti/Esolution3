@@ -100,7 +100,7 @@ public class MainController {
   @PostMapping("/delete-note")
   public String deleteNoteExecute(@RequestParam Long userId, @RequestParam Long noteId) {
 
-        User user = noteService.deleteNote(userId, noteId);
+    User user = noteService.deleteNote(userId, noteId);
     return "redirect:/userdata/" + userId;
   }
 

@@ -6,13 +6,13 @@ body {
 h1 {
     font-size: 50px;
     color: #ffdf00;
-    text-shadow: 2px 2px #d4af37;
+    text-shadow: 1px 1px #d4af37;
 }
 
 h2 {
     font-size: 25px;
     color: #ffdf00;
-    text-shadow: 2px 2px #d4af37;
+    text-shadow: 1px 1px #d4af37;
 }
 
 
@@ -69,3 +69,15 @@ button{
     color: #ffdf00;
    }
 
+.deletenotetext1 {
+    font-size: 35px;
+    color: red;
+}
+
+.deletenotetext2 {
+    font-size: 35px;
+}
+
+.deletenotetext3 {
+    font-size: 35px;
+}
