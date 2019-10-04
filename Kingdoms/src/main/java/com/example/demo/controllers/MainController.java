@@ -44,6 +44,13 @@ public class MainController {
       model.addAttribute("errormessage", new Message("This name is already in use!").getMsgText());
       return "register";
     }
+
+    if (userService.findUserByUserPassword(userPassword) != null) {
+      model.addAttribute("errormessage", new Message("This password is already in use!").getMsgText());
+      return "register";
+    } //viszont így kiderül hogy valakinek már ez a passwordja! ami nem jó
+
+
     if (userService.findUserByName(userName) == null && userPassword.equals(userPassword2)) {
       userService.save(new User(userName, userPassword, avatar));
       model.addAttribute("successmessage", new Message("New account registered! " + userName
@@ -59,11 +66,21 @@ public class MainController {
     return "login";
   }
 
+  @GetMapping("/admin666admin")
+  public String renderAdminPage(Model model) {
+    model.addAttribute("users", userService.findAll());
+    return "admin666admin";
+  }
+
   @PostMapping("/login")
-  public String loggingin(@RequestParam("userName") String userName,
+  public String loggingIn(@RequestParam("userName") String userName,
                           @RequestParam("userPassword") String userPassword,
                           Model model) {
 
+    if (userName.equals("admin") && userPassword.equals("adminpass")) {
+      model.addAttribute("users", userService.findAll());
+      return "redirect:/admin666admin";
+    }
     if (userService.findUserByName(userName).equals(userService.findUserByUserPassword(userPassword))) {
       User tempUser = userService.findUserByName(userName);
       return "redirect:/userdata/" + tempUser.getId();
@@ -104,11 +121,15 @@ public class MainController {
     return "redirect:/userdata/" + userId;
   }
 
-//  @GetMapping("/delete-note")
-//  public String deleteNote(@RequestParam Long userId, @RequestParam Long noteId) {
-//    User user = noteService.deleteNote(userId, noteId);
-//    return "redirect:/userdata/" + userId;
-//  }
+  @GetMapping("/delete-user")
+  public String deleteUserRender(@RequestParam Long userId, Model model) {
+    model.addAttribute("user", userService.findUserByUserId(userId));
+    return "deleteuser";
+  }
 
-
+  @PostMapping("/delete-user")
+  public String deletUserExecute(@RequestParam Long userId) {
+    userService.deleteUser (userId);
+    return "redirect:/admin666admin";
+  }
 }

@@ -1,6 +1,10 @@
 package com.example.demo.models;
 
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +18,10 @@ public class User {
     private String userName;
     private String userPassword;
     private String userAvatar;
+
+    @CreationTimestamp
+    private LocalDateTime createDateTime;
+
 
     @OneToMany (cascade = CascadeType.ALL, mappedBy = "owner")
     private List<Note> notes;
