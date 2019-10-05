@@ -66,10 +66,10 @@ public class MainController {
     return "login";
   }
 
-  @GetMapping("/admin666admin")
+  @GetMapping("/adminpage")
   public String renderAdminPage(Model model) {
     model.addAttribute("users", userService.findAll());
-    return "admin666admin";
+    return "adminpage";
   }
 
   @PostMapping("/login")
@@ -79,7 +79,7 @@ public class MainController {
 
     if (userName.equals("admin") && userPassword.equals("adminpass")) {
       model.addAttribute("users", userService.findAll());
-      return "redirect:/admin666admin";
+      return "redirect:/adminpage";
     }
     if (userService.findUserByName(userName).equals(userService.findUserByUserPassword(userPassword))) {
       User tempUser = userService.findUserByName(userName);
@@ -130,6 +130,6 @@ public class MainController {
   @PostMapping("/delete-user")
   public String deletUserExecute(@RequestParam Long userId) {
     userService.deleteUser (userId);
-    return "redirect:/admin666admin";
+    return "redirect:/adminpage";
   }
 }

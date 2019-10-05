@@ -1,6 +1,7 @@
 body {
-    background: #bababa;
-
+    background-image: url("izsmightandmagic.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 h1 {
