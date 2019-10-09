@@ -68,7 +68,23 @@ public class mapintroduction1 {
 //Remove all the key-value pairs
         myHashMap.clear();
         System.out.println(myHashMap);
+
+
+        HashMap <Integer, String> MapOfColors = new HashMap<>();
+
+        MapOfColors.put(5, "Black");
+        MapOfColors.put(10, "Blue");
+        MapOfColors.put(20, "Red");
+
+        System.out.println(MapOfColors);
+
+
+
+
     }
+
+
+
 }
 
 

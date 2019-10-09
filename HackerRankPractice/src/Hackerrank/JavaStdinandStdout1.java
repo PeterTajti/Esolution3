@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class JavaStdinandStdoutI {
+public class JavaStdinandStdout1 {
 
   public static void main(String[] args) {
 

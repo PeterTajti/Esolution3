@@ -8,5 +8,14 @@ public class TakesLonger {
         StringBuilder myBuilder = new StringBuilder(quote);
         myBuilder.insert(21, wordsToAdd);
         System.out.println(myBuilder);
+
+        String mySentece = "The tee is healty";
+        String wordToAdd = "green ";
+
+        StringBuilder myStringBuilder = new StringBuilder(mySentece);
+myStringBuilder.insert(4, wordToAdd);
+        System.out.println(myStringBuilder);
+
+
     }
 }

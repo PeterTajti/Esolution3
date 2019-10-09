@@ -2,45 +2,314 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1966e8ff-6fd2-4372-b059-d44173ad9147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week5/w5d2/src/School/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Codewars/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Codewars/VasyaClerk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/CharactersWithAsciValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/JavaIfElse1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/JavaLoops1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/JavaStdinandStdout2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/JavaStringsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/OutputFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/Kingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/KingdomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/KingdomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/KingdomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/ResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/resource/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TableConnections/src/main/java/com/example/howtoconnectmultipletables/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMapWithStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonalFinance2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/ArrayPractice_Week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/ArrayPractice_Week2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Functions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/ArrayPractice_Week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/ArrayPractice_Week2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/DataStructures_Week2/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/DataStructures_Week2/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/DataStructures_Week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlgorithmicalExercises/src/DataStructures_Week2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/CharactersWithAsciValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/JavaIfElse1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/JavaLoops1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/JavaStdinandStdout1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/JavaStdinandStdout1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/JavaStdinandStdout2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/JavaStringsIntro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/OutputFormatting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HackerRankPractice/src/WelcomeToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HackerRankPractice/src/Hackerrank/WelcomeToJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/controllers/RESTmainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/controllers/RESTmainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../JWTpractice/securitytokenpractice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/LambdaBasics/LambdaBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/controllers/RestMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/controllers/RestMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/services/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/java/com/example/ferrilataexam/services/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/errorpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/errorpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/orderpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/orderpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ferrilataexam/src/main/resources/templates/statistics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectphaseweek2/src/main/java/com/example/unirestpractice/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectphaseweek2/src/main/java/com/example/unirestpractice/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/out/production/day-5/ConditionalVariableMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/out/production/day-5/META-INF/day-5.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-5/src/AverageOfInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-5/src/AverageOfInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ConditionalVariableMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/META-INF/day-7.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ParametricAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/out/production/day-7/ParametricAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/ParametricAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day-7/src/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day-7/src/PrintEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/day4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/day4/out/production/day4/META-INF/day4.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/PriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/PriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/TableFilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/NormalControllers/TableFilterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/RestControllers/RestMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/java/com/sqlpractice/foodshop/controllers/RestControllers/RestMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/FoodShopWithSQL/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/controllers/DoUntilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/controllers/DoUntilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/controllers/GreeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/controllers/GreeterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/DoUntil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/DoUntil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/Until.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/models/Until.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/repositories/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/frontend/src/main/java/com/example/frontend/repositories/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/controllers/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/controllers/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/models/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/models/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/repositories/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/repositories/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/TodoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/java/com/example/newtodoappwithsql/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/editUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/editUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/newtodoappwithsql/src/main/resources/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/AppendA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/AppendA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/AppendAFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/AppendAFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Colors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Colors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/DoubleItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/DoubleItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Doubling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Doubling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Factorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Factorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Greet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/out/production/day-1/Unique.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/out/production/day-1/Unique.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/AppendA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/AppendAFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/DoubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/DoubleItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Doubling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/SumAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/SumAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/src/Unique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-2/List1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/List1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/day-2/List2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/List2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-2/Map2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/Map2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-2/PersonalFinance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/PersonalFinance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-2/ProductDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/ProductDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-2/ShoppingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/ShoppingList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-2/META-INF/day-2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-2/SimpleReplace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/SimpleReplace.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/day-2/TelephoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/TelephoneBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/day-2/mapintroduction1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-2/mapintroduction1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/List2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShoppingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TakesLonger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TakesLonger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TelephoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TelephoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapintroduction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapintroduction1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/new-file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/CountLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/CountLines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/DivideByZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/DivideByZero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/PrintEachLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/PrintEachLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/out/production/w3d2/WriteFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/CountLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/CountLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/DivideByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/DivideByZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/PrintEachLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/TicTacToe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/src/WriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/w3d2/thorjatek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d2/thorjatek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/w3d7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/out/production/w4d3/Tasks/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/w4d3/src/Tasks/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/AircraftCarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/F35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AircraftCarrier/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/AnimalShelter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/AnimalProtection/Parrot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Hero/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MatrixRotate/MatrixRotate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/MostCommonCharacters/MostCommonCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/Pirates/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Captain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Pirate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/PiratesExam/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/School/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Army.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SteelMonsters/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SwearWords/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/out/production/w5d2/SymmetricMatrix/Symmetric2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixMirror/MatrixMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixMirror/MatrixMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixReverse/MatrixReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixReverse/MatrixReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/src/MatrixRotate2/MatrixRotate2test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/w5d2/w5d2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/FoundationPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/FoundationPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/practiceSpring/src/main/java/springpractice/springstart/Controllers/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/practiceSpring/src/main/java/springpractice/springstart/Controllers/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/practiceSpring/src/main/java/springpractice/springstart/Controllers/HelloRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/practiceSpring/src/main/java/springpractice/springstart/Controllers/HelloRESTController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/retakeSpringstart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/retakeSpringstart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/springstart/src/main/java/com/greenfoxacademy/springstart/Controllers/HelloRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/springstart/src/main/java/com/greenfoxacademy/springstart/Controllers/HelloRESTController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/springstart/src/main/java/com/greenfoxacademy/springstart/Controllers/HelloWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/springstart/src/main/java/com/greenfoxacademy/springstart/Controllers/HelloWebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/springstart/src/main/resources/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/springstart/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/controllers/filterControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/controllers/filterControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/repositories/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d4/src/main/java/com/greenfoxacademy/zsoltiswebshop/repositories/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d4/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week6/w6d4/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/w6d4/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Controllers/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Controllers/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Models/formModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/java/homework/books/Models/formModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/bookForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/bookForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/springHomework/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Controllers/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Controllers/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Models/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Models/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d1/src/main/java/w7d1spring/bankofsimba/Models/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d1/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d1/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d3/w7d3DI/src/main/java/w7d3/dependency/Services/Spellchecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d3/w7d3DI/src/main/java/w7d3/dependency/Services/Spellchecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week7/w7d3/w7d3DI1/src/main/java/w7d3/hello/Services/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week7/w7d3/w7d3DI1/src/main/java/w7d3/hello/Services/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/FoodShop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/FoodShop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/FoodShop/src/main/java/com/foodshop/demoversion/models/ShopItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/FoodShop/src/main/java/com/foodshop/demoversion/models/ShopItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/FoodShop/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/controllers/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/controllers/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/models/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/models/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/repositories/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise2/src/main/java/com/w8d4exer2/exercise2/repositories/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/controllers/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/controllers/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/models/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/models/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/repositories/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/java/com/w8d4exer2/exercise2/repositories/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/addtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/addtodo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/edittodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/edittodo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/exercise3rd/src/main/resources/templates/todolist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/controllers/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/controllers/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/models/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/models/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/repositories/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/java/com/example/listingtodosh2/repositories/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/resources/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d4/listingtodosh2/src/main/resources/templates/todolist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d5/src/main/java/com/w8project/reddit/controllers/mainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d5/src/main/java/com/w8project/reddit/controllers/mainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week8/w8d5/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/w8d5/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/dependency/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/dependency/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/dependency/src/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/dependency/src/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/dependency/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/dependency/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/dependency/src/MiniBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/dependency/src/MiniBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/dependency/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/dependency/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/FoodshopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/FoodshopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/models/ShopItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/models/ShopItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/repositories/ShopItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/repositories/ShopItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/services/ShopItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/services/ShopItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/services/ShopItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/java/com/sqlpractice/foodshop/services/ShopItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/foodshopwithsql/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/FoxNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/FoxNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/HackingDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/HackingDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/NutritionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/controllers/NutritionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/NewFoxDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/NewFoxDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/NewTrickDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/NewTrickDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Trick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/models/Trick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/DrinkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/DrinkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/FoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/FoodRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/FoxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/FoxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/TrickRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/repositories/TrickRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/DrinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/DrinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/DrinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/DrinkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/FoxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/TrickService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/TrickService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/TrickServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/java/com/example/heroesclub/services/TrickServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_money.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_nutrition.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_nutrition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_trick.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/add_trick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/nicepictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/nicepictures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/nutrition_store.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/heroesclubwithsql/src/main/resources/templates/nutrition_store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/models/Reddit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/models/Reddit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/repositories/RedditRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/java/com/practicing/redditwithsql/repositories/RedditRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/resources/templates/submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/redditwithsql/src/main/resources/templates/submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/NewSuperheroDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/NewSuperheroDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/models/Superhero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/repositories/SkillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/repositories/SkillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/repositories/SuperheroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/repositories/SuperheroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SignUpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SignUpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SignUpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SignUpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SkillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SkillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SkillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SkillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SuperheroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SuperheroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SuperheroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/java/com/springandsql/superheroes/services/SuperheroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/superheroes/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/java/com/practicing/todoswithsql/controllers/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/java/com/practicing/todoswithsql/controllers/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/java/com/practicing/todoswithsql/services/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/java/com/practicing/todoswithsql/services/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/todoswithsql/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/vehicleexample/src/main/java/com/dependency/vehicleexample/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/vehicleexample/src/main/java/com/dependency/vehicleexample/Family.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/vehicleexample/src/main/java/com/dependency/vehicleexample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/vehicleexample/src/main/java/com/dependency/vehicleexample/MiniBus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/vehicleexample/src/main/java/com/dependency/vehicleexample/Vehicle.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,64 +324,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProductDatabaseTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+        <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/List1.java">
+        <entry file="file://$PROJECT_DIR$/src/TodoPrint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/List2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -120,8 +353,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="340">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -129,17 +362,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PersonalFinance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="867">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PersonalFinance2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TelephoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="44" column="1" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashMapWithStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -147,8 +401,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,27 +438,29 @@
         <option value="$PROJECT_DIR$/src/ArrayListReview.java" />
         <option value="$PROJECT_DIR$/src/ListIntroduction1.java" />
         <option value="$PROJECT_DIR$/src/ProductDatabaseTwo.java" />
-        <option value="$PROJECT_DIR$/src/SimpleReplace.java" />
         <option value="$PROJECT_DIR$/src/UrlFixer.java" />
-        <option value="$PROJECT_DIR$/src/TakesLonger.java" />
         <option value="$PROJECT_DIR$/src/TodoPrint.java" />
-        <option value="$PROJECT_DIR$/src/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/Map2.java" />
+        <option value="$PROJECT_DIR$/src/ShoppingList.java" />
+        <option value="$PROJECT_DIR$/src/ProductDatabase.java" />
         <option value="$PROJECT_DIR$/src/List1.java" />
         <option value="$PROJECT_DIR$/src/mapintroduction1.java" />
         <option value="$PROJECT_DIR$/src/List2.java" />
-        <option value="$PROJECT_DIR$/src/Map2.java" />
         <option value="$PROJECT_DIR$/src/PersonalFinance.java" />
-        <option value="$PROJECT_DIR$/src/ShoppingList.java" />
-        <option value="$PROJECT_DIR$/src/ProductDatabase.java" />
+        <option value="$PROJECT_DIR$/src/PersonalFinance2.java" />
         <option value="$PROJECT_DIR$/src/TelephoneBook.java" />
+        <option value="$PROJECT_DIR$/src/HashMapWithStrings.java" />
+        <option value="$PROJECT_DIR$/src/SimpleReplace.java" />
+        <option value="$PROJECT_DIR$/src/TakesLonger.java" />
+        <option value="$PROJECT_DIR$/src/Reverse.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="743" />
-    <option name="y" value="10" />
-    <option name="width" value="736" />
-    <option name="height" value="691" />
+    <option name="x" value="170" />
+    <option name="y" value="91" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,7 +468,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,15 +485,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -243,37 +512,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TelephoneBook">
-    <configuration name="Map2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map2" />
+  <component name="RunManager" selected="Application.Reverse">
+    <configuration name="ProductDatabaseTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductDatabaseTwo" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProductDatabase" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reverse" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShoppingList" />
+    <configuration name="SimpleReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleReplace" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelephoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TelephoneBook" />
+    <configuration name="TakesLonger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TakesLonger" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mapintroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mapintroduction1" />
+    <configuration name="TodoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TodoPrint" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +550,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TelephoneBook" />
-        <item itemvalue="Application.ProductDatabase" />
-        <item itemvalue="Application.ShoppingList" />
-        <item itemvalue="Application.mapintroduction1" />
-        <item itemvalue="Application.Map2" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.TodoPrint" />
+        <item itemvalue="Application.TakesLonger" />
+        <item itemvalue="Application.SimpleReplace" />
+        <item itemvalue="Application.ProductDatabaseTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -314,18 +583,23 @@
       <workItem from="1563885700102" duration="10244000" />
       <workItem from="1563953783513" duration="4295000" />
       <workItem from="1563961362636" duration="311000" />
-      <workItem from="1563963936421" duration="547000" />
+      <workItem from="1563963936421" duration="1796000" />
+      <workItem from="1570448643964" duration="1774000" />
+      <workItem from="1570540318803" duration="6625000" />
+      <workItem from="1570604817960" duration="4265000" />
+      <workItem from="1570610025830" duration="1370000" />
+      <workItem from="1570653826498" duration="794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54322000" />
+    <option name="totallyTimeSpent" value="70399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36611196" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +608,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37806875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,10 +637,44 @@
     <entry file="file://$PROJECT_DIR$/src/ArrayListPractice.java" />
     <entry file="file://$PROJECT_DIR$/src/ArrayListReview.java" />
     <entry file="file://$PROJECT_DIR$/src/ListIntroduction1.java" />
-    <entry file="file://$PROJECT_DIR$/src/TodoPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/List1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductDatabaseTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -377,96 +685,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProductDatabaseTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapintroduction1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Map2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PersonalFinance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="867">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingList.java">
+    <entry file="file://$PROJECT_DIR$/src/PersonalFinance2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TelephoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMapWithStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShoppingList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TakesLonger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>

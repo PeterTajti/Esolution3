@@ -13,6 +13,7 @@ public class TelephoneBook {
         System.out.println(needPhoneNumber(telephoneBook, "John K. Miller"));
         System.out.println(needName(telephoneBook, "307-687-2982"));
         numberList(telephoneBook, "Chris E. Myers");
+        numberList(telephoneBook, "William A. Lathan");
     }
 
     public static String needPhoneNumber(HashMap<String, String> input, String name) {
@@ -40,6 +41,8 @@ public class TelephoneBook {
         boolean a = false;
         if (input.containsKey(name) == a) {
             System.out.println("You don't have this contact's number.");
+        } else {
+            System.out.println("This name is in the telephonebook.");
         }
     }
 }
