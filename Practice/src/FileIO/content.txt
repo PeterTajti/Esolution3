@@ -1,0 +1,3 @@
+This is just a test file.
+Nothing special in it.
+Its goal is to test file input and ouputttttttttttttttttt.
