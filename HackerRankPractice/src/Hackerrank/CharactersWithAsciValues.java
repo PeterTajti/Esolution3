@@ -1,3 +1,5 @@
+package Hackerrank;
+
 public class CharactersWithAsciValues {
 
   public static void main(String[] args) {

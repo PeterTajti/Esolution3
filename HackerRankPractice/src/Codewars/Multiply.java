@@ -1,6 +1,11 @@
+package Codewars;
+
 public class Multiply {
 
   public static void main(String[] args) {
+
+
+
   }
 
   Double a = 5.0;
@@ -9,6 +14,7 @@ public class Multiply {
 
   public Double multiply(Double a, Double b) {
     return (c);
+
 
 
   }

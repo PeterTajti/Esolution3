@@ -1,3 +1,4 @@
+package Hackerrank;
 
 import com.sun.xml.internal.ws.util.StringUtils;
 
