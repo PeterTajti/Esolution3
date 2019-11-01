@@ -2,38 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd74a727-c272-4de2-a369-1773b23e2590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/CharacterCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/anotherContent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwearWords/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwearWords/SwearWordsFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwearWords/swear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/SubstringComparisons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalExamMiniExercises/PalindromeFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalExamMiniExercises/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalExamMiniExercises/StringLenghtCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalExamMiniExercises/TwoArrayHasSameContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Anagrams1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UUID/uuidDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/ArrayPractice_Week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/ArrayPractice_Week2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Functions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/DataStructures_Week2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/Matrix/MostCommonNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/out/production/AlgorithmicalExercises/Matrix/MostCommonNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/src/ArrayPractice_Week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/src/ArrayPractice_Week2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/src/DataStructures_Week2/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/src/DataStructures_Week2/Functions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/src/DataStructures_Week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/src/DataStructures_Week2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Vowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Codewars/Vowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/CharactersWithAsciValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/CharactersWithAsciValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaIfElse1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaIfElse1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaLoops1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaLoops1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStdinandStdout1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStdinandStdout1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStdinandStdout2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStdinandStdout2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStringsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/JavaStringsIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/OutputFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/OutputFormatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/WelcomeToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/src/Hackerrank/WelcomeToJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmicalExercises/src/Matrix/MostCommonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmicalExercises/src/Matrix/MostCommonNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRankPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerRankPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/controllers/RESTmainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/controllers/RESTmainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/security/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/java/com/example/securitytokenpractice/services/ApplicationUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JWTpractice/securitytokenpractice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIOmostProdYead/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIOmostProdYead/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIOmostProdYead/MostProductiveYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIOmostProdYead/MostProductiveYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixExercises/GreatestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixExercises/GreatestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixExercises/MostCommonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixExercises/MostCommonNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixExercises/NumbersBetweenTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixExercises/NumbersBetweenTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixExercises/SummingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixExercises/SummingElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/Kingdom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/Kingdom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/KingdomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TableConnections/src/main/java/com/example/howtoconnectmultipletables/kingdom/KingdomRepository.java" afterDir="false" />
@@ -338,34 +337,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/ReadFile.java">
+        <entry file="file://$PROJECT_DIR$/src/UUID/uuidDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/SumTheMatrixElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="146" selection-start-line="8" selection-start-column="146" selection-end-line="8" selection-end-column="146" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/PalindromeFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/StringLenghtCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SwearWords/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/TwoArrayHasSameContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/ReverseString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseString/ReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -388,56 +417,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/CharacterCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="510">
               <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/FactoryPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -487,14 +473,31 @@
         <option value="$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommon.java" />
         <option value="$PROJECT_DIR$/src/SwearWords/SwearWordsFunction.java" />
         <option value="$PROJECT_DIR$/src/SwearWords/Main.java" />
+        <option value="$PROJECT_DIR$/src/MatrixExercises/GreatestElement.java" />
+        <option value="$PROJECT_DIR$/src/MatrixExercises/MostCommonNumber.java" />
+        <option value="$PROJECT_DIR$/src/MatrixExercises/NumbersBetweenTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/MatrixExercises/SummingElements.java" />
+        <option value="$PROJECT_DIR$/src/FileIOmostProdYead/Main.java" />
+        <option value="$PROJECT_DIR$/src/FileIOmostProdYead/MostProductiveYear.java" />
+        <option value="$PROJECT_DIR$/src/Strings/Anagams1.java" />
+        <option value="$PROJECT_DIR$/src/Strings/Anagrams1.java" />
+        <option value="$PROJECT_DIR$/src/UUID/UUID.java" />
+        <option value="$PROJECT_DIR$/src/UUID/UUID_demo.java" />
+        <option value="$PROJECT_DIR$/src/UUID/uuidDemo.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/SumTheMatrixElements.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/PalindromeFinder.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/StringLenghtCounter.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/TwoArrayHasSameConent.java" />
+        <option value="$PROJECT_DIR$/src/FinalExamMiniExercises/TwoArrayHasSameContent.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="170" />
+    <option name="y" value="91" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -519,7 +522,7 @@
               <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwearWords" type="462c0819:PsiDirectoryNode" />
+              <item name="FinalExamMiniExercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,20 +539,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SwearWords" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FileIOmostProdYead" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LambdaBasics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\izs\greenfox\isteneszsolt\Practice\src\FileIOmostProdYead" />
+      <recent name="C:\Users\izs\greenfox\isteneszsolt\Practice\src\SwearWords" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\izs\greenfox\isteneszsolt\Practice\src\SwearWords" />
       <recent name="C:\Users\izs\greenfox\isteneszsolt\Practice\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\izs\greenfox\isteneszsolt\Practice\src\SwearWords" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="LambdaBasics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,13 +568,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.FactoryPattern.FactoryPatternDemo" />
+  <component name="RunManager" selected="Application.TwoArrayHasSameContent">
+    <configuration name="PalindromeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamMiniExercises.PalindromeFinder" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.FactoryPattern.*" />
+          <option name="PATTERN" value="FinalExamMiniExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -578,12 +582,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileIOwithSeperatedFunctionsInOwnClasses.Main" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamMiniExercises.ReverseString" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileIOwithSeperatedFunctionsInOwnClasses.*" />
+          <option name="PATTERN" value="FinalExamMiniExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -591,12 +595,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwearWords.Main" />
+    <configuration name="StringLenghtCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamMiniExercises.StringLenghtCounter" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwearWords.*" />
+          <option name="PATTERN" value="FinalExamMiniExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -604,12 +608,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Singleton.Singleton.Singleton.Main" />
+    <configuration name="SumTheMatrixElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamMiniExercises.SumTheMatrixElements" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Singleton.Singleton.Singleton.*" />
+          <option name="PATTERN" value="FinalExamMiniExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -617,12 +621,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostCommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileIO.MostCommonCharacters" />
+    <configuration name="TwoArrayHasSameContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamMiniExercises.TwoArrayHasSameContent" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileIO.*" />
+          <option name="PATTERN" value="FinalExamMiniExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -632,11 +636,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MostCommonCharacters" />
-        <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TwoArrayHasSameContent" />
+        <item itemvalue="Application.StringLenghtCounter" />
+        <item itemvalue="Application.PalindromeFinder" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.SumTheMatrixElements" />
       </list>
     </recent_temporary>
   </component>
@@ -661,12 +665,18 @@
       <workItem from="1571570880361" duration="604000" />
       <workItem from="1571643210213" duration="5843000" />
       <workItem from="1571651839190" duration="9461000" />
-      <workItem from="1571849787127" duration="5997000" />
+      <workItem from="1571849787127" duration="9338000" />
+      <workItem from="1572077182916" duration="16233000" />
+      <workItem from="1572119291188" duration="1766000" />
+      <workItem from="1572171087691" duration="68000" />
+      <workItem from="1572261996141" duration="694000" />
+      <workItem from="1572348909574" duration="2533000" />
+      <workItem from="1572606659505" duration="6407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53885000" />
+    <option name="totallyTimeSpent" value="84927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -677,17 +687,17 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13691376" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32733223" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.36497545" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39869988" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.2536825" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39770868" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -720,20 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UniqueNumbers/UniqueNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseString/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -805,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileIO/MostCommonCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/anotherContent.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -847,13 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommonCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommonCharacter.java" />
     <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/CharacterCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -866,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -874,10 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommon.java">
+    <entry file="file://$PROJECT_DIR$/src/FileIO/MostCommonCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="629">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -894,6 +874,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwearWords/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixExercises/GreatestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixExercises/MostCommonNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixExercises/NumbersBetweenTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixExercises/SummingElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileIOmostProdYead/births.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileIOmostProdYead/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileIOmostProdYead/MostProductiveYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strings/Anagrams1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UniqueNumbers/UniqueNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwearWords/SwearWordsFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -907,10 +969,62 @@
     <entry file="file://$PROJECT_DIR$/src/SwearWords/swear.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwearWords/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/FileIOwithSeperatedFunctionsInOwnClasses/MostCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UUID/uuidDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseString/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/SumTheMatrixElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/PalindromeFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/StringLenghtCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FinalExamMiniExercises/TwoArrayHasSameContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
