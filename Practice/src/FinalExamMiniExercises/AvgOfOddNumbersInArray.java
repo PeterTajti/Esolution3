@@ -10,20 +10,19 @@ public class AvgOfOddNumbersInArray {
 
   }
 
-  public static int getTheAvgOfNumbers (int [] inputArray) {
-    int result = 0;
+  public static long getTheAvgOfNumbers (int [] inputArray) {
 
     int numbersFound = 0;
     int sum = 0;
 
     for (int i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] % 2 == 0) {
+      if (inputArray[i] % 2 != 0) {
         numbersFound = numbersFound +1;
         sum = sum + inputArray[i];
       }
     }
 
-    result = sum / numbersFound;
+    long result = sum / numbersFound;
 
     System.out.println(sum + " / " + numbersFound + " = " + result);
     return result;
