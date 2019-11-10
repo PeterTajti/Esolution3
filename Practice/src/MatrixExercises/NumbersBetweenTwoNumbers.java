@@ -1,6 +1,7 @@
 package MatrixExercises;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -24,13 +25,15 @@ public class NumbersBetweenTwoNumbers {
 
     for (int i = 0; i < inputMatrix.length; i++) {
       for (int j = 0; j < inputMatrix[i].length; j++) {
-        if (inputMatrix[i][j] >= min && inputMatrix[i][j] <= max) {
+        if (inputMatrix[i][j] > min && inputMatrix[i][j] < max) {
           numbers.add(inputMatrix[i][j]);
         }
       }
     }
 
+
     Collections.sort(numbers);
+
     System.out.println(numbers);
     return numbers;
   }

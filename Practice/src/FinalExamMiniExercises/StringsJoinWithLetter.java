@@ -1,15 +1,16 @@
 package FinalExamMiniExercises;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StringsJoinWithLetter {
   public static void main(String[] args) {
 
-    List<String> stringlist1 = new ArrayList<>();
-    stringlist1.add("apple");
-    stringlist1.add("pear");
-    stringlist1.add("orange");
+    List<String> stringlist1 = Arrays.asList("apple", "pear", "orange");
+//    stringlist1.add("apple");
+//    stringlist1.add("pear");
+//    stringlist1.add("orange");
 
     String stringToBorder = ".";
 
@@ -26,13 +27,15 @@ public class StringsJoinWithLetter {
     }
 
     StringBuilder tempString = new StringBuilder();
+
+
     tempString.append(result);
     tempString.deleteCharAt(tempString.length()-1);
 
 
 
     System.out.println(tempString);
-    return result;
+    return tempString.toString();
   }
 
 }

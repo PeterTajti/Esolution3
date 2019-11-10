@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class ShiftArrayElementsByNumber {
   public static void main(String[] args) {
 
-    int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-
-    // 4,5,1,2,3
+    int[] myArray = {1, 2, 3, 4, 5};
 
     int myNumber = 2;
 
@@ -24,10 +22,10 @@ public class ShiftArrayElementsByNumber {
         finalArray[i] = inputArray[0];
       }
       if (i < inputNumber) {
-        finalArray[i] = inputArray[(inputArray.length) - 2 + i];
+        finalArray[i] = inputArray[(inputArray.length) - inputNumber + i];
       }
       if (i > inputNumber) {
-        finalArray[i] = inputArray[i - 2];
+        finalArray[i] = inputArray[i - inputNumber];
       }
 
     }

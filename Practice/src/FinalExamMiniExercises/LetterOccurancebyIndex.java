@@ -6,7 +6,7 @@ import java.util.List;
 public class LetterOccurancebyIndex {
   public static void main(String[] args) {
 
-    theIndexesOfTheChar("almadaalja", 'a');
+    theIndexesOfTheChar("almafa", 'a');
 
   }
 

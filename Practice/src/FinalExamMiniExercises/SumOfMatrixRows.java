@@ -26,10 +26,10 @@ public class SumOfMatrixRows {
 
     }
 
-    for (int x:sumOfRows
-         ) {
-      System.out.print(x + " ");
-    }
+//    for (int x:sumOfRows
+//         ) {
+//      System.out.print(x + " ");
+//    }
 
     System.out.println(Arrays.toString(sumOfRows));
     return sumOfRows;

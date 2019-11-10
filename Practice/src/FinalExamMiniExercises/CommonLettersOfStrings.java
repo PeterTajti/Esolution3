@@ -7,7 +7,7 @@ import java.util.List;
 public class CommonLettersOfStrings {
   public static void main(String[] args) {
 
-    String string1 = "abbadalokdudolva";
+    String string1 = "almafa";
     String string2 = "abcdefghijklmnop";
 
     commonCharacters(string1, string2);

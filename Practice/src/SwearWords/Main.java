@@ -6,5 +6,8 @@ public class Main {
     String[] swearWords = {"fuck", "bloody", "cock", "shit", "fucker", "fuckstick", "asshole", "dick", "piss", "cunt"};
 
     SwearWordsFunction.removeSwearWords(file, swearWords);
+
+
+
   }
 }

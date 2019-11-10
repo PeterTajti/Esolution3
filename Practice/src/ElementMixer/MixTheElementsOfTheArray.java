@@ -19,6 +19,13 @@ public class MixTheElementsOfTheArray {
   public static List<String> MixTheListElements(List<String> inputList) {
     Collections.shuffle(inputList);
     System.out.println(inputList);
+
+    Collections.shuffle(inputList);
+    System.out.println(inputList);
+
+    Collections.shuffle(inputList);
+    System.out.println(inputList);
+
     return inputList;
   }
 }

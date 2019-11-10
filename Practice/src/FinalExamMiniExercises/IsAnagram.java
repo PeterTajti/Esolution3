@@ -6,7 +6,7 @@ public class IsAnagram {
   public static void main(String[] args) {
 
     String string1 = "madam";
-    String string2 = "damma";
+    String string2 = "madma";
 
     String string3 = "madam";
     String string4 = "madaa";
@@ -23,6 +23,7 @@ public class IsAnagram {
     char [] input1 = inputstring1.toCharArray();
     Arrays.sort(input1);
 
+
     char [] input2 = inputstring2.toCharArray();
     Arrays.sort(input2);
 
@@ -32,6 +33,8 @@ public class IsAnagram {
     if (newString1.equals(newString2)){
       result = true;
     }
+
+    System.out.println(newString1 + " " + newString2);
 
     System.out.println(inputstring1 + " and " + inputstring2 + " are anagrams? --->" + result);
     return result;

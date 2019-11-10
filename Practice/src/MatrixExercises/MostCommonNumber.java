@@ -10,7 +10,7 @@ public class MostCommonNumber {
     int[][] matrix = {
             {1, 2, 3},
             {1, 5, 1},
-            {3, 2, 1},
+            {3, 1, 1},
     };
 
     findMostCommon(matrix);
@@ -38,9 +38,9 @@ public class MostCommonNumber {
 
     }
 
-    for (int number : numberCounter.keySet()) {
-      if (numberCounter.get(number) > numberCounter.get(mostCommonNumber)) {
-        mostCommonNumber = number;
+    for (int x : numberCounter.keySet()) {
+      if (numberCounter.get(x) > numberCounter.get(mostCommonNumber)) {
+        mostCommonNumber = x;
       }
     }
 

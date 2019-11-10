@@ -3,7 +3,7 @@ package FinalExamMiniExercises;
 public class StringLenghtCounter {
   public static void main(String[] args) {
 
-    String myWord = "Blackdragon";
+    String myWord = "idkfa";
 
     StringLenghtMeter(myWord);
   }

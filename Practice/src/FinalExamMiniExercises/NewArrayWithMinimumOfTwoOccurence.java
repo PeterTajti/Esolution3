@@ -40,7 +40,7 @@ public class NewArrayWithMinimumOfTwoOccurence {
       finalArray[i] = tmpNumbers.get(i);
     }
 
-//    System.out.println(numberMap);
+    System.out.println(numberMap);
     System.out.println(Arrays.toString(finalArray));
     return finalArray;
   }
